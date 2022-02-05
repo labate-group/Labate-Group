@@ -1,0 +1,29 @@
+"address": [
+        {
+                "@type": "PostalAddress",
+                "streetAddress": "8 Wright Street, 1st Fl",
+                "addressLocality": "Westport",
+                "addressRegion": "CT",
+                "addressCountry": "United States",
+                "postalCode": "06880",
+                "telephone": "203-907-5536"
+	},
+	{
+                "@type": "PostalAddress",
+                "streetAddress": "4 Research Drive, 4th Fl",
+                "addressLocality": "Shelton",
+                "addressRegion": "CT",
+                "addressCountry": "United States",
+                "postalCode": "06484",
+                "telephone": "203-907-5536"
+	},
+	{
+		"@type": "PostalAddress",
+		"streetAddress": "500 W. Putnam Ave E. 4th Fl",
+		"addressLocality": "Greenwich",
+		"addressRegion": "CT",
+		"addressCountry": "United States",
+		"postalCode": "06880",
+                "telephone": "203-907-5536"
+	}
+]

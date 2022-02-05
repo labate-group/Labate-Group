@@ -1,0 +1,313 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "ProfessionalService",
+			"@id": "https://labate.io/#professionalservice",
+			"name": "Labate Group",
+			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+			"url": "https://labate.io/",
+			"sameAs": [
+				"https://labate.link/facebook",
+				"https://labate.link/instagram",
+				"https://labate.link/github",
+				"https://labate.link/linkedin",
+				"https://labate.link/twitter",
+				"https://labate.link/youtube",
+				"https://labate.link/linktree"
+			],
+			"logo": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+			"image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+			"founder": {
+				"@type": "Person",
+				"name": "",
+				"url": "",
+				"sameAs": [
+					""
+				]
+			},
+			"foundingDate": "",
+			"numberOfEmployees": "",
+			"slogan": "Marketing, Software, Fulfillment",
+			"alternateName": "Labate Group",
+			"legalName": "Labate Group",
+			"address": [
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "8 Wright Street, 1st Fl",
+					"addressLocality": "Westport",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06880"
+				},
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "4 Research Drive, 4th Fl",
+					"addressLocality": "Shelton",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06484"
+				},
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "500 W. Putnam Ave E. 4th Fl",
+					"addressLocality": "Greenwich",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06880"
+				}
+			],
+			"telephone": "203-907-5536",
+			"priceRange": "$$$"
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://labate.io/#website",
+			"url": "https://labate.io/",
+			"name": "Labate Group",
+			"description": "Labate.io is a tight-knit group of skilled professionals on a mission to help businesses and professionals expand their sphere of influence in Fairfield County, CT.",
+			"publisher": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://labate.io/search?query={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-US",
+			"copyrightYear": "2022",
+			"copyrightHolder": {
+				"@id": "https://labate.io/#professionalservice"
+			}
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting#primaryimage",
+			"inLanguage": "en-US",
+			"url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61dc522643b7757b8c1051cf_61d5d2ad4e2584d7d67ae4b4_Screen%2520Shot%25202022-01-05%2520at%252012.20.33%2520PM-p-800.png",
+			"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61dc522643b7757b8c1051cf_61d5d2ad4e2584d7d67ae4b4_Screen%2520Shot%25202022-01-05%2520at%252012.20.33%2520PM-p-800.png",
+			"width": 800,
+			"height": 487
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting#webpage",
+			"url": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting",
+			"name": "Labate Group | Events | HAYVN Young Professionals & Entrepreneurs Group (HYPE) Kick-Off Meeting",
+			"description": "Are you under 30 and looking to grow your career or business, make connections and learn from your peers? Introducing HYPE, our new HAYVN Young Professionals & Entrepreneurs Group led by Amanda Miller, HAYVN Member and Publishing Consultant at My Word Publishing. This group will bring young entrepreneurs and professionals together to support professional development and strategies for success in their business or their job. 5 REASONS TO JOIN:  Discover - Explore meeting topics that will impact your life and your career Learn from industry mentors - Gain insights from our Mentor of the Month Build your network - Expand your network and be part of a like-minded young professional community! Get support - Utilize a group of professionals as a resource to problem-solve and get feedback on career and business challenges that you face Get inspired - Exchange ideas, solve problems and get inspired Each meeting we will discuss ways to take your business or career to the next level with support from peers and a guest mentor.",
+			"datePublished": "2022-01-27T13:47:-05:00",
+			"dateModified": "2022-01-28T11:38:-05:00",
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://labate.io/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Labate Group | Events",
+						"item": "https://labate.io/events/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Labate Group | Events | HAYVN Young Professionals & Entrepreneurs Group (HYPE) Kick-Off Meeting",
+						"item": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting"
+					}
+				]
+			},
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting#primaryimage"
+			},
+			"image": {
+				"@id": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting#primaryimage"
+			},
+			"potentialAction": [
+				{
+					"@type": "ReadAction",
+					"target": [
+						"https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting"
+					]
+				}
+			],
+			"inLanguage": "en-US",
+			"copyrightYear": "2022",
+			"copyrightHolder": {
+				"@id": "https://labate.io/#professionalservice"
+			}
+		},
+		{
+			"@type": "BusinessEvent",
+			"name": "HAYVN Young Professionals & Entrepreneurs Group (HYPE) Kick-Off Meeting",
+			"description": "Are you under 30 and looking to grow your career or business, make connections and learn from your peers? Introducing HYPE, our new HAYVN Young Professionals & Entrepreneurs Group led by Amanda Miller, HAYVN Member and Publishing Consultant at My Word Publishing. This group will bring young entrepreneurs and professionals together to support professional development and strategies for success in their business or their job. 5 REASONS TO JOIN:  Discover - Explore meeting topics that will impact your life and your career Learn from industry mentors - Gain insights from our Mentor of the Month Build your network - Expand your network and be part of a like-minded young professional community! Get support - Utilize a group of professionals as a resource to problem-solve and get feedback on career and business challenges that you face Get inspired - Exchange ideas, solve problems and get inspired Each meeting we will discuss ways to take your business or career to the next level with support from peers and a guest mentor.",
+			"inLanguage": "English",
+			"url": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting",
+			"startDate": "2022-01-20T17:00:-05:00",
+			"endDate": "2022-01-20T18:00:-05:00",
+			"image": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting#primaryimage",
+			"audience": {
+				"@type": "Audience",
+				"name": "Small businesses"
+			},
+			"duration": "PT1H",
+			"isAccessibleForFree": "true",
+			"maximumAttendeeCapacity": 50,
+			"maximumPhysicalAttendeeCapacity": 20,
+			"maximumVirtualAttendeeCapacity": 30,
+			"eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+			"eventStatus": "",
+			"location": {
+				"@type": "Place",
+				"name": "HAYVN, CT",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "06820",
+					"streetAddress": "320 Boston Post Road #Suite 180",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": "Darien, CT"
+				}
+			},
+			"offers": {
+				"@type": "Offer",
+				"name": "",
+				"description": "",
+				"url": "",
+				"price": "00.00",
+				"priceCurrency": "USD"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4",
+				"reviewCount": "2"
+			},
+			"organizer": {
+				"@type": "Organization",
+				"identifier": "https://schema.org/Organization",
+				"name": "",
+				"url": "",
+				"logo": "",
+				"image": "",
+				"email": "",
+				"telephone": "",
+				"description": "",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "",
+					"streetAddress": "",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": "",
+					"telephone": ""
+				},
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"contactType": "General",
+					"telephone": "",
+					"email": ""
+				}
+			},
+			"contributor": {
+				"@type": "Organization",
+				"identifier": "https://schema.org/Organization",
+				"name": "",
+				"url": "",
+				"logo": "",
+				"image": "",
+				"email": "",
+				"telephone": "",
+				"description": "",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "",
+					"streetAddress": "",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": "",
+					"telephone": ""
+				}
+			},
+			"performer": {
+				"@type": "Organization",
+				"identifier": "https://schema.org/Organization",
+				"name": "",
+				"url": "",
+				"logo": "",
+				"image": "",
+				"email": "",
+				"telephone": "",
+				"description": "",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "",
+					"streetAddress": "",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": "",
+					"telephone": ""
+				}
+			},
+			"sponsor": {
+				"@type": "Organization",
+				"identifier": "https://schema.org/Organization",
+				"name": "",
+				"url": "",
+				"logo": "",
+				"image": "",
+				"email": "",
+				"telephone": "",
+				"description": "",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "",
+					"streetAddress": "",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": "",
+					"telephone": ""
+				}
+			}
+		},
+		{
+			"@type": "WPHeader",
+			"@id": "https://labate.io/#header",
+			"headline": "Labate Group | Blog | Schema Markup for Website Developers",
+			"cssSelector": "div.nav",
+			"potentialAction": {
+				"@type": "Action",
+				"name": "Contact",
+				"target": "https://labate.io/contact"
+			},
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			}
+		},
+		{
+			"@type": "WPFooter",
+			"@id": "https://labate.io/#footer",
+			"cssSelector": "footer.w-container",
+			"copyrightYear": "2022",
+			"publisher": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"copyrightHolder": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			}
+		}
+	]
+}

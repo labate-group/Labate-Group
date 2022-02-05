@@ -1,0 +1,76 @@
+{
+	"@context": "https://schema.org/",
+	"@type": "Brand",
+	"name": "Labate Group",
+	"url": "https://labate.io",
+	"logo": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+	"slogan": "Marketing & Technoogy for the 22nd Century",
+	"alternateName": "About Labate Marketing",
+	"description": "Learn about who and what Labate.io is",
+	"disambiguatingDescription": "This is the About page for Labate.io located at https://labate.io/about",
+	"sameAs": [
+		"https://www.facebook.com/LabateMarketing",
+                "https://www.instagram.com/labate.io",
+                "https://www.linkedin.com/company/labateio",
+                "https://www.twitter.com/labateio",
+                "https://www.tiktok.com/@labate.io",
+                "https://www.youtube.com/channel/UC1LFzDCPu4teHRUVVB9ovBg"
+        ],
+	"image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+	"mainEntity": {
+		"@type": "ProfessionalService",
+		"name": "Labate.io",
+		"telephone": "203-907-5536",
+		"email": "contact@labate.io",
+		"priceRange": "$$$",
+		"image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "8 Wright Street, 1st Floor",
+			"addressLocality": "Westport",
+			"addressRegion": "CT",
+			"addressCountry": "USA",
+			"postalCode": "06880"
+		},
+		"author": {
+                  	"@type": "Person",
+			"name": "Jake Labate",
+			"image": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/617eb707a3530ed18302d7f3_Jake%20Labate%20Headshot%201%20(SMALLER%20SQUARE).jpeg",
+			"url": "https://labate.io/team/jake-labate",
+			"jobTitle": "President",
+			"email": "jake@labate.io",
+			"givenName": "Jake",
+			"sameAs": [
+				"https://www.facebook.com/jakelabate",
+				"https://www.linkedin.com/in/jakelabate",
+                        	"https://www.instagram.com/jake.labate",
+				"https://www.twitter.com/labate_jake",
+                        	"https://www.linktr.ee/jake.labate"
+                     	],
+                    	"affiliation": {
+                        "@type": "Organization",
+                        "name": "Labate Group",
+                        "logo": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+			"image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+			"url": "https://labate.io",
+			"telephone": "203-907-5536",
+			"email": "contact@labate.io",
+			"priceRange": "$$$",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "8 Wright Street, 1st Floor",
+				"addressLocality": "Westport",
+				"addressRegion": "CT",
+				"postalCode": "06880"
+				"addressCounty": "United States"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5 Stars",
+				"bestRating": "5 Stars",
+				"worstRating": "5 Stars",
+				"ratingCount": "29"
+			}
+		}
+	}	 
+}

@@ -1,0 +1,78 @@
+{
+
+			"@type": "ProfessionalService",
+			"@id": "",
+			"name": "Labate Group",
+			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+			"url": "https://labate.io/",
+			"sameAs": [
+				"https://labate.link/facebook",
+				"https://labate.link/instagram",
+				"https://labate.link/github",
+				"https://labate.link/linkedin",
+				"https://labate.link/twitter",
+				"https://labate.link/youtube",
+				"https://labate.link/linktree"
+			],
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/#logo",
+				"inLanguage": "en-US",
+				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+				"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+				"caption": "Labate Group Logo"
+			},
+			"image": {
+				"@id": "https://labate.io/#logo"
+			},
+			"founder": {
+				"@type": "Person",
+				"name": "Jake Labate",
+				"url": "https://labate.io/team/jake-labate",
+				"sameAs": [
+					"https://www.linkedin.com/in/jakelabate/",
+					"https://www.facebook.com/jakelabate",
+					"https://linktr.ee/jake.labate",
+					"https://medium.com/@jake.labate"
+				]
+			},
+			"foundingDate": "",
+			"numberOfEmployees": "", //not string, should be a number
+			"slogan": "Marketing, Software, Fulfillment",
+			"parentOrganization": {
+				"@type": "Organization",
+				"name": "The Labate Group",
+				"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+				"url": "https://labate.io/",
+				"logo": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
+			},
+			"memberOf": [
+				{
+				"@type": "Organization",
+				"name": "Greater Norwalk Chamber of Commerce",
+				"url": "https://web.greaternorwalkchamber.com/Advertising-Marketing-Services/Labate-Marketing-2621",
+				"logo": {
+				  "@type": "ImageObject",
+				  "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61d9c44293c29758a45875d3_3.png"
+				}
+			  },
+			  {
+				"@type": "Organization",
+				"name": "Fairfield Leads Group",
+				"url": "http://fairfieldctchamber.chambermaster.com/groups/GroupRoster/leads-group-i-5",
+				"logo": {
+				  "@type": "ImageObject",
+				  "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61d9c44284b9493aa2752152_5.png"
+				}
+			  },
+			  {
+				"@type": "Organization",
+				"name": "Fairfield Chamber of Commerce",
+				"url": "http://fairfieldctchamber.chambermaster.com/list/member/labate-marketing-17747",
+				"logo": {
+				  "@type": "ImageObject",
+				  "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61d9c442a9620642dc121e1c_4.png"
+				}
+			  }
+			]
+		}

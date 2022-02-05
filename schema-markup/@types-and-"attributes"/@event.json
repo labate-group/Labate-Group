@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Event",
+  "name": "",
+  "url": "",
+  "location": {
+    "@type": "Place",
+    "name": "",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "",
+      "streetAddress": "",
+      "addressCountry": "",
+      "addressRegion": "",
+      "addressLocality": "",
+    },
+  },
+  "startDate": "",
+  "endDate": "",
+  "description": "",
+  "image": "",
+  "offers": {
+    "@type": "Offer",
+    "url": "",
+    "priceCurrency": "USD",
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": ""
+		"url": "",
+		"logo": "",
+	  "image": "",
+            "email": "",
+            "description": "",
+            "address": {
+                "@type": "",
+                "postalCode": "",
+                "streetAddress": "",
+                "addressCountry": "United States",
+                "addressRegion": "Connecticut",
+                "addressLocality": "",
+                "telephone": ""
+            },
+            "telephone": "",
+            "identifier": "https://schema.org/Organization",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "",
+                "telephone": "",
+            },
+  },
+  "inLanguage": "English"
+}

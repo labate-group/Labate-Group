@@ -1,0 +1,176 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "ProfessionalService",
+			"@id": "https://labate.io/#professionalservice",
+			"name": "Labate Group",
+			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+			"url": "https://labate.io/",
+			"sameAs": [
+				"https://labate.link/facebook",
+				"https://labate.link/instagram",
+				"https://labate.link/github",
+				"https://labate.link/linkedin",
+				"https://labate.link/twitter",
+				"https://labate.link/youtube",
+				"https://labate.link/linktree"
+			],
+			"logo": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+			"image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+			"founder": {
+				"@type": "Person",
+				"name": "",
+				"url": "",
+				"sameAs": [
+					""
+				]
+			},
+			"foundingDate": "",
+			"numberOfEmployees": "",
+			"slogan": "Marketing, Software, Fulfillment",
+			"alternateName": "Labate Group",
+			"legalName": "Labate Group",
+			"address": [
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "8 Wright Street, 1st Fl",
+					"addressLocality": "Westport",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06880"
+				},
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "4 Research Drive, 4th Fl",
+					"addressLocality": "Shelton",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06484"
+				},
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "500 W. Putnam Ave E. 4th Fl",
+					"addressLocality": "Greenwich",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06880"
+				}
+			],
+			"telephone": "203-907-5536",
+			"priceRange": "$$$"
+		},
+		{
+			"@type": "WebSite",
+			"@id": "https://labate.io/#website",
+			"url": "https://labate.io/",
+			"name": "Labate Group",
+			"description": "Labate.io is a tight-knit group of skilled professionals on a mission to help businesses and professionals expand their sphere of influence in Fairfield County, CT.",
+			"publisher": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://labate.io/search?query={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}
+			],
+			"inLanguage": "en-US",
+			"copyrightYear": "2022",
+			"copyrightHolder": {
+				"@id": "https://labate.io/#professionalservice"
+			}
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://labate.io/organizations/acg-connecticut/#primaryimage",
+			"inLanguage": "en-US",
+			"url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61d4820ef8990e00bbe214b7_ACGConnecticut_wAssociationForCorporateGrowth_RGB.png",
+			"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61d4820ef8990e00bbe214b7_ACGConnecticut_wAssociationForCorporateGrowth_RGB.png",
+			"width": 755,
+			"height": 192
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/organizations/acg-connecticut/#webpage",
+			"url": "https://labate.io/organizations/acg-connecticut/",
+			"name": "Labate Group | Organizations | ACG Connecticut",
+			"datePublished": "2022-01-27T13:47:25+00:00",
+			"dateModified": "2022-01-28T11:38:03+00:00",
+			"description": "ACG reaches its audience through its content-rich media channels, including its award-winning flagship publication Middle Market Growth®, which dives into emerging trends, GrowthTV which brings those stories to life and its podcasts that provide in-depth conversations with industry thought leaders. ACG's content reaches an average daily audience of 30,000 and receives 1 million impressions monthly. ACG's 13,000 members leverage an array of exclusive benefits rich in dealmaking and networking opportunities and extend to its partnerships with Insperity, Cambridge FX, Grata, Founders Card, CLEAR and more.",
+			"inLanguage": "en-US",
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"@id": "https://labate.io/organizations/acg-connecticut/#breadcrumb",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://labate.io/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Labate Group | Organizations",
+						"item": "https://labate.io/database/organizations"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Labate Group | Organizations | ACG Connecticut",
+						"item": "https://labate.io/organizations/acg-connecticut/"
+					}
+				]
+			},
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@id": "https://labate.io/organizations/acg-connecticut/#primaryimage"
+			},
+			"potentialAction": [
+				{
+					"@type": "ReadAction",
+					"target": [
+						"https://labate.io/organizations/acg-connecticut/"
+					]
+				}
+			]
+		},
+		{
+			"@type": "Organization",
+			"name": "ACG Connecticut",
+			"url": "https://labate.io/organizations/acg-connecticut",
+			"logo": {
+				"@id": "https://labate.io/organizations/acg-connecticut/#primaryimage"
+			},
+			"image": {
+				"@id": "https://labate.io/organizations/acg-connecticut/#primaryimage"
+			},
+			"email": "acgconnecticut@acg.org",
+			"description": "ACG reaches its audience through its content-rich media channels, including its award-winning flagship publication Middle Market Growth®, which dives into emerging trends, GrowthTV which brings those stories to life and its podcasts that provide in-depth conversations with industry thought leaders. ACG's content reaches an average daily audience of 30,000 and receives 1 million impressions monthly. ACG's 13,000 members leverage an array of exclusive benefits rich in dealmaking and networking opportunities and extend to its partnerships with Insperity, Cambridge FX, Grata, Founders Card, CLEAR and more.",
+			"telephone": "+1-203-304-9496",
+			"brand": {
+				"@type": "Organization",
+				"name": "ACG Connecticut"
+			},
+			"sameAs": [
+				"https://www.acg.org/connecticut/",
+				"https://www.facebook.com/ACGConnecticut"
+			],
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "10 Winton Farm Road, Newtown",
+				"addressLocality": "Westport",
+				"addressRegion": "CT",
+				"addressCountry": "United States",
+				"postalCode": "06470"
+			}
+		}
+	]
+}

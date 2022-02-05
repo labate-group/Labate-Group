@@ -1,0 +1,17 @@
+{
+        "@context":"http://schema.org/",
+        "@type":"AggregateRating",
+        "itemReviewed": {
+                "@type": "ProfessionalService",
+                "name": "Labate Group",
+                "brand": "Labate Group",
+                "sameAs": []
+        },
+        "ratingValue":"5",
+        "bestRating":"5",
+        "reviewCount":"29",
+        "author": {
+                "@type":"Organization",
+                "@id": "#organization"
+        }
+}

@@ -1,0 +1,47 @@
+{
+   "@context": "https://schema.org",
+   "@graph": {
+      "@context": "https://schema.org",
+      "@graph": [
+         {
+            "@type": "HowTo",
+            "mainEntityOfPage": {
+               "@id": "http://structured-data.skunk.ws/2019/06/04/my-post-title/#article"
+            },
+            "name": "My Post title",
+            "totalTime": "P0DT1H30M",
+            "description": "This is a description that was written",
+            "step": [
+               {
+                  "@type": "HowToSection",
+                  "itemListElement": {
+                     "@type": "HowToStep",
+                     "text": "Write some content. "
+                  },
+                  "name": "The first step",
+                  "image": {
+                     "@type": "ImageObject",
+                     "contentUrl": "http://structured-data.skunk.ws/wp-content/uploads/2017/04/55-Water-Street.jpg"
+                  }
+               },
+               {
+                  "@type": "HowToSection",
+                  "itemListElement": {
+                     "@type": "HowToStep",
+                     "text": "Make it good!"
+                  },
+                  "name": "Write a second step "
+               },
+               {
+                  "@type": "HowToSection",
+                  "itemListElement": {
+                     "@type": "HowToStep",
+                     "text": "You're a structured data master!"
+                  },
+                  "name": "Profit!"
+               }
+            ]
+         }
+      ]
+   }
+}

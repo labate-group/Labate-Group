@@ -1,0 +1,156 @@
+
+{
+		"@context": "http://schema.org/",
+		"@type": "Service",
+		"name": "Will preparation",
+		"description": "A brief summary description of the service item being described.",
+		"provider": {
+			"@type": "Organization",
+			"name": "Notary Inc."
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"reviewCount": "20"
+		},
+		"isSimilarTo": {
+			"@type": "Service",
+			"name": "Notary service2 name"
+		},
+		"isRelatedTo": {
+			"@type": "Service",
+			"name": "Notary service3 name"
+		}
+	},
+	{
+		"@context": "http://schema.org/",
+		"@type": "Service",
+		"name": "Notarizations",
+		"description": "A brief summary description of the service item being described.",
+		"provider": {
+			"@type": "Organization",
+			"name": "Notary Inc."
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"reviewCount": "20"
+		},
+		"isSimilarTo": {
+			"@type": "Service",
+			"name": "Notary service2 name"
+		},
+		"isRelatedTo": {
+			"@type": "Service",
+			"name": "Notary service3 name"
+		}
+	}
+
+
+
+
+{
+			"@context": "https://schema.org/",
+			"@type": "Service",
+			"serviceType": "Marketing & Technology Services",
+			"provider": {
+				"@type": "LocalBusiness",
+				"name": "Labate.io | Marketing & Technology Services in Fairfield County"
+			},
+			"brand": {
+				"@type": "LocalBusiness",
+				"name": "Labate.io | Marketing & Technology Services in Fairfield County"
+			},
+			"areaServed": {
+				"@type": "Place",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Fairfield",
+					"addressRegion": "CT"
+				}
+			},
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Marketing & Technology Services",
+				"itemListElement": [
+
+					{
+						"@type": "OfferCatalog",
+						"name": "Marketing Services",
+						"itemListElement": [
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "Develop and perfect your brand infrastructure."
+								}
+							},
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "Deliver valuable content through multiple channels."
+								}
+							},
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "Increase lead acquisition and conversion rates."
+								}
+							},
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "Close business."
+								}
+							},
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "Generate referrals."
+								}
+							}
+						],
+						"description": "Ready to build your brand with a Grade-A marketing campaign?",
+                        "url": "https://labate.io/category/marketing-services"
+					},
+
+					{
+						"@type": "OfferCatalog",
+						"name": "Software Services",
+						"itemListElement": [
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "integrate, automate, analyze and optimize your digital marketing",
+									"description": "You can now access industry-leading tech, allowing you to integrate, automate, analyze and optimize your digital marketing. It's not \"if\" but \"when\" you adopt a digital strategy. Beat the competition."
+								}
+							}
+						],
+                        "description": "Ready to supercharge your business with industry-leading technology?",
+                        "url": "https://labate.io/category/software-services"
+					},
+
+					{
+						"@type": "OfferCatalog",
+						"name": "Fulfillment Services",
+						"itemListElement": [
+							{
+								"@type": "Offer",
+								"itemOffered": {
+									"@type": "Service",
+									"name": "A reliable fulfillment infrastructure allows heads of marketing agencies to refocus their time & attention on growth, increasing their business's total productivity."
+								}
+							}
+						],
+                        "description": "Leverage valuable time by outsourcing client work.",
+                        "url": "https://labate.io/category/fulfillment-services"
+					}
+
+				]
+			}
+		}

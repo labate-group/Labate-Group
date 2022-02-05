@@ -1,0 +1,49 @@
+	"serviceArea": [
+		{
+			"@type": "place",
+			"name": "Shelton, CT",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Shelton",
+				"addressRegion": "Connecticut",
+				"addressCountry": "United States"
+			}
+		},
+		{
+			"@type": "place",
+			"name": "Westport, CT",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Westport",
+				"addressRegion": "Connecticut",
+				"addressCountry": "United States"
+			}
+		},
+		{
+			"@type": "place",
+			"name": "Greenwich, CT",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Greenwich",
+				"addressRegion": "Connecticut",
+				"addressCountry": "United States"
+			}
+		},
+		{
+			"@type": "place",
+			"name": "Connecticut",
+			"address": {
+				"@type": "PostalAddress",
+				"addressRegion": "Connecticut",
+				"addressCountry": "United States"
+			}
+		},
+		{
+			"@type": "place",
+			"name": "United States",
+			"address": {
+				"@type": "PostalAddress",
+				"addressCountry": "United States"
+			}
+		}
+	]

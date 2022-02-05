@@ -1,0 +1,47 @@
+        "memberOf": [
+                {
+			"@type": "Organization",
+			"name": "Greater Norwalk Chamber of Commerce",
+			"url": "https://web.greaternorwalkchamber.com/Advertising-Marketing-Services/Labate-Marketing-2621",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61d9c44293c29758a45875d3_3.png"
+			}
+		},
+		{
+			"@type": "Organization",
+			"name": "Fairfield Leads Group",
+			"url": "http://fairfieldctchamber.chambermaster.com/groups/GroupRoster/leads-group-i-5",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61d9c44284b9493aa2752152_5.png"
+			}
+		},
+		{
+			"@type": "Organization",
+			"name": "Fairfield Chamber of Commerce",
+			"url": "http://fairfieldctchamber.chambermaster.com/list/member/labate-marketing-17747",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61d9c442a9620642dc121e1c_4.png"
+			}
+		},
+                {
+			"@type": "Organization",
+			"name": "Fairfield Emerging Leaders Organization",
+			"url": "https://fairfieldctchamber.com/felo",
+			"logo": {
+				"@type": "ImageObject",
+				"url": ""
+			}
+		},
+                {
+			"@type": "Organization",
+			"name": "Better Business Bureau",
+			"url": "https://labate.link/better-business-bureau",
+			"logo": {
+				"@type": "ImageObject",
+				"url": ""
+			}
+		}
+        ]

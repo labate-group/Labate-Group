@@ -1,0 +1,27 @@
+{
+	"@type": "Thing",
+                "name": "",
+		"url": "",
+		"mainEntityOfPage": "",
+		"identifier": "",
+		"additionalType": "",
+		"alternateName": "",
+		"description": "",
+		"disambiguatingDescription": "",
+		"image": "",
+		"potentialAction": [
+			{
+				"@type": "",
+				"name": ""
+			}
+		],
+		"sameAs": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+		],
+		"subjectOf": "",
+}

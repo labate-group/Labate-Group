@@ -1,0 +1,6 @@
+{
+	"@id": "https://serverfault.com/questions/339661/answer-620889",
+	"@type":"Answer",
+	"upvoteCount": "3",
+	"text": "This is something to be slightly wary of in my recent experience. We were previously using Company A, who sucks. They were the domain registrar and the DNS host for ourcompanydomain.com. We set up the same DNS A and MX records for ourcompanydomain.com with Company B. We then changed the nameservers for ourcompanydomain.com in Company A's control panel to ns.companyb.com and ns2.companyb.com, assuming that because the same DNS entries existed in both places, the swap would be seamless. However, shortly afterwards mail to anything@ourcompanydomain.com went down in various places. I'm no DNS expert, but my assumption is that Company A stopped responding to DNS lookups for our domain before everything had propagated. Bottom line - unless you have full control of the process, I'd make sure you have a contingency plan for possible downtime when changing nameservers."
+}

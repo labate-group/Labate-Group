@@ -1,0 +1,59 @@
+{
+        "@context": "https://schema.org/",
+        "@type": "UserReview",
+        "author": {
+                "@type": "Person",
+                "name": "Risa Corson"
+        },
+        "datePublished": "2006-05-04",
+        "name": "",
+        "description": "",
+        "itemReviewed": {
+                "@type": "ProfessionalService",
+                "name": "Labate.io",
+                "address": {
+                        "@type": "PostalAddress",
+                        "postalCode": "06880",
+                        "streetAddress": "8 Wright Street, 1st Floor",
+                        "addressCountry": "USA",
+                        "addressRegion": "Connecticut",
+                        "addressLocality": "Westport",
+                        "telephone": "203-907-5536"
+                },
+                "priceRange": "$$$",
+                "url": "https:googlereview.com"
+   },
+   "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5 Stars",
+      "worstRating": "5 Stars",
+      "bestRating": "5 Stars",
+      "reviewAspect": "whatisreviewed"
+   },
+   "url": "urlofreview.com",
+   "publisher": {
+      "@type": "Organization",
+      "name": "person",
+      "logo": "headshot.url",
+      "url": "websiteurl",
+      "sameAs": "sameas",
+      "location": ""
+   },
+   "reviewBody": "review text",
+   "reviewAspect": "review aspect",
+   "positiveNotes": {
+      "@type": "ItemList",
+      "itemListElement": [
+         {
+            "@type": "ListItem",
+            "position": 1,
+            "item": "Tougher and water resistant design."
+         },
+         {
+            "@type": "ListItem",
+            "position": 2,
+            "item": "Cheery bright colours and solid feel."
+         }
+      ]
+   }
+}

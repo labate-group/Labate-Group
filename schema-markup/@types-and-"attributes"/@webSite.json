@@ -1,0 +1,370 @@
+{
+   "@context": "https://schema.org/",
+   "@type": "WebSite",
+   "name": "Labate.io | Marketing & Technology Services in Fairfield County",
+   "url": "https://labate.io",
+   "disambiguatingDescription": "Labate.io is a local business in Fairfield County, Connecticut. https://labate.io is the website for Labate.io",
+   "sameAs": [
+      "https://www.facebook.com/LabateMarketing",
+      "https://www.instagram.com/labate.io",
+      "https://www.linkedin.com/company/labateio",
+      "https://www.twitter.com/labateio",
+      "https://www.tiktok.com/@labate.io",
+      "https://www.youtube.com/channel/UC1LFzDCPu4teHRUVVB9ovBg",
+      "https://linktr.ee/labate.io"
+   ],
+   "image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+   "alternateName": "Labate Marketing",
+   "keywords": "Labate Marketing, Labate io, Labateio, Labate.io, LabateIO, Labate IO, Labate Marketing Website, Labateio Website, Labate.io Website, labate.io.com, labatemarketing.com,",
+   "mainEntity": {
+      "@type": "ProfessionalService",
+      "name": "Labate.io",
+      "member": {
+         "@type": "Person",
+         "name": "Jake Labate",
+         "image": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/617eb707a3530ed18302d7f3_Jake%20Labate%20Headshot%201%20(SMALLER%20SQUARE).jpeg",
+         "url": "https://labate.io/team/jake-labate",
+         "jobTitle": "President",
+         "email": "jake@labate.io",
+         "givenName": "Jake",
+         "sameAs": [
+            "https://www.facebook.com/jakelabate",
+            "https://www.linkedin.com/in/jakelabate",
+            "https://twitter.com/labate_jake",
+            "https://www.instagram.com/jake.labate",
+            "https://linktr.ee/jake.labate"
+         ]
+      },
+      "memberOf": [
+         {
+            "@type": "Organization",
+            "name": "Norwalk Emerging Leaders and Entrepreneurs",
+            "url": "https://labate.io/organizations/norwalk-emerging-leaders-and-entrepreneurs",
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61be6f2bf945e08273914065_nele-logo-with-new-chamber-logo_orig.png"
+            },
+            "email": "info@greaternorwalkchamber.com",
+            "description": "Norwalk Emerging Leaders and Entrepreneurs (pronounced Nelly), is a young professional group within the Greater Norwalk Chamber of Commerce. Together with the Chamber, NELE is committed to the support and growth of local business and the community as a whole",
+            "telephone": "+1 203-866-2521",
+            "brand": {
+               "@type": "Organization",
+               "name": "Norwalk Emerging Leaders and Entrepreneurs"
+            },
+            "sameAs": [
+               "https://www.facebook.com/NELENorwalk/",
+               "https://www.greaternorwalkchamber.com/nele.html"
+            ]
+         },
+         {
+            "@type": "Organization",
+            "name": "Greater Norwalk Chamber of Commerce",
+            "url": "https://labate.io/organizations/greater-norwalk-chamber-of-commerce",
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61be6b48aeb6f014b17a4050_4-removebg-preview.png"
+            },
+            "email": "info@greaternorwalkchamber.com",
+            "description": "The Greater Norwalk Chamber strives to create an interconnected and inclusive local business community. Together with their member businesses, they advance the economic and community development of Norwalk and the surrounding areas. They are on a mission to connect, promote, inform and advocate for the best interest of their members, and the well businesses in the greater norwalk area.",
+            "telephone": "+1 203-866-2521",
+            "brand": {
+               "@type": "Organization",
+               "name": "Greater Norwalk Chamber of Commerce"
+            },
+            "sameAs": [
+               "https://www.facebook.com/GreaterNorwalk/",
+               "https://www.instagram.com/greaternorwalk/",
+               "https://www.linkedin.com/company/greaternorwalk/",
+               "https://twitter.com/GreaterNorwalk",
+               "http://www.greaternorwalkchamber.com/"
+            ]
+         },
+         {
+            "@type": "Organization",
+            "name": "Fairfield Leads Group",
+            "url": "https://labate.io/organizations/fairfield-leads-group",
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/6189c46682afc95cbf0ad1ba_6.jpg"
+            },
+            "email": "info@fairfieldctchamber.com",
+            "description": "The Fairfield LEADS group is a private professional networking organization off of the Fairfield Chamber of Commerce. The Chamber Leads Group reflects serious business professionals that have the desire to effectively expand their business by forming relationships with other chamber members for the purpose of exchanging direct client referrals. This group meets twice a month on Tuesday mornings from 8:00 am to 9:00 am at the Old Town Hall, 611 Old Post Road, Fairfield – 2nd floor conference room. The purpose of these meetings is to help members establish relationships and really get to know one another so that they can recognize opportunities to refer business when the occasion presents itself. In general, people would rather do business with a known entity, and providing a referral reduces the risk factor for the buyer because a recommendation carries high value. To be a member of the Business Development Leads Group, one must be a member of the Fairfield Chamber of Commerce in good standing. The Business Development Group follows a non-competing format and is limited to one person per industry and/or profession, with slots being filled on a first come, first served basis. If an industry slot is filled, a person can be added to a wait list by contacting the Facilitator. Membership dues are $75 per year.",
+            "telephone": "203-255-1011",
+            "brand": {
+               "@type": "Organization",
+               "name": "Fairfield Leads Group"
+            },
+            "sameAs": [
+               "https://www.facebook.com/fairfieldleads",
+               "https://instagram.com/fairfield.leads",
+               "https://linkedin.com/company/fairfiedleads",
+               "https://twitter.com/fairfieldleads",
+               "https://fairfieldctchamber.com/about-us/leads-group/"
+            ]
+         },
+         {
+            "@type": "Organization",
+            "name": "Fairfield Emerging Leaders Organization",
+            "url": "https://labate.io/organizations/fairfield-emerging-leaders-organization",
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61c0c9654c18bb4f7fd75389_203852354_2234832099980887_4676869050913565552_n.png"
+            },
+            "email": "info@fairfieldctchamber.com",
+            "description": "Fairfield Emerging Leaders Organization-&quot;FELO&quot; is an organization of young professionals who are emerging leaders, from entry to management level in their company. This group’s mission is to provide a platform for young professionals in the Fairfield Chamber, to engage in business-sponsored activities and connect with individuals which will enhance professional skills, while promoting social and civic opportunities for the enrichment of our business community. This is a subgroup of the Fairfield Chamber, of Commerce. If you would like to be part of this dynamic group, please contact the FELO Chairman, Darrin Fodor: 203.255.7745 Darrin.Fodor@peoples.com.",
+            "telephone": "203-255-1011",
+            "brand": {
+               "@type": "Organization",
+               "name": "Fairfield Emerging Leaders Organization"
+            },
+            "sameAs": [
+               "https://www.facebook.com/fairfieldchamber",
+               "https://fairfieldctchamber.com/felo"
+            ]
+         },
+         {
+            "@type": "Organization",
+            "name": "Fairfield Chamber of Commerce",
+            "url": "https://labate.io/organizations/fairfield-chamber-of-commerce",
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61c0c8298b516715de5277fa_Chamber-logo-e1587583665235.png"
+            },
+            "email": "info@fairfieldctchamber.com",
+            "description": "Welcome to the Fairfield Chamber of Commerce! Established in 1946, the Chamber is an essential part of the Fairfield community. It is my pleasure to welcome you to our website, where you can easily find information about the Town of Fairfield as a visitor or resident … and as a business owner, you will find important information and resources to not only sustain your business, but effectively grow your business as well! The Fairfield Chamber of Commerce is a vibrant and dynamic non-profit organization working in partnership with the historic Town of Fairfield.",
+            "telephone": "203.255.1011",
+            "brand": {
+               "@type": "Organization",
+               "name": "Fairfield Chamber of Commerce"
+            },
+            "sameAs": [
+               "https://www.facebook.com/fairfieldchamber",
+               "https://www.instagram.com/fairfieldctchamber",
+               "https://www.linkedin.com/company/the-fairfield-chamber-of-commerce/about",
+               "https://twitter.com/fairfieldchambr",
+               "https://fairfieldctchamber.com"
+            ]
+         }
+      ],
+      "logo": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+      "image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61acfe2b575ad779c4d92975_logo.png",
+      "url": "https://labate.io",
+      "telephone": "203-907-5536",
+      "email": "contact@labate.io",
+      "hasCredential": {
+         "@type": "EducationalOccupationalCredential",
+         "name": "A+ Better Business Bureau Accreditation Rating",
+         "description": "Labate is A+ accredited with the Better Business Bureau",
+         "credentialCategory": {
+            "@type": "DefinedTerm",
+            "name": "Accredited"
+         },
+         "competencyRequired": {
+            "@type": "DefinedTerm",
+            "name": "BBB Accreditation Standards",
+            "url": "https://www.bbb.org/bbb-accreditation-standards"
+         }
+      },
+      "priceRange": "$$$",
+      "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "8 Wright Street, 1st Floor",
+         "addressLocality": "Westport",
+         "addressRegion": "CT",
+         "addressCountry": "USA",
+         "postalCode": "06880"
+      },
+      "aggregateRating": {
+         "@type": "AggregateRating",
+         "ratingValue": "5 Stars",
+         "bestRating": "5 Stars",
+         "worstRating": "5 Stars",
+         "ratingCount": "28"
+      }
+   },
+   "potentialAction": [
+      {
+         "@type": "SearchAction",
+         "actionStatus": "potentialActionStatus",
+         "object": "Search",
+         "name": "Search Labate",
+         "description": "Search anything on the Labate website",
+         "mainEntityOfPage": "https://labate.io/search",
+         "target": "https://labate.io/search?query={search_term_string}",
+         "query-input": "name=search_term_string"
+      },
+      {
+         "@type": "SubscribeAction",
+         "actionStatus": "potentialActionStatus",
+         "object": "Newsletter",
+         "name": "Subscribe to Labate Newsletter",
+         "alternateName": "Subscribe to Labate.io Newsletter",
+         "description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
+         "target": {
+            "httpMethod": "GET"
+         },
+         "mainEntityOfPage": "https://labate.io/subscribe",
+         "result": "Now subscribed to the newsletter!"
+      },
+      {
+         "@type": "CommunicateAction",
+         "actionStatus": "potentialActionStatus",
+         "object": "Call",
+         "name": "Call the Labate Group",
+         "description": "Make a telephone call the Labate Group",
+         "target": {
+            "URL": "tel:203-907-5536"
+         },
+         "mainEntityOfPage": "https://labate.io/contact/call",
+         "result": "Has called the Labated Group"
+      },
+      {
+         "@type": "CommunicateAction",
+         "actionStatus": "potentialActionStatus",
+         "object": "Email",
+         "name": "Email the Labate Group",
+         "description": "Send an email to the Labate Group",
+         "target": {
+            "URL": "mailto:contact@labate.io"
+         },
+         "mainEntityOfPage": "https://labate.io/contact/email",
+         "result": "Has emailed the Labated Group"
+      },
+      {
+         "@type": "CommunicateAction",
+         "actionStatus": "potentialActionStatus",
+         "object": "Request Consultation",
+         "name": "Request Consultation",
+         "description": "Request consultation with the Labate Group",
+         "target": {
+            "httpMethod": "GET",
+            "URL": ""
+         },
+         "mainEntityOfPage": "https://labate.io/contact/consultation",
+         "result": "Has requested a consultation with the Labated Group"
+      }
+   ]
+}
+
+
+
+
+[
+	{
+		"@context": "http://schema.org",
+		"@type": "Webpage",
+		"specialty": "CNBC homepage, stock markets, business news, financial news",
+		"mainContentOfPage": {
+			"@context": "http://schema.org/",
+			"@type": "WebPageElement",
+			"cssSelector": ".body-content"
+		},
+		"primaryImageOfPage": "https://placehold.it/640x480"
+	},
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"@id": "https://jay.holtslander.ca/#website",
+		"additionalType": ["CreativeWork", "Person"],
+		"url": "https://jay.holtslander.ca",
+		"name": "Jay Holtslander",
+		"alternateName": "j_holtslander",
+		"headline": "Like a page title",
+		"image": "https://jay.holtslander.ca/facebook.jpg",
+		"inLanguage": "en-CA",
+		"author": "Jay Holtslander",
+		"description": "Personal website of Jay Holtslander. Co-founder of CodeCore Bootcamp.",
+		"disambiguatingDescription": "Personal website of Jay Holtslander",
+		"isFamilyFriendly": "http://schema.org/True",
+		"contentRating": "NR",
+		"sourceOrganization": "CNBC",
+		"publisher": {
+		  "@type": "Organization",
+		  "name": "ThinkwithGoogle",
+		  "logo": {
+		    "@type": "ImageObject",
+		    "url": "https://www.thinkwithgoogle.com/_qs/static/img/global/twg-logo-small.jpg",
+		    "height": 60,
+		    "width": 107
+		  }
+		},
+		"mainEntity": {
+			"@context": "http://schema.org",
+			"@type": "localBusiness",
+			"name": "Jay Holtslander",
+			"image":"http://placehold.it/512",
+			"priceRange":"$$",
+			"telephone":"555-321-7654",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "#600 - 55 Water Street, Vancouver, BC V6B 1A1",
+				"addressLocality": "Vancouver",
+				"addressRegion": "British Columbia",
+				"addressCountry": "Canada",
+				"postalCode": "v6b1a1"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"reviewCount": "50"
+			}
+		},
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://jay.holtslander.ca/?s={search_term}",
+			"query-input": "required name=search_term"
+		},
+		"keywords":[
+			"Social Networking",
+			"Social Media",
+			"News",
+			"Web",
+			"Technology",
+			"Web 2.0",
+			"Tech",
+			"Information",
+			"Blog",
+			"Facebook",
+			"YouTube",
+			"Google",
+			"Top"
+		],
+		"hasPart": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "WPHeader",
+				"@id": "#header",
+				"headline": "headline-string",
+				"cssSelector": "#header",
+				"potentialAction": {
+					"@type": "Action",
+					"name": "Contact",
+					"target": "http://google.ca/"
+				}
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "WPSidebar",
+				"cssSelector": "#sidebar",
+				"citation": [
+					"https://domain.com/link",
+					"https://domain2.com/link2",
+					"https://domain2.com/link3"
+				],
+				"comment": [
+					"This is a user comment that may appear in the sidebar.",
+					"This is another user comment that may be there as well."
+				]
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "WPFooter",
+				"cssSelector": ".footer",
+				"@id": "#footer",
+				"copyrightHolder":"Jay Holtslander",
+				"publisher": "Jay Holtslander",
+				"copyrightYear":"2017"
+			}
+		]
+	}
+]

@@ -1,0 +1,25 @@
+"organizer": {
+    "@type": "Organization",
+    "name": "{{wf {&quot;path&quot;:&quot;event-organization:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+    "url": "https://labate.io/organizations/{{wf {&quot;path&quot;:&quot;event-organization:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+    "logo": "{{wf {&quot;path&quot;:&quot;event-organization:organization-logo&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+    "image": "https://www.google.com/maps/uv?pb=!1s0x89e81c306a966c09%3A0xcf8d44784dc5afa1!3m1!7e115!4s%2Fmaps%2Fplace%2Fgreater%2Bnorwalk%2Bchamber%2F%4041.1158821%2C-73.4077785%2C3a%2C75y%2C65.26h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sCNGoQWKN3ANkMvmhNTJtXA*212e0*214m2*213m1*211s0x89e81c306a966c09%3A0xcf8d44784dc5afa1%3Fsa%3DX!5sgreater%20norwalk%20chamber%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2sCNGoQWKN3ANkMvmhNTJtXA&hl=en&sa=X&ved=2ahUKEwiK-8Gyw9X0AhVXjIkEHcGTBqkQpx96BAhKEAM",
+    "email": "",
+    "description": "{{wf {&quot;path&quot;:&quot;event-organization:organization-description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+    "address": {
+        "@type": "",
+        "postalCode": "",
+        "streetAddress": "",
+        "addressCountry": "United States",
+        "addressRegion": "Connecticut",
+        "addressLocality": "",
+        "telephone": "{{wf {&quot;path&quot;:&quot;event-organization:organization-contact-phone&quot;,&quot;type&quot;:&quot;Phone&quot;\} }}"
+    },
+    "telephone": "{{wf {&quot;path&quot;:&quot;event-organization:organization-contact-phone&quot;,&quot;type&quot;:&quot;Phone&quot;\} }}",
+    "identifier": "https://schema.org/Organization",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "",
+        "telephone": "{{wf {&quot;path&quot;:&quot;event-organization:organization-contact-phone&quot;,&quot;type&quot;:&quot;Phone&quot;\} }}",
+    }
+}

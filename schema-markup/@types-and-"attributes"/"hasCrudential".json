@@ -1,0 +1,14 @@
+"hasCredential": {
+	"@type": "EducationalOccupationalCredential",
+	"name": "A+ Better Business Bureau Accreditation Rating",
+	"description": "Labate is A+ accredited with the Better Business Bureau",
+	"credentialCategory": {
+		"@type": "DefinedTerm",
+		"name": "Accredited"
+	},
+	"competencyRequired": {
+		"@type": "DefinedTerm",
+		"name": "BBB Accreditation Standards",
+		"url": "https://www.bbb.org/bbb-accreditation-standards"
+	}
+}
