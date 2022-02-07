@@ -1,30 +1,32 @@
+
+<script defer type="application/ld-json">
 {
-		"@context":"http://schema.org",
-		"@type": "BlogPosting",
-		"image": "http://domain.com/blog/post/featured-image.jpg",
-		"url": "http://domain.com/blog/post",
-		"headline": "Headline of the article.",
-		"alternativeHeadline": "A secondary title of the CreativeWork.",
-		"dateCreated": "2017-12-14T17:39:52",
-		"datePublished": "2017-12-14T17:39:52",
-		"dateModified": "2017-12-14T17:39:52",
-		"inLanguage": "en-CA",
-		"isFamilyFriendly": "true",
-		"copyrightYear": "2018",
-		"copyrightHolder": "",
-		"contentLocation": {
-			"@type": "Place",
-			"name": "Vancouver, BC"
-		},
-		"accountablePerson": {
-			"@type": "Person",
-			"name": "Jay Holtslander",
-			"url": "https://jay.holtslander.ca"
-		},
-		"author": {
-			"@type": "Person",
-			"name": "Jay Holtslander",
-			"url": "https://jay.holtslander.ca"
+	"@context":"http://schema.org",
+	"@type": "BlogPosting",
+	"image": "{{SEO-IMAGE}}",
+	"url": "{{FULL-URL}}",
+	"headline": "{{TITLE}}",
+	"alternativeHeadline": "A secondary title of the CreativeWork.",
+	"dateCreated": "2017-12-14T17:39:52",
+	"datePublished": "2017-12-14T17:39:52",
+	"dateModified": "2017-12-14T17:39:52",
+	"inLanguage": "en-CA",
+	"isFamilyFriendly": "true",
+	"copyrightYear": "2018",
+	"copyrightHolder": "",
+	"contentLocation": {
+		"@type": "Place",
+		"name": "Vancouver, BC"
+	},
+	"accountablePerson": {
+		"@type": "Person",
+		"name": "Jay Holtslander",
+		"url": "https://jay.holtslander.ca"
+	},
+	"author": {
+		"@type": "Person",
+		"name": "Jay Holtslander",
+		"url": "https://jay.holtslander.ca"
 		},
 		"creator": {
 			"@type": "Person",
@@ -62,3 +64,4 @@
 		"articleSection": "Uncategorized posts",
 		"articleBody": ""
 }
+</script>
