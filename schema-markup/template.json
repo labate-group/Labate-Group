@@ -4,8 +4,12 @@
 	"@graph": [
 		{
 			"@type": ["ProfessionalService", "Brand", "WebSite"],
+			"@id": [
+				"https://labate.io/#professionalservice",
+				"https://labate.io/#brand",
+				"https://labate.io/#website"
+			],
 			"name": "Labate Group",
-			"brand": "Labate Group",
 			"slogan": "Marketing, Software, Fulfillment",
 			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
 			"url": "https://labate.io/",
@@ -162,6 +166,7 @@
 					}
 				}
 			}
-		]
-	}
+		}
+	]
+}
 </script>
