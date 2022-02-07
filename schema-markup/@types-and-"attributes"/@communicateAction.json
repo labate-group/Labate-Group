@@ -1,13 +1,13 @@
 {
-    "@type": "CommunicateAction",
-    "actionStatus": "potentialActionStatus",
-    "object": "Request Consultation",
-    "name": "Request Consultation",
-    "description": "Request consultation with the Labate Group",
-    "target": {
-        "httpMethod": "GET",
-        "URL": ""
-    },
-    "mainEntityOfPage": "https://labate.io/contact/consultation",
-    "result": "Has requested a consultation with the Labated Group"
+        "@type": "CommunicateAction",
+        "actionStatus": "potentialActionStatus",
+        "object": "Request Consultation",
+        "name": "Request Consultation",
+        "description": "Request consultation with the Labate Group",
+        "target": {
+                "httpMethod": "GET",
+                "URL": ""
+        },
+        "mainEntityOfPage": "https://labate.io/contact/consultation",
+        "result": "Has requested a consultation with the Labated Group"
 }
