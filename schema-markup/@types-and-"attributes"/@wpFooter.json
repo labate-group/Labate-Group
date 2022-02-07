@@ -1,6 +1,6 @@
 {	
 	"@type": "WPFooter",
-	"@id": "#footer",
+	"@id": "https://labate.io/#footer",
 	"name": "Footer",
 	"cssSelector": ".footer",
 	"potentialAction": [
