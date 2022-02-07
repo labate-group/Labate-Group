@@ -25,13 +25,9 @@
                         "@id": "https://labate.io/#logo",
 	                "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
                         "thumbnail": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png",
-	                "width": "1200",
-	                "height": "348",
 	                "caption": "Labate Group Logo",
 	                "representativeOfPage": "https://labate.io"
                 },
-                "telephone": "203-907-5536",
-                "email": "contact@labate.io",
                 "priceRange": "$$$",
                 "address": {
 			"@type": "PostalAddress",
