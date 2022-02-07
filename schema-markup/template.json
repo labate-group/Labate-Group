@@ -21,9 +21,9 @@ note: validation includes the removal of 2nd and 3rd breadcrumb items
 				"@id": "https://labate.io/#logo",
 				"name": "Labate Group Logo",
 				"caption": "Labate Group Logo",
-				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+				"contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
 				"thumbnail": {
-					"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
+					"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
 				},
 				"representativeOfPage": "true"
 			},
