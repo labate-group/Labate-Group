@@ -58,24 +58,24 @@
 				"availableChannel": "",
 				"itemListElement": [
 					{
-						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection", "Category"],
-                          			"name": "Marketing Services",
+						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
+						"name": "Marketing Services",
 						"description": "Ready to build your brand with a Grade-A marketing campaign?",
 						"url": "https://labate.io/category/marketing-services"
 					},
 					{
-						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection", "Category"],
+						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
 						"name": "Software Services",
 						"description": "Ready to supercharge your business with industry-leading technology?",
 						"url": "https://labate.io/category/software-services"
 					},
 					{
-						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection", "Category"],
+						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
 						"name": "Fulfillment Services",
 						"description": "Leverage valuable time by outsourcing client work.",
 						"url": "https://labate.io/category/fulfillment-services"
 					}
-                     		]
+                     		],
                   	},
                   	"aggregateRating": {
 				"@type": "AggregateRating",
@@ -114,8 +114,14 @@
 				"https://labate.link/better-business-bureau",
 				"https://labate.link/greater-norwalk-chamber",
 				"https://labate.link/fairfield-ct-chamber"
-			]
-                },
+			],
+            		"termsOfService": {
+				"@type":"SiteNavigationElement",
+				"name": "Labate Group | Terms",
+				"text": "Terms",
+				"url": "https://labate.io/utility/terms/"
+			}
+         	},
 		{
 			"@type": "BreadcrumbList",
 			"itemListElement": [
@@ -151,19 +157,13 @@
 				"description": "Search anything on the Labate website",
 				"mainEntityOfPage": "https://labate.io/search",
 				"target": {
-                            		"urlTemplate": "https://labate.io/search?query={search_term_string}",
-					"query-input": "name=search_term_string"
-				}
-                        },               
+                            		"urlTemplate": "https://labate.io/search?query={search_term_string}"
+				},
+                		"query-input": "name=search_term_string"
+          		},               
 			"copyrightHolder":"Labate Group",
-			"copyrightYear": "2022",
-			"termsOfService": {
-				"@type":"SiteNavigationElement",
-				"name": "Labate Group | Terms",
-				"text": "Terms",
-				"url": "https://labate.io/utility/terms/"
-			}
-		}
+			"copyrightYear": "2022"
+            	}
 	]
 }
 </script>
