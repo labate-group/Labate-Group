@@ -3,7 +3,11 @@
 	"@context": "https://schema.org",
 	"@graph": [
 		{
-			"@type": ["ProfessionalService", "Brand", "WebSite"],
+			"@type": [
+				"ProfessionalService",
+				"Brand",
+				"WebSite"
+			],
 			"name": "Labate Group",
 			"slogan": "Marketing, Software, Fulfillment",
 			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
@@ -55,63 +59,80 @@
 				}
 			],
 			"hasOfferCatalog": {
-				"@type": ["OfferCatalog", "Collection"],
+				"@type": [
+					"OfferCatalog",
+					"Collection"
+				],
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
-				"availableChannel": {
-					"serviceLocation": {
-						"@type": "ProfessionalSerivce",
-						"name": "Labate Group"
-					},
-					"servicePhone": "203-907-5536",
-					"serviceSms": "203-907-5536",
-					"serviceUrl": "https://labate.io/",
-				},
-				"itemListElement": [
-					{
-						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
-						"name": "Marketing Services",
-						"brand": "Labate Group",
-						"description": "Ready to build your brand with a Grade-A marketing campaign?",
-						"url": "https://labate.io/category/marketing-services",
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "5 Stars",
-							"bestRating": "5 Stars",
-							"worstRating": "5 Stars",
-							"ratingCount": "30"
-						}
-					},
-					{
-						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
-						"name": "Software Services",
-						"brand": "Labate Group",
-						"description": "Ready to supercharge your business with industry-leading technology?",
-						"url": "https://labate.io/category/software-services",
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "5 Stars",
-							"bestRating": "5 Stars",
-							"worstRating": "5 Stars",
-							"ratingCount": "30"
-						}
-					},
-					{
-						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
-						"name": "Fulfillment Services",
-						"brand": "Labate Group",
-						"description": "Leverage valuable time by outsourcing client work.",
-						"url": "https://labate.io/category/fulfillment-services",
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "5 Stars",
-							"bestRating": "5 Stars",
-							"worstRating": "5 Stars",
-							"ratingCount": "30"
-						}
-					}
+				"availableChannel": [
+					"8 Wright Street, 1st Floor, Westport, CT 06880",
+					"203-907-5536",
+					"https://labate.io/"
 				]
 			},
+			"itemListElement": [
+				{
+					"@type": [
+						"OfferCatalog",
+						"Product",
+						"Service",
+						"Offer",
+						"Collection"
+					],
+					"name": "Marketing Services",
+					"brand": "Labate Group",
+					"description": "Ready to build your brand with a Grade-A marketing campaign?",
+					"url": "https://labate.io/category/marketing-services",
+					"aggregateRating": {
+						"@type": "AggregateRating",
+						"ratingValue": "5 Stars",
+						"bestRating": "5 Stars",
+						"worstRating": "5 Stars",
+						"ratingCount": "30"
+					}
+				},
+				{
+					"@type": [
+						"OfferCatalog",
+						"Product",
+						"Service",
+						"Offer",
+						"Collection"
+					],
+					"name": "Software Services",
+					"brand": "Labate Group",
+					"description": "Ready to supercharge your business with industry-leading technology?",
+					"url": "https://labate.io/category/software-services",
+					"aggregateRating": {
+						"@type": "AggregateRating",
+						"ratingValue": "5 Stars",
+						"bestRating": "5 Stars",
+						"worstRating": "5 Stars",
+						"ratingCount": "30"
+					}
+				},
+				{
+					"@type": [
+						"OfferCatalog",
+						"Product",
+						"Service",
+						"Offer",
+						"Collection"
+					],
+					"name": "Fulfillment Services",
+					"brand": "Labate Group",
+					"description": "Leverage valuable time by outsourcing client work.",
+					"url": "https://labate.io/category/fulfillment-services",
+					"aggregateRating": {
+						"@type": "AggregateRating",
+						"ratingValue": "5 Stars",
+						"bestRating": "5 Stars",
+						"worstRating": "5 Stars",
+						"ratingCount": "30"
+					}
+				}
+			],
 			"hasCredential": {
 				"@type": "EducationalOccupationalCredential",
 				"url": "https://labate.link/better-business-bureau",
