@@ -14,9 +14,6 @@
 		{
 			"@type": "WPHeader",
 		},
-		{
-			"@type": "WPFooter",
-		}
 	]
 }
 
@@ -193,7 +190,7 @@
                                         "@type": "ListItem",
                                         "position": 2,
                                         "name": "Labate Group | _______",
-                                        "item": "https://labate.io/_________/_________"
+                                        "item": "https://labate.io/_________/"
                                 },
                                 {
                                         "@type": "ListItem",
