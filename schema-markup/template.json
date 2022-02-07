@@ -60,7 +60,7 @@
 					{
 						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
 						"name": "Marketing Services",
-						"brand": "https://labate.io/#brand",
+						"brand": "Labate Group",
 						"description": "Ready to build your brand with a Grade-A marketing campaign?",
 						"url": "https://labate.io/category/marketing-services",
 						"aggregateRating": {
@@ -74,7 +74,7 @@
 					{
 						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
 						"name": "Software Services",
-						"brand": "https://labate.io/#brand",
+						"brand": "Labate Group",
 						"description": "Ready to supercharge your business with industry-leading technology?",
 						"url": "https://labate.io/category/software-services",
 						"aggregateRating": {
@@ -88,7 +88,7 @@
 					{
 						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
 						"name": "Fulfillment Services",
-						"brand": "https://labate.io/#brand",
+						"brand": "Labate Group",
 						"description": "Leverage valuable time by outsourcing client work.",
 						"url": "https://labate.io/category/fulfillment-services",
 						"aggregateRating": {
