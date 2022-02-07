@@ -16,9 +16,12 @@
 			"logo": {
 				"@type": "imageObject",
 				"@id": "https://labate.io/#logo",
-				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
-				"thumbnail": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png",
+				"name": "Labate Group Logo",
 				"caption": "Labate Group Logo",
+				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+				"thumbnail": {
+					"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
+				},
 				"representativeOfPage": "true"
 			},
 			"address": {
@@ -55,7 +58,15 @@
 				"@type": ["OfferCatalog", "Collection"],
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
-				"availableChannel": "",
+				"availableChannel": {
+					"serviceLocation": {
+						"@type": "ProfessionalSerivce",
+						"name": "Labate Group"
+					},
+					"servicePhone": "203-907-5536",
+					"serviceSms": "203-907-5536",
+					"serviceUrl": "https://labate.io/",
+				},
 				"itemListElement": [
 					{
 						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
@@ -103,7 +114,6 @@
 			},
 			"hasCredential": {
 				"@type": "EducationalOccupationalCredential",
-				"@id": "https://labate.link/better-business-bureau",
 				"url": "https://labate.link/better-business-bureau",
 				"name": "A+ Better Business Bureau Accreditation Rating",
 				"description": "Labate is A+ accredited with the Better Business Bureau",
