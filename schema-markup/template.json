@@ -52,24 +52,25 @@
 			    	}
 		    	],
 		    	"hasOfferCatalog": {
-				"@type": "OfferCatalog",
+				"@type": ["OfferCatalog", "Collection"],
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
+				"availableChannel": "",
 				"itemListElement": [
 					{
-						"@type": "OfferCatalog",
+						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection", "Category"],
                           			"name": "Marketing Services",
 						"description": "Ready to build your brand with a Grade-A marketing campaign?",
 						"url": "https://labate.io/category/marketing-services"
 					},
 					{
-						"@type": "OfferCatalog",
+						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection", "Category"],
 						"name": "Software Services",
 						"description": "Ready to supercharge your business with industry-leading technology?",
 						"url": "https://labate.io/category/software-services"
 					},
 					{
-						"@type": "OfferCatalog",
+						"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection", "Category"],
 						"name": "Fulfillment Services",
 						"description": "Leverage valuable time by outsourcing client work.",
 						"url": "https://labate.io/category/fulfillment-services"
