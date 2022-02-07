@@ -4,11 +4,6 @@
 	"@graph": [
 		{
 			"@type": ["ProfessionalService", "Brand", "WebSite"],
-			"@id": [
-				"https://labate.io/#professionalservice",
-				"https://labate.io/#brand",
-				"https://labate.io/#website"
-			],
 			"name": "Labate Group",
 			"slogan": "Marketing, Software, Fulfillment",
 			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
@@ -23,8 +18,9 @@
 				"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
 				"thumbnail": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png",
 				"caption": "Labate Group Logo",
-				"representativeOfPage": "https://labate.io"
+				"representativeOfPage": "true"
 			},
+			"image": "https://labate.io/#logo",
 			"address": {
 				"@type": "PostalAddress",
 				"streetAddress": "8 Wright Street, 1st Fl",
@@ -32,7 +28,7 @@
 				"addressRegion": "CT",
 				"addressCountry": "United States",
 				"postalCode": "06880"
-			}
+			},
 			"geo": {
 				"@type": "GeoCoordinates",
 				"latitude": "41.1404152",
@@ -62,7 +58,7 @@
 				"itemListElement": [
 					{
 						"@type": "OfferCatalog",
-						"name": "Marketing Services",
+                          			"name": "Marketing Services",
 						"description": "Ready to build your brand with a Grade-A marketing campaign?",
 						"url": "https://labate.io/category/marketing-services"
 					},
@@ -78,93 +74,93 @@
 						"description": "Leverage valuable time by outsourcing client work.",
 						"url": "https://labate.io/category/fulfillment-services"
 					}
-				],
-				"aggregateRating": {
-					"@type": "AggregateRating",
-					"ratingValue": "5 Stars",
-					"bestRating": "5 Stars",
-					"worstRating": "5 Stars",
-					"ratingCount": "30"
-				},	
-				"hasCredential": {
-					"@type": "EducationalOccupationalCredential",
-					"@id": "https://labate.link/better-business-bureau",
-					"url": "https://labate.link/better-business-bureau",
-					"name": "A+ Better Business Bureau Accreditation Rating",
-					"description": "Labate is A+ accredited with the Better Business Bureau",
-					"credentialCategory": {
-						"@type": "DefinedTerm",
-						"name": "Accredited"
-					},
-					"competencyRequired": {
-						"@type": "DefinedTerm",
-						"name": "BBB Accreditation Standards",
-						"url": "https://www.bbb.org/bbb-accreditation-standards"
-					}
+                     		]
+                  	},
+                  	"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5 Stars",
+				"bestRating": "5 Stars",
+				"worstRating": "5 Stars",
+				"ratingCount": "30"
+			},	
+			"hasCredential": {
+				"@type": "EducationalOccupationalCredential",
+				"@id": "https://labate.link/better-business-bureau",
+				"url": "https://labate.link/better-business-bureau",
+				"name": "A+ Better Business Bureau Accreditation Rating",
+				"description": "Labate is A+ accredited with the Better Business Bureau",
+				"credentialCategory": {
+					"@type": "DefinedTerm",
+					"name": "Accredited"
+				},
+				"competencyRequired": {
+					"@type": "DefinedTerm",
+					"name": "BBB Accreditation Standards",
+					"url": "https://www.bbb.org/bbb-accreditation-standards"
+				}
+                	},
+              		"sameAs": [
+				"https://labate.link/facebook",
+				"https://labate.link/instagram",
+				"https://labate.link/linkedin",
+				"https://labate.link/twitter",
+				"https://labate.link/github",
+				"https://labate.link/linktree",
+				"https://labate.link/youtube",
+				"https://labate.link/tiktok",
+				"https://labate.link/discord",
+				"https://labate.link/clubhouse",
+				"https://labate.link/better-business-bureau",
+				"https://labate.link/greater-norwalk-chamber",
+				"https://labate.link/fairfield-ct-chamber"
+			]
+                },
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Labate Group",
+					"item": "https://labate.io/"
 				},
 				{
-					"@type": "BreadcrumbList",
-					"itemListElement": [
-						{
-							"@type": "ListItem",
-							"position": 1,
-							"name": "Labate Group",
-							"item": "https://labate.io/"
-						},
-						{
-							"@type": "ListItem",
-							"position": 2,
-							"name": "",
-							"item": "",
-						},
-						{
-							"@type": "ListItem",
-							"position": 3,
-							"name": "",
-							"item": "",
-						}
-					]
+					"@type": "ListItem",
+					"position": 2,
+					"name": "",
+					"item": ""
 				},
-				"sameAs": [
-					"https://labate.link/facebook",
-					"https://labate.link/instagram",
-					"https://labate.link/linkedin",
-					"https://labate.link/twitter",
-					"https://labate.link/github",
-					"https://labate.link/linktree"
-					"https://labate.link/youtube",
-					"https://labate.link/tiktok",
-					"https://labate.link/discord",
-					"https://labate.link/clubhouse",
-					"https://labate.link/better-business-bureau",
-					"https://labate.link/greater-norwalk-chamber",
-					"https://labate.link/fairfield-ct-chamber",
-				],
-				{	
-					"@type": "WPFooter",
-					"@id": "https://labate.io/#footer",
-					"name": "Footer",
-					"cssSelector": ".footer",
-					"potentialAction": [
-						{
-							"@type": "SearchAction",
-							"object": "Search",
-							"name": "Search Labate",
-							"description": "Search anything on the Labate website",
-							"mainEntityOfPage": "https://labate.io/search",
-							"target": "urlTemplate": "https://labate.io/search?query={search_term_string}",
-							"query-input": "name=search_term_string"
-						}      
-					],                        
-					"copyrightHolder":"Labate Group",
-					"copyrightYear": "2022",
-					"termsOfService": {
-						"@type":"SiteNavigationElement",
-						"name": "Labate Group | Terms",
-						"text": "Terms",
-						"url": "https://labate.io/utility/terms/"
-					}
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"name": "",
+					"item": ""
 				}
+			]
+		},
+		{	
+			"@type": "WPFooter",
+			"@id": "https://labate.io/#footer",
+			"name": "Footer",
+			"cssSelector": ".footer",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"object": "Search",
+				"name": "Search Labate",
+				"description": "Search anything on the Labate website",
+				"mainEntityOfPage": "https://labate.io/search",
+				"target": {
+                            		"urlTemplate": "https://labate.io/search?query={search_term_string}",
+					"query-input": "name=search_term_string"
+				}
+                        },               
+			"copyrightHolder":"Labate Group",
+			"copyrightYear": "2022",
+			"termsOfService": {
+				"@type":"SiteNavigationElement",
+				"name": "Labate Group | Terms",
+				"text": "Terms",
+				"url": "https://labate.io/utility/terms/"
 			}
 		}
 	]
