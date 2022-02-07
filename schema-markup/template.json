@@ -20,6 +20,8 @@
                 "slogan": "Marketing, Software, Fulfillment",
                 "description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
                 "url": "https://labate.io/",
+                "priceRange": "$$$",
+		"openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
                 "logo": {
                         "@type": "imageObject",
                         "@id": "https://labate.io/#logo",
@@ -28,7 +30,6 @@
 	                "caption": "Labate Group Logo",
 	                "representativeOfPage": "https://labate.io"
                 },
-                "priceRange": "$$$",
                 "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "8 Wright Street, 1st Fl",
@@ -59,7 +60,6 @@
                             "sameAs": "https://en.wikipedia.org/wiki/United_States"
                     }
             ],
-            "openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+1 (203) 907-5536",
