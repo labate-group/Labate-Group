@@ -147,48 +147,110 @@
 				"ratingCount": "30"
 			}	
 		},
-
-<!-- STATIC PAGE SPECIFIC -->
-		
-	<!-- ALL STATIC PAGES -->
-		
 		{
-			"@type": "",
-			"@id": "",
-			"name": "{{PAGE-TITLE}}",
-			"headline": "{{PAGE-TITLE}}",
-			"url": "{{FULL-SLUG}}",
+			"@type": "WebPage",
+			"@id": "{{FULL-URL}}#webpage",
+			"url": "{{FULL-URL}}",
+			"name": "{{FULL-PAGE-TITLE}}",
 			"isPartOf": {
-				"@id": "https://labate.io/{{PAGE-SLUG}}/#webpage",
+				"@id": "https://labate.io/#website"
 			},
 			"primaryImageOfPage": {
-				"@type": "ImageObject",
-				"@id": "{{FULL-PAGE-URL}}/#primaryimage",
-				"name": "{{IMAGE-ALT}}",
-				"caption": "{{IMAGE-ALT}}",
-				"contentUrl": "{{IMAGE-URL}}",
-				"representativeOfPage": "true"
+				"@id": "{{FULL-URL}}/#primaryimage"
 			},
-			"breadcrumbs": {
+			"datePublished": "2022-01-27T13:47:25+00:00",
+			"dateModified": "2022-01-28T11:38:03+00:00",
+			"description": "Ben Vetter.",
+			"breadcrumb": {
 				"@type": "BreadcrumbList",
+				"@id": "https://labate.io/public-figures/ben-vetter/#breadcrumb",
 				"itemListElement": [
 					{
 						"@type": "ListItem",
-						"@id": "https://labate.io/#webpage",
 						"position": 1,
-						"name": "Labate Group",
+						"name": "Home",
 						"item": "https://labate.io/"
 					},
 					{
 						"@type": "ListItem",
-						"@id": "https://labate.io/{{PAGE-SLUG}}/#webpage",
 						"position": 2,
-						"name": "Labate Group | {{PAGE}}",
-						"item": "https://labate.io/{{PAGE-SLUG}}"
+						"name": "Labate Group | Public Figures",
+						"item": "https://labate.io/public-figures/"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Labate Group | Public Figures | Ben Vetter",
+						"item": "https://labate.io/public-figures/ben-vetter/"
 					}
 				]
+			},
+			"inLanguage": "en-US",
+			"potentialAction": [
+				{
+					"@type": "ReadAction",
+					"target": [
+						"https://labate.io/public-figures/ben-vetter/"
+					]
+				}
+			],
+			"image": "https://uploads-ssl.webflow.com/617db0d9cb238018da04fbbb/61e99cc61c1dd4736b931538_1516574323354.jpg",
+			"lastReviewed": "2022-01-28T11:38:03+00:00",
+			"keywords": [
+				"Ben Vetter",
+				"Labate Group",
+				"Public Figure",
+				"Ben Vetter"
+			],
+			"author": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#professionalservice"
 			}
 		},
+
+		<!-- STATIC PAGE SPECIFIC -->
+
+			<!-- ALL STATIC PAGES -->
+
+				{
+					"@type": "",
+					"@id": "",
+					"name": "{{PAGE-TITLE}}",
+					"headline": "{{PAGE-TITLE}}",
+					"url": "{{FULL-SLUG}}",
+					"isPartOf": {
+						"@id": "https://labate.io/{{PAGE-SLUG}}/#webpage",
+					},
+					"primaryImageOfPage": {
+						"@type": "ImageObject",
+						"@id": "{{FULL-PAGE-URL}}/#primaryimage",
+						"name": "{{IMAGE-ALT}}",
+						"caption": "{{IMAGE-ALT}}",
+						"contentUrl": "{{IMAGE-URL}}",
+						"representativeOfPage": "true"
+					},
+					"breadcrumbs": {
+						"@type": "BreadcrumbList",
+						"itemListElement": [
+							{
+								"@type": "ListItem",
+								"@id": "https://labate.io/#webpage",
+								"position": 1,
+								"name": "Labate Group",
+								"item": "https://labate.io/"
+							},
+							{
+								"@type": "ListItem",
+								"@id": "https://labate.io/{{PAGE-SLUG}}/#webpage",
+								"position": 2,
+								"name": "Labate Group | {{PAGE}}",
+								"item": "https://labate.io/{{PAGE-SLUG}}"
+							}
+						]
+					}
+				},
 		
 	<!-- HOME -->
 
