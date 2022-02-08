@@ -1,3 +1,9 @@
+ALL PAGES HAVE:
+
+"@type": ["ProfessionalService", "Brand", "WebSite", "Employer"],
+"@type": "WebPage",
+"@type": "WPFooter",
+
 <script defer type="application/ld+json">
 {
 	"@context": "https://schema.org",
