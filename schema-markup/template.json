@@ -1,6 +1,3 @@
-https://search.google.com/test/rich-results/result?id=385yqc3_10zngH-CToiudQ
-note: validation includes the removal of 2nd and 3rd breadcrumb items
-
 <script defer type="application/ld+json">
 {
 	"@context": "https://schema.org",
@@ -69,7 +66,7 @@ note: validation includes the removal of 2nd and 3rd breadcrumb items
 			},
 			"itemListElement": [
 				{
-					"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
+					"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
 					"name": "Marketing Services",
 					"brand": "Labate Group",
 					"description": "Ready to build your brand with a Grade-A marketing campaign?",
@@ -83,7 +80,7 @@ note: validation includes the removal of 2nd and 3rd breadcrumb items
 					}
 				},
 				{
-					"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
+					"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
 					"name": "Software Services",
 					"brand": "Labate Group",
 					"description": "Ready to supercharge your business with industry-leading technology?",
@@ -97,7 +94,7 @@ note: validation includes the removal of 2nd and 3rd breadcrumb items
 					}
 				},
 				{
-					"@type": ["OfferCatalog", "Product", "Service", "Offer", "Collection"],
+					"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
 					"name": "Fulfillment Services",
 					"brand": "Labate Group",
 					"description": "Leverage valuable time by outsourcing client work.",
@@ -172,6 +169,74 @@ note: validation includes the removal of 2nd and 3rd breadcrumb items
 				}
 			]
 		},
+		
+<!-- CMS ITEM SPECIFIC -->
+		
+	<!-- PORTFOLIO -->
+		
+		{
+			"@type": ["WebPage", "CreativeWork"],
+			"@id": "https://labate.io/portfolio/{{ITEM-SLUG}}/#creativework",
+		},
+		
+	<!-- TEAM / PUBLIC-FIGURE / CLIENTS -->
+		
+		{
+			"@type": ["WebPage", "Person"],
+			"@id": "https://labate.io/{{COLLECTION-SLUG}}/{{ITEM-SLUG}}/#person",
+		},
+		
+	<!-- ORGANIZATION -->
+		
+		{
+			"@type": ["WebPage", "Organization"],
+			"@id": "https://labate.io/organization/{{ITEM-SLUG}}/#organization",
+		},
+		
+	<!-- EVENT -->
+		
+		{
+			"@type": ["WebPage", "BusinessEvent"],
+			"@id": "https://labate.io/event/{{ITEM-SLUG}}/#businessevent",
+		},
+		
+	<!-- FAQ -->
+		
+		{
+			"@type": "FAQPage",
+			"@id": "https://labate.io/faq/{{ITEM-SLUG}}/#faqpage",
+		},
+		
+	<!-- LANDING -->
+		
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/l/{{ITEM-SLUG}}/#webpage,
+		},
+		
+	<!-- BLOG -->
+		
+		{
+			"@type": ["WebPage", "BlogPosting"],
+			"@id": "https://labate.io/blog/{{ITEM-SLUG}}/#blogposting,
+		},	
+		
+	<!-- PRODUCT -->
+		
+		{	
+			"@type": ["ItemPage", "Offer", "Product", "Service", "ServiceType"],
+			"@id": "https://labate.io/product/{{ITEM-SLUG}}/#service,
+		},
+		
+	<!-- CATEGORY -->
+		
+		{
+			"@type": ["Offer", "OfferCatalog", "ProductCategory", "ServiceCategory", "ServiceType", "Collection"],
+			"@id": "https://labate.io/category/{{ITEM-SLUG}}/#servicecategory,
+		},
+		
+<!-- / CMS ITEM SPECIFIC -->
+		
 		{
 			"@type": "WPFooter",
 			"@id": "https://labate.io/#footer",
