@@ -62,52 +62,52 @@
 					"8 Wright Street, 1st Floor, Westport, CT 06880",
 					"203-907-5536",
 					"https://labate.io/"
-				]
+				],
+				"itemListElement": [
+					{
+						"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
+						"name": "Marketing Services",
+						"brand": "Labate Group",
+						"description": "Ready to build your brand with a Grade-A marketing campaign?",
+						"url": "https://labate.io/category/marketing-services",
+						"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5 Stars",
+							"bestRating": "5 Stars",
+							"worstRating": "5 Stars",
+							"ratingCount": "30"
+						}
+					},
+					{
+						"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
+						"name": "Software Services",
+						"brand": "Labate Group",
+						"description": "Ready to supercharge your business with industry-leading technology?",
+						"url": "https://labate.io/category/software-services",
+						"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5 Stars",
+							"bestRating": "5 Stars",
+							"worstRating": "5 Stars",
+							"ratingCount": "30"
+						}
+					},
+					{
+						"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
+						"name": "Fulfillment Services",
+						"brand": "Labate Group",
+						"description": "Leverage valuable time by outsourcing client work.",
+						"url": "https://labate.io/category/fulfillment-services",
+						"aggregateRating": {
+							"@type": "AggregateRating",
+							"ratingValue": "5 Stars",
+							"bestRating": "5 Stars",
+							"worstRating": "5 Stars",
+							"ratingCount": "30"
+						}
+					}
+				],
 			},
-			"itemListElement": [
-				{
-					"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
-					"name": "Marketing Services",
-					"brand": "Labate Group",
-					"description": "Ready to build your brand with a Grade-A marketing campaign?",
-					"url": "https://labate.io/category/marketing-services",
-					"aggregateRating": {
-						"@type": "AggregateRating",
-						"ratingValue": "5 Stars",
-						"bestRating": "5 Stars",
-						"worstRating": "5 Stars",
-						"ratingCount": "30"
-					}
-				},
-				{
-					"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
-					"name": "Software Services",
-					"brand": "Labate Group",
-					"description": "Ready to supercharge your business with industry-leading technology?",
-					"url": "https://labate.io/category/software-services",
-					"aggregateRating": {
-						"@type": "AggregateRating",
-						"ratingValue": "5 Stars",
-						"bestRating": "5 Stars",
-						"worstRating": "5 Stars",
-						"ratingCount": "30"
-					}
-				},
-				{
-					"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
-					"name": "Fulfillment Services",
-					"brand": "Labate Group",
-					"description": "Leverage valuable time by outsourcing client work.",
-					"url": "https://labate.io/category/fulfillment-services",
-					"aggregateRating": {
-						"@type": "AggregateRating",
-						"ratingValue": "5 Stars",
-						"bestRating": "5 Stars",
-						"worstRating": "5 Stars",
-						"ratingCount": "30"
-					}
-				}
-			],
 			"hasCredential": {
 				"@type": "EducationalOccupationalCredential",
 				"url": "https://labate.link/better-business-bureau",
@@ -144,98 +144,207 @@
 				"bestRating": "5 Stars",
 				"worstRating": "5 Stars",
 				"ratingCount": "30"
-			}
+			}	
 		},
+
+<!-- STATIC PAGE SPECIFIC -->
+		
+	<!-- ALL STATIC PAGES -->
+		
 		{
-			"@type": "BreadcrumbList",
-			"itemListElement": [
-				{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "Labate Group",
-					"item": "https://labate.io/"
-				},
-				{
-					"@type": "ListItem",
-					"position": 2,
-					"name": "",
-					"item": ""
-				},
-				{
-					"@type": "ListItem",
-					"position": 3,
-					"name": "",
-					"item": ""
-				}
-			]
+			"@type": "",
+			"@id": "",
+			"name": "{{PAGE-TITLE}}",
+			"headline": "{{PAGE-TITLE}}",
+			"url": "{{FULL-SLUG}}",
+			"isPartOf": {
+				"@id": "https://labate.io/{{PAGE-SLUG}}/#webpage",
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "{{FULL-PAGE-URL}}/#primaryimage",
+				"name": "{{IMAGE-ALT}}",
+				"caption": "{{IMAGE-ALT}}",
+				"contentUrl": "{{IMAGE-URL}}",
+				"representativeOfPage": "true"
+			},
+			"breadcrumbs": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"@id": "https://labate.io/#webpage",
+						"position": 1,
+						"name": "Labate Group",
+						"item": "https://labate.io/"
+					},
+					{
+						"@type": "ListItem",
+						"@id": "https://labate.io/{{PAGE-SLUG}}/#webpage",
+						"position": 2,
+						"name": "Labate Group | {{PAGE}}",
+						"item": "https://labate.io/{{PAGE-SLUG}}"
+					}
+				]
+			},
+			"": "",
+			
+			
+			
+			
 		},
 		
-<!-- CMS ITEM SPECIFIC -->
+	<!-- HOME -->
+
+		
+		
+	<!-- ABOUT -->
+
+		
+		
+	<!-- SERVICES -->
+
+		
 		
 	<!-- PORTFOLIO -->
+
+		
+		
+	<!-- CLIENTS -->
+
+		
+		
+	<!-- DATABASE -->
+
+		
+		
+	<!-- EVENTS -->
+
+		
+		
+	<!-- PUBLIC FIGURES -->
+
+		
+		
+	<!-- ORGANIZATIONS -->
+
+		
+		
+	<!-- FAQ -->
+
+		
+		
+	<!-- BLOG -->
+
+		
+		
+	<!-- CONTACT -->
+
+
+
+<!-- / STATIC PAGE SPECIFIC -->
+		
+<!-- CMS PAGE SPECIFIC -->
+		
+	<!-- ALL CMS PAGES -->
 		
 		{
-			"@type": ["WebPage", "CreativeWork"],
-			"@id": "https://labate.io/portfolio/{{ITEM-SLUG}}/#creativework",
+			"@type": "<!-- REFERENCE BELOW -->",
+			"@id": "<!-- REFERENCE BELOW -->",
+			"name": "{{PAGE-TITLE}}",
+			"headline": "{{PAGE-TITLE}}",
+			"url": "{{FULL-SLUG}}",
+			"isPartOf": {
+				"@id": "https://labate.io/{{COLLECTION-URL}}/#collection",
+				"@id": "https://labate.io/{{COLLECTION-URL}}/#webpage",
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "{{FULL-PAGE-URL}}/#primaryimage",
+				"name": "{{IMAGE-ALT}}",
+				"caption": "{{IMAGE-ALT}}",
+				"contentUrl": "{{IMAGE-URL}}",
+				"representativeOfPage": "true"
+			},
+			"breadcrumbs": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"@id": "https://labate.io/#webpage",
+						"position": 1,
+						"name": "Labate Group",
+						"item": "https://labate.io/"
+					},
+					{
+						"@type": "ListItem",
+						"@id": "https://labate.io/{{COLLECTION-SLUG}}/#webpage",
+						"position": 2,
+						"name": "Labate Group | {{COLLECTION-NAME}}",
+						"item": "https://labate.io/{{COLLECTION-SLUG}}"
+					},
+					{
+						"@type": "ListItem",
+						"@id": "https://labate.io/{{COLLECTION-SLUG}}/{{ITEM-SLUG}}/#webpage",
+						"position": 3,
+						"name": "Labate Group | {{COLLECTION-NAME}} | {{COLLECTION-ITEM}}",
+						"item": "https://labate.io/{{COLLECTION-SLUG}}/{{ITEM-SLUG}}"
+					}
+				]
+			},
+			"": "",
+			
+			
+			
+			
 		},
+
+	<!-- PORTFOLIO -->
+		
+			"@type": ["WebPage", "CreativeWork"],
+			"@id": "{{FULL-URL}}/#creativework",
 		
 	<!-- TEAM / PUBLIC-FIGURE / CLIENTS -->
 		
-		{
 			"@type": ["WebPage", "Person"],
-			"@id": "https://labate.io/{{COLLECTION-SLUG}}/{{ITEM-SLUG}}/#person",
-		},
+			"@id": "{{FULL-URL}}/#person",
 		
 	<!-- ORGANIZATION -->
 		
-		{
 			"@type": ["WebPage", "Organization"],
-			"@id": "https://labate.io/organization/{{ITEM-SLUG}}/#organization",
-		},
+			"@id": "{{FULL-URL}}/#organization",
 		
 	<!-- EVENT -->
 		
-		{
 			"@type": ["WebPage", "BusinessEvent"],
-			"@id": "https://labate.io/event/{{ITEM-SLUG}}/#businessevent",
-		},
+			"@id": "{{FULL-URL}}/#businessevent",
 		
 	<!-- FAQ -->
 		
-		{
 			"@type": "FAQPage",
-			"@id": "https://labate.io/faq/{{ITEM-SLUG}}/#faqpage",
-		},
+			"@id": "{{FULL-URL}}/#faqpage",
 		
 	<!-- LANDING -->
 		
-		{
 			"@type": "WebPage",
-			"@id": "https://labate.io/l/{{ITEM-SLUG}}/#webpage,
-		},
+			"@id": "{{FULL-URL}}/#webpage",
 		
 	<!-- BLOG -->
 		
-		{
 			"@type": ["WebPage", "BlogPosting"],
-			"@id": "https://labate.io/blog/{{ITEM-SLUG}}/#blogposting,
-		},	
+			"@id": "{{FULL-URL}}/#blogposting",
 		
 	<!-- PRODUCT -->
 		
-		{	
 			"@type": ["ItemPage", "Offer", "Product", "Service", "ServiceType"],
-			"@id": "https://labate.io/product/{{ITEM-SLUG}}/#service,
-		},
+			"@id": "{{FULL-URL}}/#service",
 		
 	<!-- CATEGORY -->
 		
-		{
 			"@type": ["Offer", "OfferCatalog", "ProductCategory", "ServiceCategory", "ServiceType", "Collection"],
-			"@id": "https://labate.io/category/{{ITEM-SLUG}}/#servicecategory,
-		},
+			"@id": "{{FULL-URL}}/#servicecategory",
 		
-<!-- / CMS ITEM SPECIFIC -->
+<!-- / CMS PAGE SPECIFIC -->
 		
 		{
 			"@type": "WPFooter",
