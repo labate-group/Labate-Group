@@ -1,3 +1,5 @@
+<!-- GLOBAL HEADER SCHEMA -->
+
 <script defer type="application/ld+json">
 {
 	"@context": "https://schema.org",
@@ -209,10 +211,10 @@
 				"@id": "https://labate.io/#professionalservice"
 			}
 		},
+		
+<!-- / GLOBAL HEADER SCHEMA -->
 
-		<!-- STATIC PAGE SPECIFIC -->
-
-			<!-- ALL STATIC PAGES -->
+<!-- ALL STATIC PAGES -->
 
 				{
 					"@type": "",
@@ -251,6 +253,10 @@
 						]
 					}
 				},
+		
+<!-- / ALL STATIC PAGES -->
+		
+<!-- STATIC PAGE SPECIFIC -->
 		
 	<!-- HOME -->
 
@@ -302,9 +308,7 @@
 
 <!-- / STATIC PAGE SPECIFIC -->
 		
-<!-- CMS PAGE SPECIFIC -->
-		
-	<!-- ALL CMS PAGES -->
+<!-- ALL CMS PAGES -->
 		
 		{
 			"@type": "<!-- REFERENCE BELOW -->",
@@ -351,6 +355,10 @@
 				]
 			}
 		},
+		
+<!-- / ALL CMS PAGES -->
+
+<!-- CMS PAGE SPECIFIC -->
 
 	<!-- PORTFOLIO -->
 		
@@ -656,7 +664,9 @@
 			"@id": "{{FULL-URL}}/#servicecategory",
 		
 <!-- / CMS PAGE SPECIFIC -->
-		
+
+<!-- GLOBAL FOOTER SCHEMA -->
+
 		{
 			"@type": "WPFooter",
 			"@id": "https://labate.io/#footer",
@@ -679,3 +689,5 @@
 	]
 }
 </script>
+
+<!-- / GLOBAL FOOTER SCHEMA -->
