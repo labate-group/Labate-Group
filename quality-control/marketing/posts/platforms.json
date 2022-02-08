@@ -1,0 +1,45 @@
+{
+  "facebook": [
+        "title",
+        "hook",
+        "media",
+        "body",
+        "cta",
+        "ctaLink",
+        "hashtags",
+        "location"
+  ],
+  "linkedIn": [
+        "title",
+        "hook",
+        "media",
+        "body",
+        "cta",
+        "ctaLink",
+        "hashtags",
+        "location"
+  ],
+  "instagram": [
+        "title",
+        "hook",
+        "media",
+        "body",
+        "hashtags",
+        "location"
+  ],
+  "twitter": [
+        "title",
+        "hook",
+        "media",
+        "cta",
+        "ctaLink",
+  ],
+  "googleMyBusiness": [
+        "title",
+        "hook",
+        "media",
+        "body",
+        "cta",
+        "ctaLink",
+  ]
+}

@@ -1,0 +1,64 @@
+{
+        "@context": "https://github.com/labate-group/Labate-Group-SOPs",
+        "@gitHub": "https://github.com/labate-group/Labate-Group-SOPs/blob/main/fulfillment/town-planner-ct/blog-packages.json"
+        "guideline": {
+                "wordCount": "<150",
+                "mustBe": "Contains information about the client not simply pulled from website",
+                "mustBe": "2-4 paragraphs, not exceeding 5 sentences each paragraph"
+        },
+        "structure": {
+                "inOrder": "hook",
+                "inOrder": "hookAnalysis",
+                "inOrder": "hookRelivancy",
+                "inOrder": "recap",
+                "inOrder": "2relivantEmojis"
+        },
+        "tone": {
+                "mustBe": {
+                        "toneIs": "informational",
+                        "toneIsNot": "promotional"
+                },
+                "mustBe": {
+                        "toneIs": ["friendly", "light"]
+                        "toneIsNot": "serious"
+                },
+                "mustBe": {
+                        "toneIs": "positive",
+                        "toneIsExample": "Celebrating life can be a beautiful thing, especially when sharing the experience with others",
+                        "toneIsNot": "negitive",
+                        "toneIsNotExample": "Grief can be very difficult, and is often a lonely process"
+                }
+        },
+        "ehancement": {
+                "note": "use as oppurtinities arise",
+                "empalthy": {
+                        "note": "be careful to keep this positive",
+                        "empathyExample": "You might be feeling…",
+                        "empathyExample": "You may have the goal of…"
+                },
+                "normalize": {
+                        "note": "be careful to keep this positive",
+                        "normalizeExample": "Many people…",
+                        "normalizeExample": "It’s normal to…",
+                        "normalizeExample": "Most often, people experience…"
+                }
+        },
+        "image": {
+                "mustBe": "perfectClarity",
+                "mustBe": "noWatermarks",
+                "mustBe": "appearProfessionallyTaken"
+        },
+        "style": [
+                "mustBe": "each title capitalizes major words",
+                "mustBe": "1 mini-blog per page (so document should be 12 pages long)",
+                "text": {
+                        "font": "montserrat 400",
+                        "size": "12 pt",
+                        "mustBe": "no blocky texts"
+                }
+        ],
+        "links": [
+                "mustBe": "Never link to a competitor of the business we are covering",
+                "mustBe": "Clean anchor text selection"
+        ]
+}

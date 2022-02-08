@@ -1,0 +1,30 @@
+{
+        "structure": {
+                "hook": "",
+                "body": "",
+                "cta": "",
+                "link": [
+                        "use link shortener",
+                ]
+                "hashtags": ""
+        },
+        "platforms": {
+                "facebook": "",
+                "instagram": [
+                        "use square or vertical image",
+                        "mustNotInclude": "link"
+                ],
+                "linkedIn": "",
+                "googleMyBusiness": [
+                        "no hashtags",
+                        "add learnMore button with shortened link"
+                ],
+                "twitter": [
+                        "shorten to fit character limit",
+                        "mustInclude": [
+                                "cta",
+                                "link"
+                        ]
+                ]
+        }
+}
