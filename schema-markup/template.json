@@ -3,8 +3,9 @@
 	"@context": "https://schema.org",
 	"@graph": [
 		{
-			"@type": ["ProfessionalService", "Brand", "WebSite"],
+			"@type": ["ProfessionalService", "Brand", "WebSite", "Employer"],
 			"name": "Labate Group",
+			"alternateName": ["Labate", "Labate.io" "Labate Marketing", "Labate Software", "Labate Fulfillment"],
 			"slogan": "Marketing, Software, Fulfillment",
 			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
 			"url": "https://labate.io/",
@@ -186,12 +187,7 @@
 						"item": "https://labate.io/{{PAGE-SLUG}}"
 					}
 				]
-			},
-			"": "",
-			
-			
-			
-			
+			}
 		},
 		
 	<!-- HOME -->
@@ -327,8 +323,61 @@
 		},
 		
 	<!-- TEAM / PUBLIC-FIGURE / CLIENTS -->
+		
+		{
+			"@type": "Person",
+			"@id": "{{FULL-URL}}/#person",
+			"name": "{{FULL-NAME}}",
+			"gender": "{{GENDER}}",
+			"url": "{{FULL-URL}}",
+			"email": "{{EMAIL}}",
+			"image": {
+				"@id": "{{FULL-URL}}/#primaryimage",
+				"contentUrl": "{{HEADSHOT-URL}}"
+			},
+			"description": "{{DESCRIPTION}}",
+			"sameAs": [
+				"",
+				"",
+				"",
+				""
+			],
+		}
+		
+	<!-- TEAM -->
+		
+				"role": {
+					"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
+					"name": "{{TEAM-MEMBER-TITLE}}",
+					"employer": {
+						"@type": ["Brand", "ProfessionalSerivce", "WorksFor", "Employer"]
+						"name": "Labate Group",
+						"url": "https://labate.io/"
+					}
+				},
+				"knowsAbout": [
+					"",
+					"",
+					"",
+					"",
+					""
+				],
+			}
 
-	<!-- + CLIENTS -->
+	<!-- PUBLIC FIGURE -->
+		
+				"memberOf": {
+				"@type": "Organization",
+				"@id": "{{PRIMARY-ORG-URL}}/#organization",
+				"name": "{{PRIMARY-ORGANIZATION-NAME}}",
+				"url": "{{PRIMARY-ORG-URL}}",
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "{{PRIMARY-ORG-URL}}/#logo",
+					"url": "{{PRIMARY-ORG-LOGO-URL}}"
+				},
+			
+	<!-- CLIENTS -->
 	
 		{
 			"@type": "UserReview",
@@ -337,8 +386,7 @@
 			"reviewBody": "Labate's services are first rate and have been very effective for our company. Would highly recommend for any digital or SEO services.",
 			"reviewAspect": "Labate's services are first rate and have been very effective for our company. Would highly recommend for any digital or SEO services.",
 			"itemReviewed": {
-				"@type": "Brand",
-				"@id": "https://labate.io/#brand",
+				"@type": ["Brand", "ProfessionalService"]
 				"name": "Labate Group",
 				"url": "https://labate.io/",
 				"telephone": "203-907-5536"
@@ -346,8 +394,8 @@
 			"author": {
 				"@type": "Person",
 				"name": "{{CLIENT-FULL-NAME}}"
-				"employeeRole": {
-					"@type": ["EmployeeRole", "OrganizationRole"],
+				"role": {
+					"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
 					"name": "{{CLIENT-TITLE}}",
 					"organization": {
 						"@type": ["Organization", "LocalBusiness"],
@@ -391,7 +439,7 @@
 	<!-- ORGANIZATION -->
 		
 		{
-			"@type": ["WebPage", "Organization"],
+			"@type": "Organization",
 			"@id": "{{FULL-URL}}/#organization",
 			"name": "{{ORGANIZATION-NAME}}",
 			"url": "{{FULL-URL}}",
@@ -478,7 +526,8 @@
 					"streetAddress": "",
 					"addressCountry": "United States",
 					"addressRegion": "Connecticut",
-					"addressLocality": ""
+					"addressLocality": "",
+					"telephone"
 				}
 			}
 		},
