@@ -1,4 +1,4 @@
-All schemas pull 4 sections to construct the full schema.
+All schemas pull 4 sections from the /master-template.json file to construct a full schema.
 
 ## Static Page Construction:
 (in this order)
