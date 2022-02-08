@@ -1,8 +1,33 @@
-ALL PAGES HAVE:
-
+ALL PAGES HAVE: <!-- IN GLOBAL HEADER (STATIC SCHEMA RELIVANT TO ALL PAGES) -->
 "@type": ["ProfessionalService", "Brand", "WebSite", "Employer"],
-"@type": "WebPage",
 "@type": "WPFooter",
+
+ALL PAGES HAVE: <!-- IN PAGE HEADER (AS BREADCRUMB AND URL INFO IS DIFFERENT FOR EACH PAGE, SO IT NEEDS TO PULL INDO DYNAMICALLY) -->
+"@type": "WebPage",
+
+CMS PAGES HAVE:
+<!-- PORTFOLIO -->
+"@type": "CreativeWork",
+<!-- TEAM -->
+"@type": "Person",
+<!-- PUBLIC-FIGURE -->
+"@type": "Person",
+<!-- CLIENTS -->
+"@type": "Person",
+"@type": "UserReview",
+<!-- ORGANIZATION -->
+"@type": "Organization",
+<!-- EVENT -->
+"@type": "BusinessEvent",
+<!-- FAQ (IN PLACE OF "@type": "@WebPage") -->
+"@type": "FAQPage",
+<!-- LANDING -->
+<!-- BLOG -->
+"@type": "BlogPosting",
+<!-- PRODUCT -->
+"@type": ["ItemPage", "Offer", "Product", "Service", "ServiceType"],
+<!-- CATEGORY -->
+"@type": ["Offer", "OfferCatalog", "ProductCategory", "ServiceCategory", "ServiceType", "Collection"],
 
 <script defer type="application/ld+json">
 {
@@ -154,6 +179,28 @@ ALL PAGES HAVE:
 			}	
 		},
 		{
+			"@type": "WPFooter",
+			"@id": "https://labate.io/#footer",
+			"name": "Footer",
+			"cssSelector": ".footer",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"object": "Search",
+				"name": "Search Labate",
+				"description": "Search anything on the Labate website",
+				"mainEntityOfPage": "https://labate.io/search",
+				"target": {
+					"urlTemplate": "https://labate.io/search?query={search_term_string}"
+				},
+				"query-input": "name=search_term_string"
+			},
+			"copyrightHolder": "Labate Group",
+			"copyrightYear": "2022"
+		},
+		
+<!-- ALL PAGES -->
+		
+		{
 			"@type": "WebPage",
 			"@id": "{{FULL-URL}}#webpage",
 			"url": "{{FULL-URL}}",
@@ -182,6 +229,7 @@ ALL PAGES HAVE:
 						"name": "Home",
 						"item": "https://labate.io/"
 					},
+			<!-- IF NEEDED -->
 					{
 						"@type": "ListItem",
 						"@id": "",
@@ -189,7 +237,8 @@ ALL PAGES HAVE:
 						"name": "",
 						"item": ""
 					},
-					{
+			<!-- IF NEEDED -->
+					{ 
 						"@type": "ListItem",
 						"@id": "",
 						"position": 3,
@@ -219,95 +268,36 @@ ALL PAGES HAVE:
 				"@id": "https://labate.io/#brand"
 			}
 		},
-		{
-			"@type": "WPFooter",
-			"@id": "https://labate.io/#footer",
-			"name": "Footer",
-			"cssSelector": ".footer",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"object": "Search",
-				"name": "Search Labate",
-				"description": "Search anything on the Labate website",
-				"mainEntityOfPage": "https://labate.io/search",
-				"target": {
-					"urlTemplate": "https://labate.io/search?query={search_term_string}"
-				},
-				"query-input": "name=search_term_string"
-			},
-			"copyrightHolder": "Labate Group",
-			"copyrightYear": "2022"
-		},
-		
-<!-- ALL STATIC PAGES -->
-
-<!-- / ALL STATIC PAGES -->
 		
 <!-- STATIC PAGE SPECIFIC -->
 		
 	<!-- HOME -->
-
-		
 		
 	<!-- ABOUT -->
-
-		
 		
 	<!-- SERVICES -->
-
-		
 		
 	<!-- PORTFOLIO -->
-
-		
 		
 	<!-- CLIENTS -->
-
-		
 		
 	<!-- DATABASE -->
-
-		
 		
 	<!-- EVENTS -->
-
-		
 		
 	<!-- PUBLIC FIGURES -->
-
-		
 		
 	<!-- ORGANIZATIONS -->
-
-		
 		
 	<!-- FAQ -->
-
-		
 		
 	<!-- BLOG -->
-
-		
 		
 	<!-- CONTACT -->
 
-
-
-<!-- / STATIC PAGE SPECIFIC -->
-		
-<!-- ALL CMS PAGES -->
-		
-			"@type": "WebSite",
-			+++
-			"isPartOf": {
-				"@id": "https://labate.io/{{COLLECTION-URL}}/#collection",
-			},
-		
-<!-- / ALL CMS PAGES -->
-
 <!-- CMS PAGE SPECIFIC -->
 
-	<!-- PORTFOLIO -->
+	<!-- + PORTFOLIO -->
 		
 		{
 			"@type": "CreativeWork",
@@ -339,7 +329,7 @@ ALL PAGES HAVE:
 			"workExample": ""
 		},
 		
-	<!-- TEAM / PUBLIC-FIGURE / CLIENTS -->
+	<!-- + TEAM + PUBLIC-FIGURE + CLIENTS -->
 		
 		{
 			"@type": "Person",
@@ -361,7 +351,7 @@ ALL PAGES HAVE:
 			],
 		}
 		
-	<!-- TEAM -->
+	<!-- + TEAM -->
 		
 				"role": {
 					"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
@@ -381,7 +371,7 @@ ALL PAGES HAVE:
 				],
 			}
 
-	<!-- PUBLIC FIGURE -->
+	<!-- + PUBLIC FIGURE + CLIENTS -->
 		
 				"memberOf": {
 				"@type": "Organization",
@@ -394,7 +384,7 @@ ALL PAGES HAVE:
 					"url": "{{PRIMARY-ORG-LOGO-URL}}"
 				},
 			
-	<!-- CLIENTS -->
+	<!-- + CLIENTS -->
 	
 		{
 			"@type": "UserReview",
@@ -453,7 +443,7 @@ ALL PAGES HAVE:
 			}
 		},
 
-	<!-- ORGANIZATION -->
+	<!-- + ORGANIZATION -->
 		
 		{
 			"@type": "Organization",
@@ -489,7 +479,7 @@ ALL PAGES HAVE:
 			}
 		},
 
-	<!-- EVENT -->
+	<!-- + EVENT -->
 		
 			"@type": "BusinessEvent",
 			"@id": "{{FULL-URL}}/#businessevent",
@@ -549,7 +539,7 @@ ALL PAGES HAVE:
 			}
 		},
 		
-	<!-- FAQ -->
+	<!-- + FAQ (IN PLACE OF "@type": "@WebPage") -->
 		
 		{
 			"@type": "FAQPage",
@@ -590,20 +580,18 @@ ALL PAGES HAVE:
 			}
 		},
 
-	<!-- LANDING -->
+	<!-- + LANDING -->
 	
-		
-	<!-- BLOG -->
+	<!-- + BLOG -->
 		
 			"@type": "BlogPosting",
 			"@id": "{{FULL-URL}}/#blogposting",
 		
-	<!-- PRODUCT -->
+	<!-- + PRODUCT -->
 		
 			"@type": ["ItemPage", "Offer", "Product", "Service", "ServiceType"],
 		
-	<!-- CATEGORY -->
+	<!-- + CATEGORY -->
 		
 			"@type": ["Offer", "OfferCatalog", "ProductCategory", "ServiceCategory", "ServiceType", "Collection"],
-		
-<!-- / CMS PAGE SPECIFIC -->
+	
