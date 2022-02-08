@@ -371,19 +371,140 @@
 
 	<!-- ORGANIZATION -->
 		
+		{
 			"@type": ["WebPage", "Organization"],
 			"@id": "{{FULL-URL}}/#organization",
-		
+			"name": "{{ORGANIZATION-NAME}}",
+			"url": "{{FULL-URL}}",
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "{{ORGANIZATION-URL}}/#logo",
+				"contentUrl": "{{ORGANIZATION-LOGO-URL"
+			},
+			"image": {
+				"@id": "https://labate.io/organizations/acg-connecticut/#primaryimage"
+			},
+			"telephone": "{{ORGANIZATION-PHONE}}",
+			"email": "{{ORGANIZATION-EMAIL}}",
+			"description": "ACG reaches its audience through its content-rich media channels, including its award-winning flagship publication Middle Market Growth®, which dives into emerging trends, GrowthTV which brings those stories to life and its podcasts that provide in-depth conversations with industry thought leaders. ACG's content reaches an average daily audience of 30,000 and receives 1 million impressions monthly. ACG's 13,000 members leverage an array of exclusive benefits rich in dealmaking and networking opportunities and extend to its partnerships with Insperity, Cambridge FX, Grata, Founders Card, CLEAR and more.",
+			"brand": {
+				"@type": "Organization",
+				"name": "ACG Connecticut"
+			},
+			"sameAs": [
+				"",
+				""
+			],
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "",
+				"addressLocality": "",
+				"addressRegion": "CT",
+				"addressCountry": "United States",
+				"postalCode": ""
+			}
+		},
+
 	<!-- EVENT -->
 		
-			"@type": ["WebPage", "BusinessEvent"],
+			"@type": "BusinessEvent",
 			"@id": "{{FULL-URL}}/#businessevent",
+			"name": "{{EVENT TITLE}}",
+			"description": "{{EVENT-DESCRIPTION}}",
+			"inLanguage": "English",
+			"url": "{{FULL-URL}}",
+			"startDate": "2022-01-20T17:00:-05:00",
+			"endDate": "2022-01-20T18:00:-05:00",
+			"image": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting/#primaryimage",
+			"audience": {
+				"@type": "Audience",
+				"name": ""
+			},
+			"duration": "PT1H",
+			"isAccessibleForFree": "",
+			"eventAttendanceMode": "",
+			"eventStatus": "",
+			"location": {
+				"@type": "Place",
+				"name": "{{EVENT-LOCATION-NAME}}",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "",
+					"streetAddress": "",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": ""
+				}
+			},
+			"organizer": {
+				"@type": "Organization",
+				"@id": "{{ORGANIZATION-URL}}/#organization",
+				"name": "{{ORGANIZATION-NAME}}",
+				"url": "{{ORGANIZATION-URL}}",
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "{{ORGANIZATION-URL}}/#logo",
+					"contentUrl": "{{ORGANIZATION-LOGO-URL}}"
+				},
+				"image": {
+					"@type": "ImageObject",
+					"@id": "{{ORGANIZATION-URL}}/#logo}}"
+				},
+				"email": "",
+				"telephone": "",
+				"description": "",
+				"address": {
+					"@type": "PostalAddress",
+					"postalCode": "",
+					"streetAddress": "",
+					"addressCountry": "United States",
+					"addressRegion": "Connecticut",
+					"addressLocality": ""
+				}
+			}
+		},
 		
 	<!-- FAQ -->
 		
+		{
 			"@type": "FAQPage",
 			"@id": "{{FULL-URL}}/#faqpage",
-		
+			"headline": "{{FAQ-TITLE}}",
+			"name": "{{FAQ-TITLE}}",
+			"lastReviewed": "2022-01-28T11:38:03+00:00",
+			"mainEntity": {
+				"@type": "Question",
+				"name": "What is source code?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "<p>Source code is simply the foundational code that makes your website possible. CMS tools like Webflow or WordPress use features to allow for website development without the writing of code. As a user generates content, the code is automatically-written by the CMS. In a browser, to view the source code of any website, simply type \"view-source:\" before any URL, and the browser will display the source code of the website. Example:<br> view-source:https://labate.io</p>"
+				}
+			},
+			"author": {
+				"@type": "Person"
+				"@id": "https://labate.io/team/jake-labate/#person",
+				"name": "Jake Labate",
+				"sameAs": [
+					"https://www.facebook.com/jakelabate",
+					"https://www.instagram.com/jake.labate",
+					"https://www.linkedin.com/in/jakelabate"
+				],
+			},
+			"publisher": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"image": {
+				"@id": "https://labate.io/faqs/what-is-source-code/#primaryimage"
+			},
+			"keywords": [],
+			"inLanguage": "en-US",
+			"relatedLink": "https://labate.io/product/website-development-services",
+			"audience": {
+				"@type": "Audience",
+				"name": ""
+			}
+		},
+
 	<!-- LANDING -->
 		
 			"@type": "WebPage",
