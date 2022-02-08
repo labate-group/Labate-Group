@@ -291,24 +291,43 @@
 						"item": "https://labate.io/{{COLLECTION-SLUG}}/{{ITEM-SLUG}}"
 					}
 				]
-			},
-			"": "",
-			
-			
-			
-			
+			}
 		},
 
 	<!-- PORTFOLIO -->
 		
+		{
 			"@type": ["WebPage", "CreativeWork"],
 			"@id": "{{FULL-URL}}/#creativework",
+			"name": "{{PORTFOLIO-ITEM-TITLE}}",
+			"headline": "",
+			"url": "{{FULL-URL}}",
+			"audience": "",
+			"author": {
+				"@id": ""
+			},
+			"copyrightHolder": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"copyrightNotice": "All Rights Reserved",
+			"copyrightYear": "2022",
+			"creativeWorkStatus": "published",
+			"exampleOfWork": "",
+			"image": "",
+			"inLanguage": "English",
+			"keywords": "",
+			"potentialAction": "",
+			"producer": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"sourceOrganization": {
+				"@id": "https://labate.io/#professionalservice"
+			},
+			"workExample": ""
+		},
 		
 	<!-- TEAM / PUBLIC-FIGURE / CLIENTS -->
-		
-			"@type": ["WebPage", "Person"],
-			"@id": "{{FULL-URL}}/#person",
-	
+
 	<!-- + CLIENTS -->
 	
 		{
