@@ -1,0 +1,19 @@
+		{
+			"@type": "Person",
+			"@id": "{{FULL-URL}}/#person",
+			"name": "{{FULL-NAME}}",
+			"gender": "{{GENDER}}",
+			"url": "{{FULL-URL}}",
+			"email": "{{EMAIL}}",
+			"image": {
+				"@id": "{{FULL-URL}}/#primaryimage",
+				"contentUrl": "{{HEADSHOT-URL}}"
+			},
+			"description": "{{DESCRIPTION}}",
+			"sameAs": [
+				"",
+				"",
+				"",
+				""
+			]
+		}
