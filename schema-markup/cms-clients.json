@@ -28,3 +28,59 @@
 				}
 			}
 		},
+		{
+			"@type": "UserReview",
+			"@id": "{{FULL-URL}}/#userreview",
+			"name": "Labate Group | Clients | Venture One Realty",
+			"reviewBody": "Labate's services are first rate and have been very effective for our company. Would highly recommend for any digital or SEO services.",
+			"reviewAspect": "Labate's services are first rate and have been very effective for our company. Would highly recommend for any digital or SEO services.",
+			"itemReviewed": {
+				"@type": ["Brand", "ProfessionalService"]
+				"name": "Labate Group",
+				"url": "https://labate.io/",
+				"telephone": "203-907-5536"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "{{CLIENT-FULL-NAME}}"
+				"role": {
+					"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
+					"name": "{{CLIENT-TITLE}}",
+					"organization": {
+						"@type": ["Organization", "LocalBusiness"],
+						"name": "{{CLIENT-BUSINESS}}",
+						"url": "{{CLIENT-BUSINESS-URL}}",
+						"logo": {
+							"@type": "ImageObject",
+							"contentUrl": "{{CLIENT-BUSINESS-LOGO-URL}}"
+						}
+					}
+				}
+			},
+			"reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "5 Stars",
+				"worstRating": "5 Stars",
+				"bestRating": "5 Stars"
+			},
+			"positiveNotes": {
+				"@type": "ItemList",
+				"numberOfItems": 2,
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"item": "Labate's services are first rate and have been very effective for our company."
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"item": "Would highly recommend for any digital or SEO services."
+					}
+				]
+			},
+			"isPartOf": {
+				"@id": "{{FULL-URL}}/#webpage",
+				"@id": "https://labate.io/#aggregaterating"
+			}
+		},
