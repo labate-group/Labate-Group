@@ -1,0 +1,33 @@
+		{
+			"@type": "Organization",
+			"@id": "{{FULL-URL}}/#organization",
+			"name": "{{ORGANIZATION-NAME}}",
+			"url": "{{FULL-URL}}",
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "{{ORGANIZATION-URL}}/#logo",
+				"contentUrl": "{{ORGANIZATION-LOGO-URL"
+			},
+			"image": {
+				"@id": "https://labate.io/organizations/{{ORG-SLUG}}/#primaryimage"
+			},
+			"telephone": "{{ORGANIZATION-PHONE}}",
+			"email": "{{ORGANIZATION-EMAIL}}",
+			"description": "ACG reaches its audience through its content-rich media channels, including its award-winning flagship publication Middle Market Growth®, which dives into emerging trends, GrowthTV which brings those stories to life and its podcasts that provide in-depth conversations with industry thought leaders. ACG's content reaches an average daily audience of 30,000 and receives 1 million impressions monthly. ACG's 13,000 members leverage an array of exclusive benefits rich in dealmaking and networking opportunities and extend to its partnerships with Insperity, Cambridge FX, Grata, Founders Card, CLEAR and more.",
+			"brand": {
+				"@type": "Organization",
+				"name": "ACG Connecticut"
+			},
+			"sameAs": [
+				"",
+				""
+			],
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "",
+				"addressLocality": "",
+				"addressRegion": "CT",
+				"addressCountry": "United States",
+				"postalCode": ""
+			}
+		},
