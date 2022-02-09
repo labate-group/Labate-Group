@@ -15,5 +15,16 @@
 				"",
 				"",
 				""
-			]
+			],
+			"memberOf": {
+				"@type": "Organization",
+				"@id": "{{PRIMARY-ORG-URL}}/#organization",
+				"name": "{{PRIMARY-ORGANIZATION-NAME}}",
+				"url": "{{PRIMARY-ORG-URL}}",
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "{{PRIMARY-ORG-URL}}/#logo",
+					"url": "{{PRIMARY-ORG-LOGO-URL}}"
+				}
+			}
 		},
