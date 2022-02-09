@@ -1,0 +1,36 @@
+                {
+			"@type": "WebPage",
+			"@id": "{{FULL-URL}}/#webpage",
+			"url": "{{FULL-URL}}",
+			"name": "{[FULL-PAGE-NAME}}",
+			"headline": "{{FULL-PAGE-NAME}}",
+			"description": "{{META-DESCRIPTION}}",
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "{{FULL-URL}}/#primaryimage",
+				"name": "{{IMAGE-ALT}}",
+				"caption": "{{IMAGE-ALT}}",
+				"contentUrl": "{{IMAGE}}",
+				"representativeOfPage": "true"
+			},
+			"breadcrumb": {
+				"@id": "{{FULL-URL}}/#breadcrumb"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "{{FULL-URL}}"
+			},
+			"keywords": [
+				"{{FULL-PAGE-NAME}}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
