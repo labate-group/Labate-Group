@@ -31,240 +31,199 @@ CMS PAGES HAVE:
 
 <script defer type="application/ld+json">
 {
-	"@context": "https://schema.org",
-	"@graph": [
+        "@context": "https://schema.org",
+        "@graph": [
 		{
-			"@type": ["ProfessionalService", "Brand", "WebSite", "Employer"],
+			"@type": ["ProfessionalService", "Brand", "WebSite"],
 			"name": "Labate Group",
-			"alternateName": ["Labate", "Labate.io" "Labate Marketing", "Labate Software", "Labate Fulfillment"],
-			"slogan": "Marketing, Software, Fulfillment",
-			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
-			"url": "https://labate.io/",
-			"priceRange": "$$$",
-			"openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
-			"telephone": "+1 (203) 907-5536",
-			"email": "contact@labate.io",
-			"image": "https://labate.io/#logo",
-			"logo": {
-				"@type": "imageObject",
-				"@id": "https://labate.io/#logo",
-				"name": "Labate Group Logo",
-				"caption": "Labate Group Logo",
-				"contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
-				"thumbnail": {
-					"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
+            		"alternateName": ["Labate", "Labate.io", "Labate Marketing", "Labate Software", "Labate Fulfillment"],
+            		"slogan": "Marketing, Software, Fulfillment",
+            		"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+            		"url": "https://labate.io/",
+            		"priceRange": "$$$",
+            		"openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
+            		"telephone": "+1 (203) 907-5536",
+            		"email": "contact@labate.io",
+            		"image": "https://labate.io/#logo",
+            		"logo": {
+              			"@type": "imageObject",
+              			"@id": "https://labate.io/#logo",
+              			"name": "Labate Group Logo",
+              			"caption": "Labate Group Logo",
+              			"contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+              			"thumbnail": {
+                			"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
 				},
 				"representativeOfPage": "true"
 			},
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "8 Wright Street, 1st Fl",
-				"addressLocality": "Westport",
-				"addressRegion": "CT",
-				"addressCountry": "United States",
-				"postalCode": "06880"
-			},
-			"geo": {
-				"@type": "GeoCoordinates",
-				"latitude": "41.1404152",
-				"longitude": "-73.3651719"
-			},
-			"areaServed": [
+            		"address": {
+              			"@type": "PostalAddress",
+              			"streetAddress": "8 Wright Street, 1st Fl",
+              			"addressLocality": "Westport",
+              			"addressRegion": "CT",
+              			"addressCountry": "United States",
+              			"postalCode": "06880"
+            		},
+            		"geo": {
+              			"@type": "GeoCoordinates",
+              			"latitude": "41.1404152",
+             			"longitude": "-73.3651719"
+            		},
+            		"areaServed": [
 				{
-					"@type": "AdministrativeArea",
-					"name": "Westport, CT",
-					"sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
-				},
-				{
-					"@type": "AdministrativeArea",
-					"name": "Connecticut, USA",
-					"sameAs": "https://en.wikipedia.org/wiki/Connecticut"
-				},
-				{
-					"@type": "AdministrativeArea",
-					"name": "United States",
-					"sameAs": "https://en.wikipedia.org/wiki/United_States"
-				}
+               				"@type": "AdministrativeArea",
+                			"name": "Westport, CT",
+                			"sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
+              			},
+              			{
+                			"@type": "AdministrativeArea",
+                			"name": "Connecticut, USA",
+                			"sameAs": "https://en.wikipedia.org/wiki/Connecticut"
+              			},
+              			{
+                			"@type": "AdministrativeArea",
+                			"name": "United States",
+                			"sameAs": "https://en.wikipedia.org/wiki/United_States"
+              			}
+            		],
+            		"hasOfferCatalog": {
+              			"@type": ["OfferCatalog", "Collection"],
+              			"name": "Labate Services",
+              			"url": "https://labate.io/services",
+              			"itemListElement": [
+					{
+                  				"@type": ["Offer", "OfferCatalog", "Product", "Service", "ServiceCategory", "Collection"],
+                  				"name": "Marketing Services",
+                  				"brand": "Labate Group",
+                  				"description": "Ready to build your brand with a Grade-A marketing campaign?",
+                  				"url": "https://labate.io/category/marketing-services",
+                  				"availableChannel": [
+                    					"8 Wright Street, 1st Floor, Westport, CT 06880",
+                    					"203-907-5536",
+                    					"https://labate.io/"
+                  				],
+                  				"aggregateRating": {
+                    					"@type": "AggregateRating",
+                    					"ratingValue": "5 Stars",
+                    					"bestRating": "5 Stars",
+                    					"worstRating": "5 Stars",
+                    					"ratingCount": "30"
+                  				}
+                			},
+                			{
+                  				"@type": ["Offer", "OfferCatalog", "Product", "Service", "ServiceCategory", "Collection"],
+                  				"name": "Software Services",
+                  				"brand": "Labate Group",
+                  				"description": "Ready to supercharge your business with industry-leading technology?",
+                  				"url": "https://labate.io/category/software-services",
+                  				"availableChannel": [
+                    					"8 Wright Street, 1st Floor, Westport, CT 06880",
+                    					"203-907-5536",
+                    					"https://labate.io/"
+                  				],
+                  				"aggregateRating": {
+                    					"@type": "AggregateRating",
+                    					"ratingValue": "5 Stars",
+                    					"bestRating": "5 Stars",
+                    					"worstRating": "5 Stars",
+                    					"ratingCount": "30"
+                  				}
+                			},
+                			{
+                  				"@type": ["Offer", "OfferCatalog", "Product", "Service", "ServiceCategory", "Collection"],
+                  				"name": "Fulfillment Services",
+                  				"brand": "Labate Group",
+                  				"description": "Leverage valuable time by outsourcing client work.",
+                  				"url": "https://labate.io/category/fulfillment-services",
+                  				"availableChannel": [
+                    					"8 Wright Street, 1st Floor, Westport, CT 06880",
+                    					"203-907-5536",
+                    					"https://labate.io/"
+                  				],
+                  				"aggregateRating": {
+                    					"@type": "AggregateRating",
+                    					"ratingValue": "5 Stars",
+                    					"bestRating": "5 Stars",
+                    					"worstRating": "5 Stars",
+                    					"ratingCount": "30"
+                  				}
+                			}
+              			]
+            		},
+            		"hasCredential": {
+              			"@type": "EducationalOccupationalCredential",
+              			"url": "https://labate.link/better-business-bureau",
+              			"name": "A+ Better Business Bureau Accreditation Rating",
+              			"description": "Labate is A+ accredited with the Better Business Bureau",
+              			"credentialCategory": {
+                			"@type": "DefinedTerm",
+                			"name": "Accredited"
+              			},
+              			"competencyRequired": {
+                			"@type": "DefinedTerm",
+                			"name": "BBB Accreditation Standards",
+                			"url": "https://www.bbb.org/bbb-accreditation-standards"
+              			}
+            		},
+            		"sameAs": [
+			      "https://labate.link/facebook",
+			      "https://labate.link/instagram",
+			      "https://labate.link/linkedin",
+			      "https://labate.link/twitter",
+			      "https://labate.link/github",
+			      "https://labate.link/linktree",
+			      "https://labate.link/youtube",
+			      "https://labate.link/tiktok",
+			      "https://labate.link/discord",
+			      "https://labate.link/clubhouse",
+			      "https://labate.link/better-business-bureau",
+			      "https://labate.link/greater-norwalk-chamber",
+			      "https://labate.link/fairfield-ct-chamber"
 			],
-			"hasOfferCatalog": {
-				"@type": ["OfferCatalog", "Collection"],
-				"name": "Labate Services",
-				"url": "https://labate.io/services",
-				"availableChannel": [
-					"8 Wright Street, 1st Floor, Westport, CT 06880",
-					"203-907-5536",
-					"https://labate.io/"
-				],
-				"itemListElement": [
-					{
-						"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
-						"name": "Marketing Services",
-						"brand": "Labate Group",
-						"description": "Ready to build your brand with a Grade-A marketing campaign?",
-						"url": "https://labate.io/category/marketing-services",
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "5 Stars",
-							"bestRating": "5 Stars",
-							"worstRating": "5 Stars",
-							"ratingCount": "30"
-						}
-					},
-					{
-						"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
-						"name": "Software Services",
-						"brand": "Labate Group",
-						"description": "Ready to supercharge your business with industry-leading technology?",
-						"url": "https://labate.io/category/software-services",
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "5 Stars",
-							"bestRating": "5 Stars",
-							"worstRating": "5 Stars",
-							"ratingCount": "30"
-						}
-					},
-					{
-						"@type": ["Offer", "OfferCatalog", "Product", "ProductCategory", "Service", "ServiceCategory", "ServiceType", "Collection"],
-						"name": "Fulfillment Services",
-						"brand": "Labate Group",
-						"description": "Leverage valuable time by outsourcing client work.",
-						"url": "https://labate.io/category/fulfillment-services",
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "5 Stars",
-							"bestRating": "5 Stars",
-							"worstRating": "5 Stars",
-							"ratingCount": "30"
-						}
-					}
-				],
-			},
-			"hasCredential": {
-				"@type": "EducationalOccupationalCredential",
-				"url": "https://labate.link/better-business-bureau",
-				"name": "A+ Better Business Bureau Accreditation Rating",
-				"description": "Labate is A+ accredited with the Better Business Bureau",
-				"credentialCategory": {
-					"@type": "DefinedTerm",
-					"name": "Accredited"
-				},
-				"competencyRequired": {
-					"@type": "DefinedTerm",
-					"name": "BBB Accreditation Standards",
-					"url": "https://www.bbb.org/bbb-accreditation-standards"
-				}
-			},
-			"sameAs": [
-				"https://labate.link/facebook",
-				"https://labate.link/instagram",
-				"https://labate.link/linkedin",
-				"https://labate.link/twitter",
-				"https://labate.link/github",
-				"https://labate.link/linktree",
-				"https://labate.link/youtube",
-				"https://labate.link/tiktok",
-				"https://labate.link/discord",
-				"https://labate.link/clubhouse",
-				"https://labate.link/better-business-bureau",
-				"https://labate.link/greater-norwalk-chamber",
-				"https://labate.link/fairfield-ct-chamber"
-			],
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "5 Stars",
-				"bestRating": "5 Stars",
-				"worstRating": "5 Stars",
-				"ratingCount": "30"
-			}	
-		},
-		{
-			"@type": "WPFooter",
-			"@id": "https://labate.io/#footer",
-			"name": "Footer",
-			"cssSelector": ".footer",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"object": "Search",
-				"name": "Search Labate",
-				"description": "Search anything on the Labate website",
-				"mainEntityOfPage": "https://labate.io/search",
-				"target": {
-					"urlTemplate": "https://labate.io/search?query={search_term_string}"
-				},
-				"query-input": "name=search_term_string"
-			},
-			"copyrightHolder": "Labate Group",
-			"copyrightYear": "2022"
-		},
+            		"aggregateRating": {
+              			"@type": "AggregateRating",
+              			"ratingValue": "5 Stars",
+              			"bestRating": "5 Stars",
+              			"worstRating": "5 Stars",
+              			"ratingCount": "30"
+            		}
+          	},
 		
 <!-- ALL PAGES -->
 		
 		{
 			"@type": "WebPage",
-			"@id": "{{FULL-URL}}#webpage",
-			"url": "{{FULL-URL}}",
-			"name": "{{FULL-PAGE-TITLE}}",
-			"headline": "{{PAGE-TITLE}}",
-			"description": "{{META-DESCRIPTION}}",
+			"@id": "https://labate.io/#webpage",
+			"url": "https://labate.io",
+			"name": "The Labate Group | Marketing, Software, Fulfillment Services",
+			"headline": "The Labate Group | Marketing, Software, Fulfillment Services",
+			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
 			"isPartOf": {
 				"@id": "https://labate.io/#website"
 			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "{{FULL-PAGE-URL}}/#primaryimage",
-				"name": "{{IMAGE-ALT}}",
-				"caption": "{{IMAGE-ALT}}",
-				"contentUrl": "{{IMAGE-URL}}",
+				"@id": "https://labate.io/#logo",
+				"name": "Labate Group Logo",
+				"caption": "Labate Group Logo",
+				"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
 				"representativeOfPage": "true"
 			},
 			"breadcrumb": {
-				"@type": "BreadcrumbList",
-				"@id": "{{FULL-URL}}/#breadcrumb",
-				"itemListElement": [
-					{
-						"@type": "ListItem",
-						"@id": "https://labate.io/#breadcrumb",
-						"position": 1,
-						"name": "Home",
-						"item": "https://labate.io/"
-					},
-			<!-- IF NEEDED -->
-					{
-						"@type": "ListItem",
-						"@id": "",
-						"position": 2,
-						"name": "",
-						"item": ""
-					},
-			<!-- IF NEEDED -->
-					{ 
-						"@type": "ListItem",
-						"@id": "",
-						"position": 3,
-						"name": "",
-						"item": ""
-					}
-				]
+				"@id": "https://labate.io/#breadcrumb"
 			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
-				"target": "{{FULL-URL}}"
+				"target": "https://labate.io/"
 			},
-			"image": "",
 			"keywords": [
-				"",
-				"",
-				"",
-				"",
+				"Labate Group"
 			],
 			"author": {
-				"@id": "https://labate.io/#professionalservice",
 				"@id": "https://labate.io/#brand"
 			},
 			"publisher": {
-				"@id": "https://labate.io/#professionalservice",
 				"@id": "https://labate.io/#brand"
 			}
 		},
