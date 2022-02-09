@@ -16,4 +16,20 @@
 				"",
 				""
 			],
+			"role": {
+				"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
+				"name": "{{TEAM-MEMBER-TITLE}}",
+				"employer": {
+					"@type": ["Brand", "ProfessionalSerivce", "WorksFor", "Employer"]
+					"name": "Labate Group",
+					"url": "https://labate.io/"
+				}
+			},
+			"knowsAbout": [
+				"",
+				"",
+				"",
+				"",
+				""
+			]
 		}
