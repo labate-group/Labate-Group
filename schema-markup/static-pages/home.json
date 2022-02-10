@@ -1,1 +1,37 @@
-
+                {
+                        "@type": "WebPage",
+                        "@id": "https://labate.io/#webpage",
+                        "url": "https://labate.io",
+                        "name": "The Labate Group | Marketing, Software, Fulfillment Services",
+                        "headline": "The Labate Group | Marketing, Software, Fulfillment Services",
+                        "description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+                        "isPartOf": {
+                                "@id": "https://labate.io/#website"
+                        },
+                        "primaryImageOfPage": {
+                                "@type": "ImageObject",
+                                "@id": "https://labate.io/#logo",
+                                "name": "Labate Group Logo",
+                                "caption": "Labate Group Logo",
+                                "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+                                "representativeOfPage": "true"
+                        },
+                        "breadcrumb": "https://labate.io/#breadcrumb",
+                        "inLanguage": "en-US",
+                        "potentialAction": {
+                                "@type": "ReadAction",
+                                "target": "https://labate.io/"
+                        },
+                        "keywords": [
+                                "Labate Group"
+                        ],
+                        "author": {
+                                "@id": "https://labate.io/#brand"
+                        },
+                        "publisher": {
+                                "@id": "https://labate.io/#brand"
+                        }
+                }
+        ]
+}
+</script>
