@@ -1,33 +1,4 @@
-ALL PAGES HAVE: <!-- IN GLOBAL HEADER (STATIC SCHEMA RELIVANT TO ALL PAGES) -->
-"@type": ["ProfessionalService", "Brand", "WebSite", "Employer"],
-"@type": "WPFooter",
 
-ALL PAGES HAVE: <!-- IN PAGE HEADER (AS BREADCRUMB AND URL INFO IS DIFFERENT FOR EACH PAGE, SO IT NEEDS TO PULL INDO DYNAMICALLY) -->
-"@type": "WebPage",
-
-CMS PAGES HAVE:
-<!-- PORTFOLIO -->
-"@type": "CreativeWork",
-<!-- TEAM -->
-"@type": "Person",
-<!-- PUBLIC-FIGURE -->
-"@type": "Person",
-<!-- CLIENTS -->
-"@type": "Person",
-"@type": "UserReview",
-<!-- ORGANIZATION -->
-"@type": "Organization",
-<!-- EVENT -->
-"@type": "BusinessEvent",
-<!-- FAQ (IN PLACE OF "@type": "@WebPage") -->
-"@type": "FAQPage",
-<!-- LANDING -->
-<!-- BLOG -->
-"@type": "BlogPosting",
-<!-- PRODUCT -->
-"@type": ["ItemPage", "Offer", "Product", "Service", "ServiceType"],
-<!-- CATEGORY -->
-"@type": ["Offer", "OfferCatalog", "ProductCategory", "ServiceCategory", "ServiceType", "Collection"],
 
 <script defer type="application/ld+json">
 {
