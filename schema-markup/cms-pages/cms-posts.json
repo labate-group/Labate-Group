@@ -1,3 +1,7 @@
                 {
                         "@type": "BlogPosting",
 			"@id": "{{FULL-URL}}/#blogposting",
+		}
+	]
+}
+</script>
