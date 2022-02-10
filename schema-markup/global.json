@@ -157,3 +157,56 @@
               			"ratingCount": "30"
             		}
           	},
+		{	
+			"@type": "WPFooter",
+			"@id": "https://labate.io/#footer",
+			"name": "Footer",
+			"cssSelector": ".footer",
+			"potentialAction": [
+				{
+					"@type": "SearchAction",
+					"actionStatus": "potentialActionStatus",
+					"object": "Search",
+					"name": "Search",
+					"description": "Search anything on the Labate Group website",
+					"mainEntityOfPage": "https://labate.io/search",
+					"target": "https://labate.io/search?query={search_term_string}",
+					"query-input": "name=search_term_string"
+				},
+				{
+					"@type": "SubscribeAction",
+					"actionStatus": "potentialActionStatus",
+					"object": "Newsletter",
+					"name": "Subscribe to Labate Newsletter",
+					"alternateName": "Subscribe to Labate Group Newsletter",
+					"description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
+					"result": "Now subscribed to the newsletter!"
+				}
+			],
+			"logo": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/#logo",
+				"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
+			},
+			"siteNavigatonElement": {
+				"@type": "SiteNavigationElement",
+				"name": "Labate Group | Westport Office",
+				"text": "8 Wright Street, 1st Fl. Westport, CT 06880",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "8 Wright Street, 1st Fl",
+					"addressLocality": "Westport",
+					"addressRegion": "CT",
+					"addressCountry": "United States",
+					"postalCode": "06880"
+				}
+			},
+			"copyrightHolder":"Labate Group",
+			"copyrightYear":"2022",
+			"termsOfService": {
+				"@type":"SiteNavigationElement",
+				"name": "Labate Group | Terms",
+				"text": "Terms",
+				"url": "https://labate.io/utility/terms/"
+			}
+		},
