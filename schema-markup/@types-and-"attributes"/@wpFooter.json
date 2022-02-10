@@ -6,302 +6,42 @@
 	"potentialAction": [
 		{
 			"@type": "SearchAction",
-			"@id": "=====PAGE URL======#search",
 			"actionStatus": "potentialActionStatus",
 			"object": "Search",
-			"name": "Search Labate",
-			"description": "Search anything on the Labate website",
+			"name": "Search",
+			"description": "Search anything on the Labate Group website",
 			"mainEntityOfPage": "https://labate.io/search",
 			"target": "https://labate.io/search?query={search_term_string}",
 			"query-input": "name=search_term_string"
 		},
 		{
 			"@type": "SubscribeAction",
-			"@id": "=====PAGE URL=====#subscribe",
 			"actionStatus": "potentialActionStatus",
 			"object": "Newsletter",
 			"name": "Subscribe to Labate Newsletter",
 			"alternateName": "Subscribe to Labate Group Newsletter",
 			"description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
-			"target": {
-				"httpMethod": "GET"
-			},
-			"mainEntityOfPage": "https://labate.io/subscribe",
 			"result": "Now subscribed to the newsletter!"
 		}
-	],
-	"itemList": {
-		"@type": "ItemList",
-		"numberOfItems": 8,
-		"itemListElement": [
-			{
-				"@type": "ListItem",
-				"position": 1,
-				"name": "Labate Group | Home",
-				"item": {
-					"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Home",
-					"text": "Home",
-          				"url": "https://labate.io/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 2,
-				"name": "Labate Group | About",
-				"item": {
-					"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | About",
-					"text": "About",
-          				"url": "https://labate.io/about/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 3,
-				"name": "Labate Group | Services",
-				"item": {
-          				"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Services",
-					"text": "Services",
-          				"url": "https://labate.io/services/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 4,
-				"name": "Labate Group | Blog",
-				"item": {
-					"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Blog",
-					"text": "Blog",
-          				"url": "https://labate.io/blog/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 5,
-				"name": "Labate Group | Contact",
-				"item": {
-					"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Contact",
-					"text": "Contact",
-          				"url": "https://labate.io/contact/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 6,
-				"name": "Labate Group | Events",
-				"item": {
-					"@type": "SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Events",
-					"text": "Events",
-          				"url": "https://labate.io/events/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 7,
-				"name": "Labate Group | Organizations",
-				"item": {
-					"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Organizations",
-					"text": "Organizations",
-          				"url": "https://labate.io/database/organizations/"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": 8,
-				"name": "Labate Group | Public Figures",
-				"item": {
-					"@type":"SiteNavigationElement",
-					"@id": "#footer",
-          				"name": "Labate Group | Public Figures",
-					"text": "Public Figures",
-          				"url": "https://labate.io/database/public-figures/"
-				}
-			}
-		]
-	},
-	"itemList": {
-		"@type": "ItemList",
-		"name": "Labate Group | Social Media Links",
-		"numberOfItems": 11,
-		"itemListElement": [
-			{
-				"@type": "ListItem",
-				"position": 1,
-				"name": "Labate Group | Facebook",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/facebook"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 2,
-				"name": "Labate Group | Instagram",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/instagram"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 3,
-				"name": "Labate Group | LinkedIn",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/linkedin"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 4,
-				"name": "Labate Group | Twitter",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/twitter"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 5,
-				"name": "Labate Group | Discord",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/discord"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 6,
-				"name": "Labate Group | GitHub",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/github"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 7,
-				"name": "Labate Group | LinkTree",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/linktree"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 8,
-				"name": "Labate Group | YouTube",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/youtube"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 9,
-				"name": "Labate Group | Greater Norwalk Chamber",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/greater-norwalk-chamber"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 10,
-				"name": "Labate Group | Fairfield CT Chamber",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/fairfield-ct-chamber"
-        			}
-			},
-			{
-				"@type": "ListItem",
-				"position": 11,
-				"name": "Labate Group | Better Business Bureau",
-				"item": {
-					"@type": "ProfessionalService",
-					"image": "",
-					"url": "https://labate.link/better-business-bureau"
-        			}
-			}
-		]
-	},
-	"itemList": {
-		"@type": "ItemList",
-		"name": "Labate Group Office Locations",
-		"numberOfItems": 3,
-		"itemListElement": [
-			{
-				"@type": "ListItem",
-				"position": 1,
-				"name": "Labate Group | Shelton Office Location",
-				"text": "4 Research Drive, 4th Fl. Shelton, CT 06484",
-				"item": {
-					"@type": "PostalAddress",
-					"streetAddress": "4 Research Drive, 4th Fl",
-					"addressLocality": "Shelton",
-					"addressRegion": "CT",
-					"addressCountry": "United States",
-					"postalCode": "06484"
-        			}
-      			},
-      			{
-        			"@type": "ListItem",
-        			"position": 2,
-				"name": "Labate Group | Westport Office Location",
-				"text": "8 Wright Street, 1st Fl. Westport, CT 06880",
-        			"item": {
-					"@type": "PostalAddress",
-					"streetAddress": "8 Wright Street, 1st Fl",
-					"addressLocality": "Westport",
-					"addressRegion": "CT",
-					"addressCountry": "United States",
-					"postalCode": "06880"
-        			}
-      			},
-      			{
-        			"@type": "ListItem",
-        			"position": 3,
-				"name": "Labate Group | Greenwich Office Location",
-				"text": "500 W. Putnam Ave E. 4th Fl. Greenwich, CT 06830",
-        			"item": {
-            				"@type": "PostalAddress",
-            				"streetAddress": "500 W. Putnam Ave E. 4th Fl",
-            				"addressLocality": "Greenwich",
-            				"addressRegion": "CT",
-            				"addressCountry": "United States",
-            				"postalCode": "06880"
-        			}
-      			}
-    		]
 	},
 	"logo": {
 		"@type": "ImageObject",
-		"url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
+		"@id": "https://labate.io/#logo",
+		"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
 	},
+	"siteNavigatonElement": {
+        	"@type": "SiteNavigationElement",
+		"name": "Labate Group | Westport Office",
+		"text": "8 Wright Street, 1st Fl. Westport, CT 06880",
+        	"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "8 Wright Street, 1st Fl",
+			"addressLocality": "Westport",
+			"addressRegion": "CT",
+			"addressCountry": "United States",
+			"postalCode": "06880"
+        	}
+      	},
 	"copyrightHolder":"Labate Group",
 	"copyrightYear":"2022",
 	"termsOfService": {
