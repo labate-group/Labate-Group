@@ -23,7 +23,7 @@
 			"description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
 			"result": "Now subscribed to the newsletter!"
 		}
-	},
+	],
 	"logo": {
 		"@type": "ImageObject",
 		"@id": "https://labate.io/#logo",
