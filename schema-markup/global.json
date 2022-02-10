@@ -222,19 +222,12 @@
 				"@id": "https://labate.io/#logo",
 				"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
 			},
-			"brand": [
+			"hasPart": [
 				{
 					"@type": "SiteNavigationElement",
 					"name": "Labate Group | Westport Office",
 					"text": "8 Wright Street, 1st Fl. Westport, CT 06880",
-					"address": {
-						"@type": "PostalAddress",
-						"streetAddress": "8 Wright Street, 1st Fl",
-						"addressLocality": "Westport",
-						"addressRegion": "CT",
-						"addressCountry": "United States",
-						"postalCode": "06880"
-					}
+					"url": "https://labate.link/google"
 				},
 				{
 					"@type": "SiteNavigationElement",
