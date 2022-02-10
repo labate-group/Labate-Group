@@ -217,7 +217,7 @@
 					"result": "Now subscribed to the newsletter!"
 				}
 			],
-			"logo": {
+			"image": {
 				"@type": "ImageObject",
 				"@id": "https://labate.io/#logo",
 				"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
