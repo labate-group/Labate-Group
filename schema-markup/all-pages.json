@@ -1,4 +1,11 @@
-                {
+Variables in this schema snippet:
+{{FULL-URL}}
+{{FULL-PAGE-TITLE}}
+{{PAGE-IMAGE}}
+{{PAGE-IMAGE-ALT}}
+{{META-DESCRIPTION}}
+
+	{
 			"@type": "WebPage",
 			"@id": "{{FULL-URL}}/#webpage",
 			"url": "{{FULL-URL}}",
@@ -16,9 +23,6 @@
 				"contentUrl": "{{IMAGE}}",
 				"representativeOfPage": "true"
 			},
-			"breadcrumb": {
-				"@id": "{{FULL-URL}}/#breadcrumb"
-			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
@@ -33,4 +37,36 @@
 			"publisher": {
 				"@id": "https://labate.io/#brand"
 			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				}
+			]
 		},
