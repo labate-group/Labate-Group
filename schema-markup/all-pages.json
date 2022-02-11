@@ -18,9 +18,9 @@ Variables in this schema snippet:
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "{{FULL-URL}}/#primaryimage",
-				"name": "{{IMAGE-ALT}}",
-				"caption": "{{IMAGE-ALT}}",
-				"contentUrl": "{{IMAGE}}",
+				"name": "{{PAGE-IMAGE-ALT}}",
+				"caption": "{{PAGE-IMAGE-ALT}}",
+				"contentUrl": "{{PAGE-IMAGE}}",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
