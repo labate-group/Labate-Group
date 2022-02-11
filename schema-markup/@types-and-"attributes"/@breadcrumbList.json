@@ -1,49 +1,32 @@
 {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement":
-    [
-        {
-        "@type": "ListItem",
-        "position": 1,
-        "item":
-            {
-            "@id": "https://labate.io/services",
-            "name": "Services",
-            "potentialAction": "",
-            "sameAs": [
-            	""
-            ],
-            "url": "https://labate.io/services"
-            }
-        },
-        {
-        "@type": "ListItem",
-        "position": 2,
-        "item":
-            {
-            "@id": "https://labate.io/category/marketing-services",
-            "name": "Marketing Services",
-            "potentialAction": "",
-            "sameAs": [
-            	""
-            ],
-            "url": "https://labate.io/category/makrketing-services"
-            }
-        },
-        {
-        "@type": "ListItem",
-        "position": 3,
-        "item":
-            {
-            "@id": "https://labate.io/product/email-marketing-services",
-            "name": "Email Marketing Services",
-            "potentialAction": "",
-            "sameAs": [
-            	""
-            ],
-            "url": "https://labate.io/product/email-marketing-services"
-            }
-        }
-    ]
-}
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                                "@id": "{{FULL-URL}}/#breadcrumb",
+                                "url": "{{FULL-URL}}",
+                                "name": "{{FULL-PAGE-TITLE}}"
+                        }
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                                "@id": "{{FULL-URL}}/#breadcrumb",
+                                "url": "{{FULL-URL}}",
+                                "name": "{{FULL-PAGE-TITLE}}"
+                        }
+                },
+                {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                                "@id": "{{FULL-URL}}/#breadcrumb",
+                                "url": "{{FULL-URL}}",
+                                "name": "{{FULL-PAGE-TITLE}}"
+                        }
+                }
+        ]
+},
