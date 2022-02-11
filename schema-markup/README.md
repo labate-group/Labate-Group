@@ -1,53 +1,54 @@
-All schemas pull 4 sections from the /master-template.json file to construct a full schema.
+# Schema Markup Page Construction:
 
-## Static Page Construction:
-(in this order)
-- Global Schema
-- All Pages Schema
-- Specific Static Page Schema
+## Global.json Schema
+- (No variable editing needed. This is a globally used static schema on ALL pages.)
 
-## CMS Page Construction:
-(in this order)
-- Global Schema
-- All Pages Schema
-- Specific CMS Page Schema
+## All Pages Schema
+- (Variable editing needed. This calls for page-specific variable-values.)
 
-GLOBAL
-- "@type": ["ProfessionalService", "Brand", "WebSite"],
-- "@type": "WPFooter",
+## Specific Page Schema
+- (Variable editing needed. This calls for page-specific variable-values.)
 
-ALL PAGES
-- "@type": "WebPage",
+### GLOBAL
+- @ProfessionalService, @Brand, @WebSite
+- @WPFooter
 
-PORTFOLIO
-- "@type": "CreativeWork",
+### ALL PAGES
+- @WebPage
+- @BreadcrumbList
 
-TEAM MEMBERS
-- "@type": "Person",
+## CMS PAGES
 
-PUBLIC-FIGURES
-- "@type": "Person",
+### PORTFOLIO
+- @CreativeWork
 
-CLIENTS
-- "@type": "Person",
-- "@type": "UserReview",
+### TEAM MEMBERS
+- @Person
 
-ORGANIZATIONS
-- "@type": "Organization",
+### PUBLIC-FIGURES
+- @Person
 
-EVENTS
-- "@type": "BusinessEvent",
+### CLIENTS
+- @Person
+- @UserReview
 
-FAQ (IN PLACE OF "@type": "@WebPage"
-- "@type": "FAQPage",
+### ORGANIZATIONS
+- @Organization
 
-LANDING
+### EVENTS
+- @BusinessEvent
 
-BLOGS
-- "@type": "BlogPosting",
+### TIPS
+-
 
-SERVICES
-- "@type": ["ItemPage", "Offer", "Product", "Service", "ServiceType"],
+### LANDING
+-
 
-CATEGORIES
-- "@type": ["Offer", "OfferCatalog", "ProductCategory", "ServiceCategory", "ServiceType", "Collection"],
+### POSTS
+- @BlogPosting
+
+### SERVICES
+- @ItemPage, @Offer, @Product, @Service, @ServiceType
+
+### CATEGORIES
+- @Offer, @OfferCatalog, @ProductCategory, @ServiceCategory, @ServiceType, @Collection
