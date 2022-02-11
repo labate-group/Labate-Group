@@ -155,7 +155,7 @@
 			},
 			"hasCredential": {
 				"@type": "EducationalOccupationalCredential",
-				"url": "https://labate.link/better-business-bureau",
+				"url": "https://labate.link/bbb",
 				"name": "A+ Better Business Bureau Accreditation Rating",
 				"description": "Labate is A+ accredited with the Better Business Bureau",
 				"credentialCategory": {
@@ -179,9 +179,9 @@
 				"https://labate.link/tiktok",
 				"https://labate.link/discord",
 				"https://labate.link/clubhouse",
-				"https://labate.link/better-business-bureau",
-				"https://labate.link/greater-norwalk-chamber",
-				"https://labate.link/fairfield-ct-chamber"
+				"https://labate.link/bbb",
+				"https://labate.link/norwalk-chamber",
+				"https://labate.link/fairfield-chamber"
 			],
 			"aggregateRating": {
 				"@type": "AggregateRating",
