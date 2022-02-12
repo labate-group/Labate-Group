@@ -31,7 +31,21 @@
                         "publisher": {
                                 "@id": "https://labate.io/#brand"
                         }
-                }
+                },
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io",
+						"name": "Labate Group | Homepage"
+					}
+				}
+			]
+		}
         ]
 }
 </script>
