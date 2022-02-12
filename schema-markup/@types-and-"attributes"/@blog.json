@@ -2,7 +2,7 @@
                         "@type": "Blog",
                         "@id": "https://labate.io/blog/#blog",
                         "headline":"Labate Group Blog",
-                        "description":"Looking after everything Structured Data",
+                        "description":"",
                         "url":"https://labate.io/blog/",
                         "blogPosting":[
                                 {"@id": "https://labate.io/posts/schema-markup-for-website-developers/#blogposting"},
