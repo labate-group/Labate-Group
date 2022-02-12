@@ -1,1 +1,73 @@
-
+                {
+                        "@type": "Blog",
+                        "@id": "https://labate.io/blog/#blog",
+                        "headline":"Labate Group Blog",
+                        "description":"Looking after everything Structured Data",
+                        "url":"https://labate.io/blog/",
+                        "blogPosting":[
+                                {"@id": "https://labate.io/posts/schema-markup-for-website-developers/#blogposting"},
+                                {"@id": "https://labate.io/posts/fairfield-county-networking-event-solution/#blogposting"}
+                        ]
+                },
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/blog/#webpage",
+			"url": "https://labate.io/blog/",
+			"name": "Blog",
+			"headline": "Labate Group | Blog",
+			"description": "",
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "{{FULL-URL}}/#primaryimage",
+				"name": "{{PAGE-IMAGE-ALT}}",
+				"caption": "{{PAGE-IMAGE-ALT}}",
+				"contentUrl": "{{PAGE-IMAGE}}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/blog/"
+			},
+			"keywords": [
+				"Labate Blog",
+                                "Labate Group Blog",
+                                "Labate Marketing Blog",
+                                "Labate Company Blog"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io",
+						"name": "Labate Group | Homepage"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/blog/#breadcrumb",
+						"url": "https://labate.io/blog",
+						"name": "Labate Group | Blog"
+					}
+				}
+			]
+		}
+        ]
+}
+</script>
