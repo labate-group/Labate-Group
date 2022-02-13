@@ -70,6 +70,7 @@
 					"OfferCatalog",
 					"Collection"
 				],
+				"@id": "https://labate.io/services/",
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
 				"itemListElement": [
@@ -82,8 +83,14 @@
 							"ServiceCategory",
 							"Collection"
 						],
+						"@id": "https://labate.io/category/marketing-services/",
 						"name": "Marketing Services",
-						"brand": "Labate Group",
+						"brand": {
+							"@type": "Brand",
+							"@id": "https://labate.io/#brand",
+							"url": "https://labate.io/",
+							"name": "Labate Group"
+						},
 						"description": "Ready to build your brand with a Grade-A marketing campaign?",
 						"url": "https://labate.io/category/marketing-services",
 						"availableChannel": [
@@ -108,8 +115,14 @@
 							"ServiceCategory",
 							"Collection"
 						],
+						"url": "https://labate.io/category/software-services",
 						"name": "Software Services",
-						"brand": "Labate Group",
+						"brand": {
+							"@type": "Brand",
+							"@id": "https://labate.io/#brand",
+							"url": "https://labate.io/",
+							"name": "Labate Group"
+						},
 						"description": "Ready to supercharge your business with industry-leading technology?",
 						"url": "https://labate.io/category/software-services",
 						"availableChannel": [
@@ -134,8 +147,14 @@
 							"ServiceCategory",
 							"Collection"
 						],
+						"url": "https://labate.io/category/fulfillment-services",
 						"name": "Fulfillment Services",
-						"brand": "Labate Group",
+						"brand": {
+							"@type": "Brand",
+							"@id": "https://labate.io/#brand",
+							"url": "https://labate.io/",
+							"name": "Labate Group"
+						},
 						"description": "Leverage valuable time by outsourcing client work.",
 						"url": "https://labate.io/category/fulfillment-services",
 						"availableChannel": [
