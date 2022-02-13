@@ -70,6 +70,7 @@
 					"OfferCatalog",
 					"Collection"
 				],
+				"@id": "https://labate.io/services/",
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
 				"itemListElement": [
@@ -82,10 +83,16 @@
 							"ServiceCategory",
 							"Collection"
 						],
-						"name": "Marketing Services",
-						"brand": "Labate Group",
-						"description": "Ready to build your brand with a Grade-A marketing campaign?",
+						"@id": "https://labate.io/category/marketing-services/",
 						"url": "https://labate.io/category/marketing-services",
+						"name": "Marketing Services",
+						"brand": {
+							"@type": "Brand",
+							"@id": "https://labate.io/#brand",
+							"url": "https://labate.io/",
+							"name": "Labate Group"
+						},
+						"description": "Ready to build your brand with a Grade-A marketing campaign?",
 						"availableChannel": [
 							"8 Wright Street, 1st Floor, Westport, CT 06880",
 							"203-907-5536",
@@ -108,10 +115,16 @@
 							"ServiceCategory",
 							"Collection"
 						],
-						"name": "Software Services",
-						"brand": "Labate Group",
-						"description": "Ready to supercharge your business with industry-leading technology?",
+						"@id": "https://labate.io/category/software-services",
 						"url": "https://labate.io/category/software-services",
+						"name": "Software Services",
+						"brand": {
+							"@type": "Brand",
+							"@id": "https://labate.io/#brand",
+							"url": "https://labate.io/",
+							"name": "Labate Group"
+						},
+						"description": "Ready to supercharge your business with industry-leading technology?",
 						"availableChannel": [
 							"8 Wright Street, 1st Floor, Westport, CT 06880",
 							"203-907-5536",
@@ -134,10 +147,16 @@
 							"ServiceCategory",
 							"Collection"
 						],
-						"name": "Fulfillment Services",
-						"brand": "Labate Group",
-						"description": "Leverage valuable time by outsourcing client work.",
+						"@id": "https://labate.io/category/fulfillment-services",
 						"url": "https://labate.io/category/fulfillment-services",
+						"name": "Fulfillment Services",
+						"brand": {
+							"@type": "Brand",
+							"@id": "https://labate.io/#brand",
+							"url": "https://labate.io/",
+							"name": "Labate Group"
+						},
+						"description": "Leverage valuable time by outsourcing client work.",
 						"availableChannel": [
 							"8 Wright Street, 1st Floor, Westport, CT 06880",
 							"203-907-5536",
