@@ -1,0 +1,24 @@
+Structure:
+- Hook
+- Body
+- CTA
+- Link (use link shortener)
+- Hashtags
+
+Platforms:
+
+Facebook
+
+Instagram
+- Use square or vertical image
+- Do NOT include link
+
+LinkedIn
+
+Google My Business
+- No hashtags
+- Add "Learn More" button with shortened link
+
+Twitter:
+- Shorten to fit character limit
+- Still must include CTA and Link
