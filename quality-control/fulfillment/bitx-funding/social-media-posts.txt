@@ -1,11 +1,13 @@
-Structure:
+=======================================
+Structure 
 - Hook
 - Body
 - CTA
 - Link (use link shortener)
 - Hashtags
 
-Platforms:
+=======================================
+Platforms
 
 Facebook
 
@@ -19,6 +21,6 @@ Google My Business
 - No hashtags
 - Add "Learn More" button with shortened link
 
-Twitter:
+Twitter
 - Shorten to fit character limit
 - Still must include CTA and Link
