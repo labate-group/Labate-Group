@@ -70,7 +70,7 @@
 					"OfferCatalog",
 					"Collection"
 				],
-				"@id": "https://labate.io/services/",
+				"@id": "https://labate.io/services/#offers",
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
 				"itemListElement": [
@@ -83,7 +83,7 @@
 							"ServiceCategory",
 							"Collection"
 						],
-						"@id": "https://labate.io/category/marketing-services/",
+						"@id": "https://labate.io/category/marketing-services/#offer",
 						"url": "https://labate.io/category/marketing-services",
 						"name": "Marketing Services",
 						"brand": {
@@ -115,7 +115,7 @@
 							"ServiceCategory",
 							"Collection"
 						],
-						"@id": "https://labate.io/category/software-services",
+						"@id": "https://labate.io/category/software-services/#offer",
 						"url": "https://labate.io/category/software-services",
 						"name": "Software Services",
 						"brand": {
@@ -147,7 +147,7 @@
 							"ServiceCategory",
 							"Collection"
 						],
-						"@id": "https://labate.io/category/fulfillment-services",
+						"@id": "https://labate.io/category/fulfillment-services/#offer",
 						"url": "https://labate.io/category/fulfillment-services",
 						"name": "Fulfillment Services",
 						"brand": {
