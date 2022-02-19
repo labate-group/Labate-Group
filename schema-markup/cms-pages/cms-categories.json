@@ -1,9 +1,20 @@
 		{
-                  	"@type": ["Offer", "OfferCatalog", "Product", "Service", "ServiceCategory", "Collection"],
-                  	"name": "Marketing Services",
-                  	"brand": "Labate Group",
-                  	"description": "Ready to build your brand with a Grade-A marketing campaign?",
-                  	"url": "https://labate.io/category/marketing-services",
+                  	"@type": ["OfferCatalog", "ServiceCategory", "Collection"],
+			"url": "{{SERIVCE-CATEGORY-URL}}",
+			"mainEntityOfPage": {
+				"@type": "Url",
+				"@id": "{{SERVICE-CATEGORY-URL}}/#Url",
+				"name": "{{SERVICE-CAREGORY-URL}}"
+			},
+                  	"name": "{{SERVICE-CATEGORY}}",
+                  	"description": "{{SERVICE-CATEGORY-DESCRIPTION}}",
+                  	"brand": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand"
+				"url": "https://labate.io",
+				"logo": "https://labate.io/#logo",
+				"name": "Labate Group"
+			},
                   	"availableChannel": [
                     		"8 Wright Street, 1st Floor, Westport, CT 06880",
                     		"203-907-5536",
@@ -11,12 +22,10 @@
                   	],
                   	"aggregateRating": {
                     		"@type": "AggregateRating",
+				"@id": "{{SERVICE-CATALOG-URL}}/#aggregaterating",
                     		"ratingValue": "5 Stars",
                     		"bestRating": "5 Stars",
                     		"worstRating": "5 Stars",
-                    		"ratingCount": "30"
+                    		"ratingCount": "31"
                   	}
-                },
-	]
-}
-</script>
+		}
