@@ -9,7 +9,7 @@
 			"endDate": "2022-01-20T18:00:-05:00",
 			"image": "https://labate.io/events/hayvn-young-professionals-entrepreneurs-group-hype-kick-off-meeting/#primaryimage",
 			"audience": {
-				"@type": "Audience",
+				"@type": "BusinessAudience",
 				"name": ""
 			},
 			"duration": "PT1H",
