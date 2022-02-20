@@ -1,8 +1,0 @@
-{
-  	"@type": "BuyAction",
-	"object": {
-    		"@type": "Service",
-    		"name": ""
-  	},
-  	"priceCurrency": "USD"
-}
