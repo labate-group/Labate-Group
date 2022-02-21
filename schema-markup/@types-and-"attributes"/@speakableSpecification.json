@@ -1,8 +1,0 @@
-{
-	"@context":"http://schema.org",
-	"@type": "SpeakableSpecification",
-	"cssSelector": [
-			".speakable",
-			".voice-search"
-	]
-}
