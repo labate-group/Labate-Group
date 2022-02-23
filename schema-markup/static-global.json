@@ -19,6 +19,10 @@
 			"slogan": "Marketing, Software, Fulfillment",
 			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
 			"url": "https://labate.io/",
+			"about": {
+				"@type": "AboutPage",
+				"@id": "https://labate.io/about/#aboutpage"
+			},
 			"priceRange": "$$$",
 			"currenciesAccepted": "USD",
 			"paymentAccepted": "Cash, Credit Card, Bank Transfer, Check, Cryptocurrency",
@@ -32,7 +36,7 @@
 				},
 				{
 					"@type": "WebPage",
-					"@id" "https://labate.io/#website"
+					"@id": "https://labate.io/#website"
 				}
 			],
 			"subjectOf": [
