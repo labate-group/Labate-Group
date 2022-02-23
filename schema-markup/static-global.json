@@ -32,8 +32,7 @@
 				"contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
 				"thumbnail": {
 					"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
-				},
-				"representativeOfPage": "true"
+				}
 			},
 			"address": {
 				"@type": "PostalAddress",
@@ -41,13 +40,16 @@
 				"addressLocality": "Westport",
 				"addressRegion": "CT",
 				"addressCountry": "United States",
-				"postalCode": "06880"
+				"postalCode": "06880",
+                                "telephone": "203-907-5536"
 			},
 			"geo": {
 				"@type": "GeoCoordinates",
+                                "@id": "https://labate.io/#geocoordinates",
 				"latitude": "41.1404152",
 				"longitude": "-73.3651719"
 			},
+                        "hasMap":
 			"areaServed": [
 				{
 					"@type": "AdministrativeArea",
@@ -66,11 +68,8 @@
 				}
 			],
 			"hasOfferCatalog": {
-				"@type": [
-					"OfferCatalog",
-					"Collection"
-				],
-				"@id": "https://labate.io/services/",
+				"@type": "OfferCatalog"
+				"@id": "https://labate.io/services/#offercatalog",
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
 				"itemListElement": [
@@ -214,10 +213,17 @@
 			"@type": "WPFooter",
 			"@id": "https://labate.io/#footer",
 			"name": "Footer",
+                        "isPartOf": [
+                                {
+                                        "@type": "WebSite",
+                                        "@id": "https://labate.io/#website"
+                                }
+                        ],
 			"cssSelector": ".footer",
 			"potentialAction": [
 				{
 					"@type": "SearchAction",
+                                        "@id": "https://labate.io/#searchaction",
 					"actionStatus": "potentialActionStatus",
 					"object": "Search",
 					"name": "Search",
@@ -228,6 +234,7 @@
 				},
 				{
 					"@type": "SubscribeAction",
+                                        "@id": "https://labate.io/#subscribeaction",
 					"actionStatus": "potentialActionStatus",
 					"object": "Newsletter",
 					"name": "Subscribe to Labate Newsletter",
@@ -239,6 +246,9 @@
 			"image": {
 				"@type": "ImageObject",
 				"@id": "https://labate.io/#logo",
+                                "name": "Labate Group Logo",
+                                "caption": "Labate Group Logo",
+                                "description": "Labate Group Logo",
 				"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
 			},
 			"hasPart": [
@@ -256,5 +266,6 @@
 				}
 			],
 			"copyrightHolder": "Labate Group",
-			"copyrightYear": "2022"
+			"copyrightYear": "2022",
+                        "copyrightNotice": "All Rights Reserved"
 		},
