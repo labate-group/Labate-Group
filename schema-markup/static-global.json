@@ -21,8 +21,19 @@
 			"url": "https://labate.io/",
 			"priceRange": "$$$",
 			"openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
+			"author": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand",
+				"name": "Labate Group"
+			},
 			"telephone": "+1 (203) 907-5536",
 			"email": "contact@labate.io",
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"@id": "https://labate.io/#contactpoint",
+				"telephone": "203-907-5536",
+				"email": "contact@labate.io"
+			},
 			"image": "https://labate.io/#logo",
 			"logo": {
 				"@type": "imageObject",
@@ -41,7 +52,7 @@
 				"addressRegion": "CT",
 				"addressCountry": "United States",
 				"postalCode": "06880",
-                                "telephone": "203-907-5536"
+				"telephone": "203-907-5536"
 			},
 			"geo": {
 				"@type": "GeoCoordinates",
@@ -49,12 +60,21 @@
 				"latitude": "41.1404152",
 				"longitude": "-73.3651719"
 			},
-                        "hasMap":
 			"areaServed": [
 				{
 					"@type": "AdministrativeArea",
 					"name": "Westport, CT",
 					"sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
+				},
+				{
+					"@type": "AdministrativeArea",
+					"name": "Fairfield, CT",
+					"sameAs": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut"
+				},
+				{
+					"@type": "AdministrativeArea",
+					"name": "Norwalk, CT",
+					"sameAs": "https://en.wikipedia.org/wiki/Norwalk,_Connecticut"
 				},
 				{
 					"@type": "AdministrativeArea",
@@ -72,6 +92,11 @@
 				"@id": "https://labate.io/services/#offercatalog",
 				"name": "Labate Services",
 				"url": "https://labate.io/services",
+				"availableChannel": [
+					"8 Wright Street, 1st Floor, Westport, CT 06880",
+					"203-907-5536",
+					"https://labate.io/"
+				],
 				"itemListElement": [
 					{
 						"@type": [
@@ -102,7 +127,7 @@
 							"ratingValue": "5 Stars",
 							"bestRating": "5 Stars",
 							"worstRating": "5 Stars",
-							"ratingCount": "30"
+							"ratingCount": "31"
 						}
 					},
 					{
@@ -134,7 +159,7 @@
 							"ratingValue": "5 Stars",
 							"bestRating": "5 Stars",
 							"worstRating": "5 Stars",
-							"ratingCount": "30"
+							"ratingCount": "31"
 						}
 					},
 					{
@@ -166,7 +191,7 @@
 							"ratingValue": "5 Stars",
 							"bestRating": "5 Stars",
 							"worstRating": "5 Stars",
-							"ratingCount": "30"
+							"ratingCount": "31"
 						}
 					}
 				]
@@ -176,6 +201,13 @@
 				"url": "https://labate.link/bbb",
 				"name": "A+ Better Business Bureau Accreditation Rating",
 				"description": "Labate is A+ accredited with the Better Business Bureau",
+				"image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61db5cf9c462165a0229dc89_bbb_icon.png",
+				"sourceOrganization": {
+					"@type": "Organization",
+					"@id": "https://bbb.com/#organization",
+					"name": "Better Busienss Bureau",
+					"url": "https://bbb.com"
+				},
 				"credentialCategory": {
 					"@type": "DefinedTerm",
 					"name": "Accredited"
@@ -206,7 +238,7 @@
 				"ratingValue": "5 Stars",
 				"bestRating": "5 Stars",
 				"worstRating": "5 Stars",
-				"ratingCount": "30"
+				"ratingCount": "31"
 			}
 		},
 		{
@@ -230,7 +262,8 @@
 					"description": "Search anything on the Labate Group website",
 					"mainEntityOfPage": "https://labate.io/search",
 					"target": "https://labate.io/search?query={search_term_string}",
-					"query-input": "name=search_term_string"
+					"query-input": "name=search_term_string",
+					"result": "Agent has searched the Labate Group website"
 				},
 				{
 					"@type": "SubscribeAction",
@@ -240,7 +273,7 @@
 					"name": "Subscribe to Labate Newsletter",
 					"alternateName": "Subscribe to Labate Group Newsletter",
 					"description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
-					"result": "Now subscribed to the newsletter!"
+					"result": "Agent is now subscribed to the Labate Group newsletter"
 				}
 			],
 			"image": {
@@ -257,15 +290,23 @@
 					"name": "Labate Group | Westport Office",
 					"text": "8 Wright Street, 1st Fl. Westport, CT 06880",
 					"url": "https://labate.link/google"
+					"isPartOf": {
+						"@type": "WPFooter",
+						"@id": "https://labate.io/#footer"
+					}
 				},
 				{
 					"@type": "SiteNavigationElement",
 					"name": "Labate Group | Terms",
 					"text": "Terms",
 					"url": "https://labate.io/utility/terms/"
+					"isPartOf": {
+						"@type": "WPFooter",
+						"@id": "https://labate.io/#footer"
+					}
 				}
 			],
 			"copyrightHolder": "Labate Group",
 			"copyrightYear": "2022",
-                        "copyrightNotice": "All Rights Reserved"
+			"copyrightNotice": "All Rights Reserved"
 		},
