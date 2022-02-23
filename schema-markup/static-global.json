@@ -157,6 +157,11 @@
 				},
 				{
 					"@type": "AdministrativeArea",
+					"name": "Fairfield County, Connecticut",
+					"sameAs": "https://en.wikipedia.org/wiki/Fairfield_County,_Connecticut"
+				},
+				{
+					"@type": "AdministrativeArea",
 					"name": "Connecticut, USA",
 					"sameAs": "https://en.wikipedia.org/wiki/Connecticut"
 				},
