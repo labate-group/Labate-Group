@@ -21,7 +21,8 @@
 			"url": "https://labate.io/",
 			"about": {
 				"@type": "AboutPage",
-				"@id": "https://labate.io/about/#aboutpage"
+				"@id": "https://labate.io/about/#aboutpage",
+				"url": "https://labate.io/about"
 			},
 			"priceRange": "$$$",
 			"currenciesAccepted": "USD",
