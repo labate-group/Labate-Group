@@ -20,13 +20,84 @@
 			"description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
 			"url": "https://labate.io/",
 			"priceRange": "$$$",
+			"currenciesAccepted": "USD",
+			"paymentAccepted": "Cash, Credit Card, Bank Transfer, Check, Cryptocurrency",
 			"openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
+			"knowsLanguage": ["English", "Spanish"],
+			"inLanguage": "English",
+			"mainEntityOfPage": [
+				{
+					"@type": "AboutPage",
+					"@id": "https://labate.io/about/#aboutpage"
+				},
+				{
+					"@type": "WebPage",
+					"@id" "https://labate.io/#website"
+				}
+			],
+			"subjectOf": [
+				{
+					"@type": "ContactPage",
+					"@id": "https://labate.io/contact/#contactpage"
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://labate.io/#website"
+				}
+			],
+			"mentions": [
+				"Marketing Company",
+				"Marketing Firm",
+				"Marketing Agency",
+				"Social Media Marketing Serivces",
+				"Website Development Services",
+				"Search Engine Optimization Services",
+				"Email Marketing Services",
+				"Graphic Design Serivces",
+				"Copywriting Serivces",
+				"Marketing Automation Services",
+				"Marketing Software Serivces",
+				"Marketing Fulfillment Serivces",
+				"Schema Markup Services"
+			],
+			"keywords": [	
+				"Marketing Company",
+				"Marketing Firm",
+				"Marketing Agency",
+				"Social Media Marketing Serivces",
+				"Website Development Services",
+				"Search Engine Optimization Services",
+				"Email Marketing Services",
+				"Graphic Design Serivces",
+				"Copywriting Serivces",
+				"Marketing Automation Services",
+				"Marketing Software Serivces",
+				"Marketing Fulfillment Serivces"
+				"Schema Markup Services"
+			],
+			"knowsAbout": [
+				"Marketing",
+				"Social Media Marketing",
+				"Website Development",
+				"Search Engine Optimization",
+				"Email Marketing",
+				"Graphic Design",
+				"Copywriting",
+				"Marketing Automation",
+				"Marketing Software",
+				"Marketing Fulfillment"
+			],
+			"piblisher": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand",
+				"name": "Labate Group"
+			},
 			"author": {
 				"@type": "Brand",
 				"@id": "https://labate.io/#brand",
 				"name": "Labate Group"
 			},
-			"telephone": "+1 (203) 907-5536",
+			"telephone": "203-907-5536",
 			"email": "contact@labate.io",
 			"contactPoint": {
 				"@type": "ContactPoint",
@@ -40,6 +111,7 @@
 				"@id": "https://labate.io/#logo",
 				"name": "Labate Group Logo",
 				"caption": "Labate Group Logo",
+				"description": "Labate Group Logo",
 				"contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
 				"thumbnail": {
 					"contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
@@ -47,6 +119,7 @@
 			},
 			"address": {
 				"@type": "PostalAddress",
+				"@id": "https://labate.io/#postaladdress",
 				"streetAddress": "8 Wright Street, 1st Fl",
 				"addressLocality": "Westport",
 				"addressRegion": "CT",
@@ -60,12 +133,9 @@
 				"latitude": "41.1404152",
 				"longitude": "-73.3651719"
 			},
+			"place": "https://labate.io/#place",
+			"hasMap": "https://www.google.com/maps/place/Labate+Group/@41.1404152,-73.3673606,17z/data=!3m1!4b1!4m5!3m4!1s0x89e811e47f7e15bf:0xc175de0c92934f9e!8m2!3d41.1404152!4d-73.3651719",
 			"areaServed": [
-				{
-					"@type": "AdministrativeArea",
-					"name": "Westport, CT",
-					"sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
-				},
 				{
 					"@type": "AdministrativeArea",
 					"name": "Fairfield, CT",
@@ -75,6 +145,11 @@
 					"@type": "AdministrativeArea",
 					"name": "Norwalk, CT",
 					"sameAs": "https://en.wikipedia.org/wiki/Norwalk,_Connecticut"
+				},
+				{
+					"@type": "AdministrativeArea",
+					"name": "Westport, CT",
+					"sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
 				},
 				{
 					"@type": "AdministrativeArea",
@@ -233,6 +308,38 @@
 				"https://labate.link/norwalk-chamber",
 				"https://labate.link/fairfield-chamber"
 			],
+			"memberOf": [
+				{
+					"@type": "Organization",
+					"@id": "https://fairfieldctchamber.com/#organization",
+					"url": "https://fairfieldctchamber.com",
+					"name": "Fairfield CT Chamber of Commerce"
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://greaternorwalkchamber.com/#organization",
+					"url": "https://greaternorwalkchamber.com/",
+					"name": "Greater Norwalk Chamber of Commerce"
+				},	
+				{
+					"@type": "Organization",
+					"@id": "https://fairfieldctchamber.com/felo/#organization",
+					"url": "https://fairfieldctchamber.com/felo",
+					"name": "Fairfield Emerging Leaders Organization"
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://fairfieldctchamber.com/about-us/leads-group//#organization",
+					"url": "https://fairfieldctchamber.com/about-us/leads-group/",
+					"name": "Fairfield Leads Group"
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://bbb.com/#organization",
+					"url": "https://bbb.com/",
+					"name": "Better Business Bureau"
+				}
+			],
 			"aggregateRating": {
 				"@type": "AggregateRating",
 				"ratingValue": "5 Stars",
@@ -308,5 +415,6 @@
 			],
 			"copyrightHolder": "Labate Group",
 			"copyrightYear": "2022",
-			"copyrightNotice": "All Rights Reserved"
+			"copyrightNotice": "All Rights Reserved",
+			"creditText": "Copyright © 2022 | Labate Group | All Rights Reserved"
 		},
