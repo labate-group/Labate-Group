@@ -1,4 +1,70 @@
 		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Public Figures | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;public-figure-bio&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/public-figures/#collection"}	 
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Headshot",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Headshot",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;public-figure-headshot&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			},
+			"keywords": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Database, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Public Figure, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/public-figures/#breadcrumb",
+						"url": "https://labate.io/public-figures",
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					}
+				}
+			]
+		},
+		{
 			"@type": "Organization",
 			"@id": "{{FULL-URL}}/#organization",
 			"name": "{{ORGANIZATION-NAME}}",
@@ -24,12 +90,19 @@
 			],
 			"address": {
 				"@type": "PostalAddress",
+				"@id": "https://labate.io/organization/-----/#postaladdress",
 				"streetAddress": "",
 				"addressLocality": "",
 				"addressRegion": "CT",
-				"addressCountry": "United States",
 				"postalCode": ""
-			}
+				"addressCountry": "United States",
+			},
+			"member": [
+				{
+					"@type": "Person",
+					"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#person"
+				},
+			]
 		}
 	]
 }
