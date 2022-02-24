@@ -1,4 +1,71 @@
 		{
+			"@type": "WebPage",
+			"@id": "{{FULL-URL}}/#webpage",
+			"url": "{{FULL-URL}}",
+			"name": "{[FULL-PAGE-NAME}}",
+			"headline": "{{FULL-PAGE-NAME}}",
+			"description": "{{META-DESCRIPTION}}",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "{{FULL-URL}}/#primaryimage",
+				"name": "{{PAGE-IMAGE-ALT}}",
+				"caption": "{{PAGE-IMAGE-ALT}}",
+				"contentUrl": "{{PAGE-IMAGE}}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "{{FULL-URL}}"
+			},
+			"keywords": [
+				"{{FULL-PAGE-NAME}}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				}
+			]
+		},
+<! -- ALL-PAGE-VARIABLES / COLLECTION-TYPE-SPECIFIC BREAK -->
+		{
 			"@type": "Person",
 			"@id": "{{FULL-URL}}/#person",
 			"name": "{{FULL-NAME}}",
