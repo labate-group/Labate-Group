@@ -1,4 +1,4 @@
-                		{
+                {
 			"@type": "WebPage",
 			"@id": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
 			"url": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
