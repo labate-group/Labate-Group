@@ -1,32 +1,32 @@
 		{
 			"@type": "WebPage",
-			"@id": "https://labate.io/public-figures//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
-			"url": "https://labate.io/public-figures//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"name": "Labate Group | Event | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Public Figures | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"description": "{{wf {&quot;path&quot;:&quot;event-description-2&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;public-figure-bio&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
-				{"@id": "https://labate.io/events/#collection"}	 
+				{"@id": "https://labate.io/public-figures/#collection"}	 
 			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
-				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-				"contentUrl": "{{wf {&quot;path&quot;:&quot;event-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Headshot",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Headshot",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;public-figure-headshot&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
-				"target": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+				"target": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			},
 			"keywords": [
 				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;event-organization:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
         			"Labate Database, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-        			"Labate Events, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+        			"Labate Public Figure, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
@@ -50,50 +50,50 @@
 					"@type": "ListItem",
 					"position": 2,
 					"item": {
-						"@id": "https://labate.io/events/#breadcrumb",
-						"url": "https://labate.io/events",
+						"@id": "https://labate.io/public-figures/#breadcrumb",
+						"url": "https://labate.io/public-figures",
 					}
 				},
 				{
 					"@type": "ListItem",
 					"position": 3,
 					"item": {
-						"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
-						"url": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 					}
 				}
 			]
 		},
 		{
 			"@type": "Person",
-			"@id": "{{FULL-URL}}/#person",
-			"name": "{{FULL-NAME}}",
-			"gender": "{{GENDER}}",
-			"url": "{{FULL-URL}}",
-			"email": "{{EMAIL}}",
+			"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#person",
+			"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"gender": "{{wf {&quot;path&quot;:&quot;public-figure-gender&quot;,&quot;type&quot;:&quot;Option&quot;\} }}",
+			"url": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"email": "{{wf {&quot;path&quot;:&quot;public-figure-contact-email&quot;,&quot;type&quot;:&quot;Email&quot;\} }}",
 			"image": {
-				"@id": "{{FULL-URL}}/#primaryimage",
-				"contentUrl": "{{HEADSHOT-URL}}"
+				"@id": "https://labate.io/public-figures/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;public-figure-headshot&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
 			},
-			"description": "{{DESCRIPTION}}",
+			"description": "{{wf {&quot;path&quot;:&quot;public-figure-bio&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"sameAs": [
-				"",
-				"",
-				"",
-				""
+				"{{wf {&quot;path&quot;:&quot;public-figure-facebook-profile&quot;,&quot;type&quot;:&quot;Link&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;public-figure-instagram-profile&quot;,&quot;type&quot;:&quot;Link&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;public-figure-linkedin-profile&quot;,&quot;type&quot;:&quot;Link&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;public-figure-twitter-profile&quot;,&quot;type&quot;:&quot;Link&quot;\} }}"
 			],
 			"memberOf": {
 				"@type": "Organization",
-				"@id": "{{PRIMARY-ORG-URL}}/#organization",
-				"name": "{{PRIMARY-ORGANIZATION-NAME}}",
-				"url": "{{PRIMARY-ORG-URL}}",
+				"@id": "https://labate.io/organizations/{{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#organization",
+				"name": "{{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"url": "https://labate.io/organizations/{{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"logo": {
 					"@type": "ImageObject",
-					"@id": "{{PRIMARY-ORG-URL}}/#logo",
-					"url": "{{PRIMARY-ORG-LOGO-URL}}"
+					"@id": "https://labate.io/organization/{{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#logo",
+          				"contentUrl": "{{wf {&quot;path&quot;:&quot;public-figure-primary-organizationc:organization-logo&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
 				}
 			}
-		},
+		}
 	]
 }
 </script>
