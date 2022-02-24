@@ -1,5 +1,6 @@
 Variables in this schema snippet:
 {{FULL-URL}}
+{{COLLECTION-SLUG}}
 {{FULL-PAGE-TITLE}}
 {{PAGE-IMAGE}}
 {{PAGE-IMAGE-ALT}}
@@ -12,8 +13,9 @@ Variables in this schema snippet:
 			"name": "{[FULL-PAGE-NAME}}",
 			"headline": "{{FULL-PAGE-NAME}}",
 			"description": "{{META-DESCRIPTION}}",
-			"isPartOf": {
-				"@id": "https://labate.io/#website"
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
 			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
@@ -52,7 +54,7 @@ Variables in this schema snippet:
 				},
 				{
 					"@type": "ListItem",
-					"position": 1,
+					"position": 2,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
 						"url": "{{FULL-URL}}",
@@ -61,7 +63,7 @@ Variables in this schema snippet:
 				},
 				{
 					"@type": "ListItem",
-					"position": 1,
+					"position": 3,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
 						"url": "{{FULL-URL}}",
