@@ -1,29 +1,31 @@
 		{
 			"@type": "WebPage",
-			"@id": "{{FULL-URL}}/#webpage",
-			"url": "{{FULL-URL}}",
-			"name": "{[FULL-PAGE-NAME}}",
-			"headline": "{{FULL-PAGE-NAME}}",
-			"description": "{{META-DESCRIPTION}}",
+			"@id": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Team Member | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;team-about-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
-				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
+				{"@id": "https://labate.io/team/#collection"}	 
 			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "{{FULL-URL}}/#primaryimage",
-				"name": "{{PAGE-IMAGE-ALT}}",
-				"caption": "{{PAGE-IMAGE-ALT}}",
-				"contentUrl": "{{PAGE-IMAGE}}",
+				"@id": "{{wf {&quot;path&quot;:&quot;team-profile-picture&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Headshot",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Headshot",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;team-profile-picture&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
-				"target": "{{FULL-URL}}"
+				"target": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			},
 			"keywords": [
-				"{{FULL-PAGE-NAME}}"
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;team-job-title&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+       				"{{wf {&quot;path&quot;:&quot;team-job-title&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, Labate Group"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
@@ -39,66 +41,51 @@
 					"@type": "ListItem",
 					"position": 1,
 					"item": {
-						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}",
-						"name": "{{FULL-PAGE-NAME}}"
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
 					}
 				},
 				{
 					"@type": "ListItem",
 					"position": 2,
 					"item": {
-						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}",
-						"name": "{{FULL-PAGE-NAME}}"
+						"@id": "https://labate.io/team/#breadcrumb",
+						"url": "https://labate.io/team",
 					}
 				},
 				{
 					"@type": "ListItem",
 					"position": 3,
 					"item": {
-						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}",
-						"name": "{{FULL-PAGE-NAME}}"
+						"@id": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 					}
 				}
 			]
 		},
-<! -- ALL-PAGE-VARIABLES / COLLECTION-TYPE-SPECIFIC BREAK -->
 		{
 			"@type": "Person",
-			"@id": "{{FULL-URL}}/#person",
-			"name": "{{FULL-NAME}}",
-			"gender": "{{GENDER}}",
-			"url": "{{FULL-URL}}",
-			"email": "{{EMAIL}}",
+			"@id": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#person",
+			"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"url": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"image": {
-				"@id": "{{FULL-URL}}/#primaryimage",
-				"contentUrl": "{{HEADSHOT-URL}}"
+				"@id": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
 			},
-			"description": "{{DESCRIPTION}}",
+			"description": "{{wf {&quot;path&quot;:&quot;team-about-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"sameAs": [
-				"",
-				"",
-				"",
-				""
+				"{{wf {&quot;path&quot;:&quot;team-facebook-link&quot;,&quot;type&quot;:&quot;Link&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;team-instagram-link&quot;,&quot;type&quot;:&quot;Link&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;team-twitter-link&quot;,&quot;type&quot;:&quot;Link&quot;\} }}",
 			],
 			"role": {
 				"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
-				"name": "{{TEAM-MEMBER-TITLE}}",
+				"name": "{{wf {&quot;path&quot;:&quot;team-job-title&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"employer": {
-					"@type": ["Brand", "ProfessionalSerivce", "WorksFor", "Employer"]
+					"@type": "ProfessionalSerivce",
 					"name": "Labate Group",
-					"url": "https://labate.io/"
+          				"@id": "https://labate.io/#professionalservice"
 				}
-			},
-			"knowsAbout": [
-				"",
-				"",
-				"",
-				"",
-				""
-			]
+			}
 		}
 	]
 }
