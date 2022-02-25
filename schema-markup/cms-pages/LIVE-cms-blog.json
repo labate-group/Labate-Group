@@ -74,7 +74,7 @@
 			"articleBody": "",
 			"abstract": "{{wf {&quot;path&quot;:&quot;blog-post-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"description": "{{wf {&quot;path&quot;:&quot;blog-post-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"assosiatedMedia": "",
+			"assosiatedMedia": "{{wf {&quot;path&quot;:&quot;image-horizontal&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
 			"inLanguage": "English",
 			"isFamilyFriendly": "true",
 			"mainEntityOfPage": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
