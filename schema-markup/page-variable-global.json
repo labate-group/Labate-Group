@@ -16,7 +16,7 @@ Variables in this schema snippet:
 			"description": "{{META-DESCRIPTION}}",
 			"hasPart": [
 				{"@id": "https://labate.io/#header"},
-				{"@id": "https://labate.io/footer"}
+				{"@id": "https://labate.io/#footer"}
 			],
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
