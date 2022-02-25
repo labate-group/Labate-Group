@@ -70,29 +70,30 @@
 			"name": "{{PORTFOLIO-ITEM-TITLE}}",
 			"headline": "",
 			"url": "{{FULL-URL}}",
-			"audience": "",
+			"audience": {
+				"@type": "BusinessAudience",
+				"@id": "https://labate.io/portfolio/-----/#businessaudience"
+			},
 			"author": {
-				"@id": ""
+				"@type": "Person",
+				"@id": "https://labate.io/team/-----/#person"
 			},
 			"copyrightHolder": {
 				"@id": "https://labate.io/#professionalservice"
 			},
 			"copyrightNotice": "All Rights Reserved",
 			"copyrightYear": "2022",
-			"creativeWorkStatus": "published",
 			"exampleOfWork": "",
 			"image": "",
 			"inLanguage": "English",
 			"keywords": "",
-			"potentialAction": "",
 			"producer": {
 				"@id": "https://labate.io/#professionalservice"
 			},
 			"sourceOrganization": {
 				"@id": "https://labate.io/#professionalservice"
-			},
-			"workExample": ""
-		},
+			}
+		}
 	]
 }
 </script>
