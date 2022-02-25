@@ -1,4 +1,5 @@
 Variables in this schema snippet:
+
 {{FULL-URL}}
 {{COLLECTION-SLUG}}
 {{FULL-PAGE-TITLE}}
@@ -13,6 +14,10 @@ Variables in this schema snippet:
 			"name": "{[FULL-PAGE-NAME}}",
 			"headline": "{{FULL-PAGE-NAME}}",
 			"description": "{{META-DESCRIPTION}}",
+			"hasPart": [
+				{"@id": "https://labate.io/#header"},
+				{"@id": "https://labate.io/footer"}
+			],
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
@@ -28,6 +33,7 @@ Variables in this schema snippet:
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
+				"@id": "{{FULL-URL}}/#readaction",
 				"target": "{{FULL-URL}}"
 			},
 			"keywords": [
@@ -48,8 +54,7 @@ Variables in this schema snippet:
 					"position": 1,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}",
-						"name": "{{FULL-PAGE-NAME}}"
+						"url": "{{FULL-URL}}"
 					}
 				},
 				{
@@ -57,8 +62,7 @@ Variables in this schema snippet:
 					"position": 2,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}",
-						"name": "{{FULL-PAGE-NAME}}"
+						"url": "{{FULL-URL}}"
 					}
 				},
 				{
@@ -66,8 +70,7 @@ Variables in this schema snippet:
 					"position": 3,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}",
-						"name": "{{FULL-PAGE-NAME}}"
+						"url": "{{FULL-URL}}"
 					}
 				}
 			]
