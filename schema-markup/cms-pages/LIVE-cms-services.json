@@ -8,7 +8,7 @@
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/product/#collection"},
-        			{"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog"},
+        			{"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog"}
 			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
