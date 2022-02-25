@@ -1,0 +1,56 @@
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/services/#webpage",
+			"url": "https://labate.io/services",
+			"name": "Labate Group | Services",
+			"headline": "Services",
+			"description": "",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/services/#collection"}	 
+			],
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/services"
+			},
+			"keywords": [
+				"Labate Services",
+                                "Labate Group Services",
+                                "Marketing Services",
+                                "Digital Marketing Services"
+                                "Marketing Services Westport",
+                                "Marketing Services Fairfield County, CT",
+                                "Marketing Services Connecticut"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/services/#breadcrumb",
+						"url": "https://labate.io/services",
+					}
+				}
+			]
+		}
+        ]
+}
+</script>
