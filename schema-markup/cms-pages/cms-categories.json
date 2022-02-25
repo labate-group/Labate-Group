@@ -1,4 +1,69 @@
 		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Blog | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;blog-post-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/blog/#collection"}	 
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;image-horizontal&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			},
+			"keywords": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Blog, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Group, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/blog/#breadcrumb",
+						"url": "https://labate.io/blog",
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					}
+				}
+			]
+		},
+		{
                   	"@type": ["OfferCatalog", "ServiceCategory", "Collection"],
 			"url": "{{SERIVCE-CATEGORY-URL}}",
 			"mainEntityOfPage": {
@@ -29,3 +94,6 @@
                     		"ratingCount": "31"
                   	}
 		}
+	]
+}
+</script>
