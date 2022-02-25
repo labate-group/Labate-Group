@@ -1,32 +1,31 @@
 		{
 			"@type": "FAQPage",
-			"@id": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
-			"url": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"name": "Labate Group | Event | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | FAQs | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"description": "{{wf {&quot;path&quot;:&quot;event-description-2&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
-				{"@id": "https://labate.io/events/#collection"}	 
-			},
+				{"@id": "https://labate.io/faqs/#collection"}	 
+			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
+				"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
 				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-				"contentUrl": "{{wf {&quot;path&quot;:&quot;event-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
-				"target": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+				"target": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			},
 			"keywords": [
 				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-                                "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;event-organization:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-                                "Labate Database, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-                                "Labate Events, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+        			"{{wf {&quot;path&quot;:&quot;service-category:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }},
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
@@ -37,13 +36,18 @@
 			"hasPart": [
 				{
 					"@type": "Question",
-					"@id": "",
-					"": ""
+					"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#question",
+					"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+          				"hasPart": {
+          					"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#answer"
+          				}
 				},
 				{
 					"@type": "Answer",
-					"@id": "",
-					"": ""
+					"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#answer",
+          				"isPartOf": {
+          					"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#question"
+          				}
 				}
 			]
 		},
@@ -62,20 +66,20 @@
 					"@type": "ListItem",
 					"position": 2,
 					"item": {
-						"@id": "https://labate.io/events/#breadcrumb",
-						"url": "https://labate.io/events",
+						"@id": "https://labate.io/faqs/#breadcrumb",
+						"url": "https://labate.io/faqs",
 					}
 				},
 				{
 					"@type": "ListItem",
 					"position": 3,
 					"item": {
-						"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
-						"url": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"@id": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/faqs/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 					}
 				}
 			]
 		}
-        ]
+  	]
 }
 </script>
