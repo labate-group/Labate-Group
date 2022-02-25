@@ -8,7 +8,7 @@
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/events/#collection"}	 
-			},
+			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
