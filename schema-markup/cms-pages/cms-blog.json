@@ -1,0 +1,69 @@
+                {
+                        "@type": "BlogPosting",
+			"@id": "{{FULL-URL}}/#blogposting",
+			"name": "",
+			"headline": "",
+			"url": "",
+			"image": "{{BLOG IMAGE}}",
+			"sharedContent": "",
+			"articleBody": "",
+			"abstract": "",
+			"description": "",
+			"assosiatedMedia": "",
+			"inLanguage": "English",
+			"isFamilyFriendly": "true",
+			"mainEntityOfPage": "https://labate.io/blog/------",
+			"isPartOf": [
+				{"@id": "https://labate.io/blog/#blog"},
+				{"@id": "https://labate.io/blog/#collection"}
+				{"@id": "https://labate.io/blog/------/#webpage"
+			},
+			"audience": {
+				"@type": "BusinessAudience",
+				"@id": "https://labate.io/blog/-----/#businessaudience"
+			},
+			"author": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/-------/#person"
+			},
+			"contributor": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/jake-labate/#person"
+			},
+			"editor": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/jake-labate/#person"
+			},
+			"maintainer": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand"
+			},
+			"copyrightHolder": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/jake-labate/#person"
+			},
+			"publisher": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand"
+			},
+			"datePublished": "",
+			"dateModified": "",
+			"subjectOf": "{{RELATED SERVICE URL}}",
+			"teacher": [
+				"",
+				""
+			],
+			"mentions": [
+				"",
+				""
+			],
+			"keywords": [
+				"",
+				"",
+				""
+			],
+			
+		}
+	]
+}
+</script>
