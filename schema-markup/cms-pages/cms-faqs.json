@@ -1,5 +1,5 @@
 		{
-			"@type": "WebPage",
+			"@type": "FAQPage",
 			"@id": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
 			"url": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"name": "Labate Group | Event | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
@@ -33,7 +33,19 @@
 			},
 			"publisher": {
 				"@id": "https://labate.io/#brand"
-			}
+			},
+			"hasPart": [
+				{
+					"@type": "Question",
+					"@id": "",
+					"": ""
+				},
+				{
+					"@type": "Answer",
+					"@id": "",
+					"": ""
+				}
+			]
 		},
 		{
 			"@type": "BreadcrumbList",
@@ -63,11 +75,7 @@
 					}
 				}
 			]
-		},
-                {
-                        "@type": "FAQPage",
-                        "@id": "",
-                }
+		}
         ]
 }
 </script>
