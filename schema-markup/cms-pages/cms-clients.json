@@ -1,4 +1,70 @@
 		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Event | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;event-description-2&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/events/#collection"}	 
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;event-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			},
+			"keywords": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;event-organization:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Database, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Events, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/events/#breadcrumb",
+						"url": "https://labate.io/events",
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					}
+				}
+			]
+		},
+		{
 			"@type": "Person",
 			"@id": "{{FULL-URL}}/#person",
 			"name": "{{FULL-NAME}}",
