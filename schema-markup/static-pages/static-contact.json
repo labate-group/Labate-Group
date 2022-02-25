@@ -1,1 +1,68 @@
-
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/contact/#webpage",
+			"url": "https://labate.io/contact/",
+			"name": "Labate Group | Contact",
+			"headline": "Contact",
+			"description": "",
+                        "contactPoint": {
+                                "@type": "ContactPoint",
+                                "@id": "https://labate.io/contact/#contactpoint"
+                        },
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/contact/#primaryimage",
+				"name": "Contact Labate Group",
+				"caption": "Contact Labate Group",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/contact/"
+			},
+			"keywords": [
+                                "Contact The Labate Group",
+                                "Contact Labate Marketing"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+                                        }
+				},
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/contact/#breadcrumb",
+						"url": "https://labate.io/contact"
+                                        }
+				}
+			]
+		},
+                {
+                        "@type": "ContactPoint",
+                        "@id": "https://labate.io/contact/#contactpoint",
+                        "telephone": "203-907-5536",
+                        "email": "contact@labate.io"
+                }
+	]
+}
+</script>
