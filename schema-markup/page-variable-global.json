@@ -21,7 +21,7 @@ Variables in this schema snippet:
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
-			},
+			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "{{FULL-URL}}/#primaryimage",
