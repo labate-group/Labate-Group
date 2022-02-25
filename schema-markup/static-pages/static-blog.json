@@ -1,19 +1,8 @@
-                {
-                        "@type": "Blog",
-                        "@id": "https://labate.io/blog/#blog",
-                        "headline":"Labate Group Blog",
-                        "description":"Looking after everything Structured Data",
-                        "url":"https://labate.io/blog/",
-                        "blogPosting":[
-                                {"@id": "https://labate.io/posts/schema-markup-for-website-developers/#blogposting"},
-                                {"@id": "https://labate.io/posts/fairfield-county-networking-event-solution/#blogposting"}
-                        ]
-                },
 	        {
 			"@type": "WebPage",
 			"@id": "https://labate.io/blog/#webpage",
 			"url": "https://labate.io/blog/",
-			"name": "Blog",
+			"name": "Labate Group Blog",
 			"headline": "Labate Group | Blog",
 			"description": "",
 			"isPartOf": {
@@ -21,10 +10,10 @@
 			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "{{FULL-URL}}/#primaryimage",
-				"name": "{{PAGE-IMAGE-ALT}}",
-				"caption": "{{PAGE-IMAGE-ALT}}",
-				"contentUrl": "{{PAGE-IMAGE}}",
+				"@id": "https://labate.io/blog/#primaryimage",
+				"name": "Labate Group Blog",
+				"caption": "Labate Group Blog",
+				"contentUrl": "",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
@@ -67,7 +56,14 @@
 					}
 				}
 			]
-		}
-        ]
+		},
+                {
+                        "@type": "Blog",
+                        "@id": "https://labate.io/blog/#blog",
+			"name": "Labate Group Blog"
+                        "headline":"Labate Group Blog",
+                        "url":"https://labate.io/blog/"
+                }
+	]
 }
 </script>
