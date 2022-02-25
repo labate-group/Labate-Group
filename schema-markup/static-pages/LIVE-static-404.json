@@ -8,14 +8,6 @@
 			"isPartOf": {
 				"@id": "https://labate.io/#website"
 			},
-			"primaryImageOfPage": {
-				"@type": "ImageObject",
-				"@id": "{{FULL-URL}}/#primaryimage",
-				"name": "{{PAGE-IMAGE-ALT}}",
-				"caption": "{{PAGE-IMAGE-ALT}}",
-				"contentUrl": "{{PAGE-IMAGE}}",
-				"representativeOfPage": "true"
-			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
