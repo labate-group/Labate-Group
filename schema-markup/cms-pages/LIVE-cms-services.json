@@ -1,32 +1,32 @@
 		{
 			"@type": "WebPage",
-			"@id": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
-			"url": "https://labate.io/events//{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"name": "Labate Group | Event | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"description": "{{wf {&quot;path&quot;:&quot;event-description-2&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
-				{"@id": "https://labate.io/events/#collection"}	 
+				{"@id": "https://labate.io/product/#collection"}
+        			{"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog",
 			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
+				"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
 				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-				"contentUrl": "{{wf {&quot;path&quot;:&quot;event-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;default-sku:main-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
-				"target": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+				"target": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			},
 			"keywords": [
 				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-                                "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;event-organization:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-                                "Labate Database, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-                                "Labate Events, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;product-category:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
@@ -50,26 +50,29 @@
 					"@type": "ListItem",
 					"position": 2,
 					"item": {
-						"@id": "https://labate.io/events/#breadcrumb",
-						"url": "https://labate.io/events",
+						"@id": "https://labate.io/product/#breadcrumb",
+						"url": "https://labate.io/product",
 					}
 				},
 				{
 					"@type": "ListItem",
 					"position": 3,
 					"item": {
-						"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
-						"url": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 					}
 				}
 			]
 		},
                 {
                   	"@type": ["Offer", "OfferCatalog", "Product", "Service", "ServiceCategory", "Collection"],
-                  	"name": "Fulfillment Services",
-                  	"brand": "Labate Group",
-                  	"description": "Leverage valuable time by outsourcing client work.",
-                  	"url": "https://labate.io/category/fulfillment-services",
+                  	"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+                  	"brand": {
+                    		"@type": "Brand",
+                      		"@id": "https://labate.io/#brand"
+                     	},
+                  	"description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+                  	"url": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
                   	"availableChannel": [
                     		"8 Wright Street, 1st Floor, Westport, CT 06880",
                     		"203-907-5536",
