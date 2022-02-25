@@ -1,1 +1,82 @@
-
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/search/#webpage",
+			"url": "https://labate.io/search/",
+			"name": "Labate Group | Search",
+			"headline": "Search",
+			"description": "Search for anything on the Labate Group website",
+                        "hasPart": {
+                                "@type": "SearchAction",
+                                "@id": "https://labate.io/search/#searchaction"
+                        },
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/search/#primaryimage",
+				"name": "Search The Labate Group",
+				"caption": "Search The Labate Group",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+                        "potentialAction": {
+                                "@type": "SearchAction",
+                                "@id": "https://labate.io/#searchaction",
+                                "actionStatus": "potentialActionStatus",
+                                "object": "Search",
+                                "name": "Search",
+                                "description": "Search anything on the Labate Group website",
+                                "mainEntityOfPage": "https://labate.io/search",
+                                "target": "https://labate.io/search?query={search_term_string}",
+                                "query-input": "name=search_term_string",
+                                "result": "Agent has searched the Labate Group website"
+                        },
+			"keywords": [
+                                "Search The Labate Group",
+                                "Search Labate"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+                                        }
+				},
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/search/#breadcrumb",
+						"url": "https://labate.io/search"
+                                        }
+				}
+			]
+		},
+                {
+                        "@type": "SearchAction",
+                        "@id": "https://labate.io/#searchaction",
+                        "actionStatus": "potentialActionStatus",
+                        "object": "Search",
+                        "name": "Search",
+                        "description": "Search anything on the Labate Group website",
+                        "mainEntityOfPage": "https://labate.io/search",
+                        "target": "https://labate.io/search?query={search_term_string}",
+                        "query-input": "name=search_term_string",
+                        "result": "Agent has searched the Labate Group website"
+                }
+	]
+}
+</script>
