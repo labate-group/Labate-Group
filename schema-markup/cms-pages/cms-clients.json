@@ -83,8 +83,8 @@
 				""
 			],
 			"memberOf": {
-				"@type": "Organization",
-				"@id": "{{PRIMARY-ORG-URL}}/#organization",
+				"@type": "LocalBusiness",
+				"@id": "{{PRIMARY-ORG-URL}}/#localbusiness",
 				"name": "{{PRIMARY-ORGANIZATION-NAME}}",
 				"url": "{{PRIMARY-ORG-URL}}",
 				"logo": {
@@ -93,6 +93,12 @@
 					"url": "{{PRIMARY-ORG-LOGO-URL}}"
 				}
 			}
+		},
+		{
+			"@type": "LocalBusiness",
+			"@id": "",
+			"name": "",
+			"url": ""
 		},
 		{
 			"@type": "UserReview",
