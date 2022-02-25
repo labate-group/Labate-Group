@@ -24,8 +24,7 @@
 			},
 			"keywords": [
 				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-        			"{{wf {&quot;path&quot;:&quot;service-category:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }},
-				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+        			"{{wf {&quot;path&quot;:&quot;service-category:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
