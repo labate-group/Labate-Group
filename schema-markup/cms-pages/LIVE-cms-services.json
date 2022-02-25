@@ -1,15 +1,15 @@
 		{
 			"@type": "WebPage",
-			"@id": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
-			"url": "https://labate.io/events/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"name": "Labate Group | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
-				{"@id": "https://labate.io/product/#collection"}
-        			{"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog",
-			},
+				{"@id": "https://labate.io/product/#collection"},
+        			{"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog"},
+			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
