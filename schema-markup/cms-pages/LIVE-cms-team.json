@@ -8,7 +8,7 @@
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/team/#collection"}	 
-			},
+			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "{{wf {&quot;path&quot;:&quot;team-profile-picture&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}#primaryimage",
