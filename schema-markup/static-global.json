@@ -1,7 +1,74 @@
     <script defer type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [{
+        "@graph": [
+                {
+                        "@type": "WPHeader",
+                        "@id": "https://labate.io/#header",
+                        "name": "Header",
+                        "associatedMedia": {
+                                "@type": "ImageObject",
+                                "@id": "https://labate.io/#logo"
+                        },
+                        "creativeWorkStatus": "published",
+                        "cssSelector": ".nav",
+                        "hasPart": [
+                                {
+                                        "@type": "SiteNavigationElement",
+                                        "name": "Home",
+                                        "text": "Home",
+                                        "isPartOf": "https://labate.io/#header",
+                                         "url": "https://labate.io"
+                                },
+                                {
+                                        "@type": "SiteNavigationElement",
+                                        "name": "About",
+                                        "text": "About",
+                                        "isPartOf": "https://labate.io/#header",
+                                        "url": "https://labate.io/about"
+                                },
+                                {
+                                        "@type": "SiteNavigationElement",
+                                        "name": "Services",
+                                        "text": "Services",
+                                        "isPartOf": "https://labate.io/#header",
+                                         "url": "https://labate.io/services"
+                                },
+                                {
+                                        "@type": "SiteNavigationElement",
+                                        "name": "Database",
+                                        "text": "Database",
+                                        "isPartOf": "https://labate.io/#header",
+                                        "url": "https://labate.io/database"
+                                },
+                                {
+                                        "@type": "SiteNavigationElement",
+                                        "name": "Blog",
+                                        "text": "Blog",
+                                        "isPartOf": "https://labate.io/#header",
+                                        "url": "https://labate.io/blog"
+                                },
+                                {
+                                        "@type": "SiteNavigationElement",
+                                        "name": "Contact",
+                                        "text": "Contact",
+                                        "isPartOf": "https://labate.io/#header",
+                                        "url": "https://labate.io/contact"
+                                }
+                        ],
+                        "image": {
+                                "@type": "ImageObject",
+                                "@id": "https://labate.io/#logo"
+                        },
+  	                "inLanguage": "us-EN",
+                        "isFamilyFriendly": "true",
+                        "isPartOf": "https://labate.io/#website",
+	                "sourceOrganization": {
+    	                        "@type": "ProfessionalService",
+   		                "@id": "https://labate.io/#professionalservice"
+                        }
+                }
+           {
             "@type": [
               "ProfessionalService",
               "Brand",
