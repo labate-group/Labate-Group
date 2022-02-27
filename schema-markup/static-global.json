@@ -257,6 +257,7 @@
 						"@id": "https://labate.io/category/marketing-services/",
 						"url": "https://labate.io/category/marketing-services",
 						"name": "Marketing Services",
+						"audience": "Small + Medium Sized Businesses",
 						"brand": {
 							"@type": "Brand",
 							"@id": "https://labate.io/#brand",
@@ -289,6 +290,7 @@
 						"@id": "https://labate.io/category/software-services",
 						"url": "https://labate.io/category/software-services",
 						"name": "Software Services",
+						"audience": "Medium Sized Businesses + Tech Startups",
 						"brand": {
 							"@type": "Brand",
 							"@id": "https://labate.io/#brand",
@@ -321,6 +323,7 @@
 						"@id": "https://labate.io/category/fulfillment-services",
 						"url": "https://labate.io/category/fulfillment-services",
 						"name": "Fulfillment Services",
+						"audience": "Marketing Agencies",
 						"brand": {
 							"@type": "Brand",
 							"@id": "https://labate.io/#brand",
