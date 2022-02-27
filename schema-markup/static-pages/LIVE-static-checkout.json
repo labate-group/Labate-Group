@@ -1,5 +1,5 @@
 		{
-       			"@type": "WebPage",
+       			"@type": "CheckoutPage",
        			"@id": "https://labate.io/checkout/#webpage",
 			"url": "https://labate.io/checkout/",
 			"name": "Labate Group | Checkout",
