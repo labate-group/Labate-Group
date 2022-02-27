@@ -257,7 +257,12 @@
 						"@id": "https://labate.io/category/marketing-services/",
 						"url": "https://labate.io/category/marketing-services",
 						"name": "Marketing Services",
-						"audience": "Small + Medium Sized Businesses",
+						"audience": {
+							"@type": "BusinessAudience",
+							"@id": "https://labate.io.category/marketing-services/#businessaudience",
+							"name": "Small + Medium Sized Businesses",
+							"sameAs": ["https://www.gartner.com/en/information-technology/glossary/smbs-small-and-midsize-businesses"]
+						},
 						"brand": {
 							"@type": "Brand",
 							"@id": "https://labate.io/#brand",
