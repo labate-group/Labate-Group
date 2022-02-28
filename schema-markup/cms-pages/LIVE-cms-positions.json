@@ -49,7 +49,7 @@
 					"position": 2,
 					"item": {
 						"@id": "https://labate.io/positions/#breadcrumb",
-						"url": "https://labate.io/positions",
+						"url": "https://labate.io/positions"
 					}
 				},
 				{
@@ -57,7 +57,7 @@
 					"position": 3,
 					"item": {
 						"@id": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
-						"url": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"url": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 					}
 				}
 			]
@@ -71,7 +71,7 @@
 			"employmentType": "{{wf {&quot;path&quot;:&quot;type&quot;,&quot;type&quot;:&quot;Option&quot;\} }}",
 			"hiringOrganization": {
 				"@type": "ProfessionalService",
-				"@id": "https://labate.io/#professionalservice"
+				"@id": "https://labate.io/#professionalservice",
 				"name": "Labate Group"
 			},
 			"jobLocation": "{{wf {&quot;path&quot;:&quot;location&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
