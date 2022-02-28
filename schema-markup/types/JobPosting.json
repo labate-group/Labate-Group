@@ -1,16 +1,14 @@
 {
 	"@context": "https://schema.org",
 	"@type" : "JobPosting",
-	"title" : "Data Entry Clerk",
+	"title" : "",
 	"employerOverview": "",
 	"description" : "",
-	"employmentType": [
-		"Internship",
-		"Unpaid"
-	],
+	"employmentType": "",
 	"hiringOrganization": {
     		"@type": "ProfessionalService",
    		"@id": "https://labate.io/#professionalservice"
+		"name": "Labate Group"
 	},
   	"jobLocation": "Remote",
 	"jobBenefits": "",
