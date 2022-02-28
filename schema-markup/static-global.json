@@ -523,6 +523,55 @@
 			"hasPart": [
 				{
 					"@type": "SiteNavigationElement",
+					"name": "Home",
+					"text": "Home",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "About",
+					"text": "About",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/about"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Services",
+					"text": "Services",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/services"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Database",
+					"text": "Database",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/database"
+				},		
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Blog",
+					"text": "Blog",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/blog"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Search",
+					"text": "Search",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/search"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Contact",
+					"text": "Contact",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/contact"
+				},
+				{
+					"@type": "SiteNavigationElement",
 					"name": "Labate Group | Westport Office",
 					"text": "8 Wright Street, 1st Fl. Westport, CT 06880",
 					"url": "https://labate.link/google",
