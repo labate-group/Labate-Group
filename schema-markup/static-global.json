@@ -49,6 +49,13 @@
 				},
 				{
 					"@type": "SiteNavigationElement",
+					"name": "Search",
+					"text": "Search",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/search"
+				},
+				{
+					"@type": "SiteNavigationElement",
 					"name": "Contact",
 					"text": "Contact",
 					"isPartOf": "https://labate.io/#header",
