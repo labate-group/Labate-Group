@@ -9,7 +9,11 @@
     "@id": "https://labate.io/#professionalservice"
 	},
   "jobLocation": "Remote",
-  "baseSalary" : {
+"jobBenefits", "",
+	"employerOverview": "",
+	"jobBenefits": "",
+	"jobImmediateStart": "",
+	"baseSalary" : {
     "@type": "MonetaryAmount",
     "currency": "USD",
     "value": {
