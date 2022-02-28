@@ -3,15 +3,15 @@
 			"@id": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
 			"url": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"name": "Labate Group | Positions | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"headline": "",
-			"description": "",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/positions/#collection"}
       			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "#primaryimage",
+				"@id": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
 				"name": "",
 				"caption": "",
 				"contentUrl": "",
@@ -20,6 +20,7 @@
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
+        			"@id": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#readaction",
 				"target": "https://labate.io/positions/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
 			},
 			"keywords": [
@@ -64,55 +65,34 @@
 		{
 			"@context": "https://schema.org",
 			"@type" : "JobPosting",
-			"title" : "",
+			"title" : "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"employerOverview": "",
-			"description" : "",
-			"employmentType": "",
+			"description" : "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"employmentType": "{{wf {&quot;path&quot;:&quot;type&quot;,&quot;type&quot;:&quot;Option&quot;\} }}",
 			"hiringOrganization": {
 				"@type": "ProfessionalService",
 				"@id": "https://labate.io/#professionalservice"
 				"name": "Labate Group"
 			},
-			"jobLocation": "Remote",
+			"jobLocation": "{{wf {&quot;path&quot;:&quot;location&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"jobBenefits": "",
-			"jobImmediateStart": "",
+			"jobImmediateStart": "true",
 			"baseSalary" : {
 				"@type": "MonetaryAmount",
 				"currency": "USD",
 				"value": {
 					"@type": "QuantitativeValue",
-					"value": 0.00,
-					"minValue": 0.00,
-					"maxValue": 0.00,
-					"unitText": "HOUR"
+					"value": "{{wf {&quot;path&quot;:&quot;salary-paid-per-year&quot;,&quot;type&quot;:&quot;Number&quot;\} }}",
+					"unitText": "YEAR"
 				}
 			},
-			"educationRequirements": [
-				"",
-				""
-			],
-			"experienceRequirements": [
-				"",
-				""
-			],
-			"industry": [
-				"Marketing",
-				"Digital Marketing",
-				"Content Creation"
-			],
-			"qualifications": [
-				"",
-				""
-			],
-			"responsibilities": [
-				"",
-				""
-			],
-			"skills": [
-				"",
-				""
-			],
-			"workHours": "TBD"
+			"educationRequirements": "",
+			"experienceRequirements": "",
+			"industry": "",
+			"qualifications": "",
+			"responsibilities": "",
+			"skills": "",
+			"workHours": "{{wf {&quot;path&quot;:&quot;estimated-hours-per-week&quot;,&quot;type&quot;:&quot;Number&quot;\} }}"
 		}
 	]
 }
