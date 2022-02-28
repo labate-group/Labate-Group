@@ -35,11 +35,53 @@
 				},
 				{
 					"@type": "SiteNavigationElement",
+					"name": "Marketing",
+					"text": "Marketing",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/category/marketing"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Software",
+					"text": "Software",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/category/software"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Fulfillment",
+					"text": "Fulfillment",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/category/fulfillment"
+				},
+				{
+					"@type": "SiteNavigationElement",
 					"name": "Database",
 					"text": "Database",
 					"isPartOf": "https://labate.io/#header",
 					"url": "https://labate.io/database"
 				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Events",
+					"text": "Events",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/events"
+				},
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Organizations",
+					"text": "Organizations",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/organizations"
+				},				
+				{
+					"@type": "SiteNavigationElement",
+					"name": "Public Figures",
+					"text": "Public Figures",
+					"isPartOf": "https://labate.io/#header",
+					"url": "https://labate.io/public-figures"
+				},				
 				{
 					"@type": "SiteNavigationElement",
 					"name": "Blog",
