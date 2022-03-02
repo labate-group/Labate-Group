@@ -12,6 +12,10 @@
 			"isPartOf": {
 				"@id": "https://labate.io/#website"
 			},
+			"hasPart": {
+				"@type": "Collection",
+				"@id": "https://labate.io/clients/#collection"
+			},
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "https://labate.io/clients/#primaryimage",
@@ -25,11 +29,11 @@
 				"@type": "ReadAction",
 				"target": "https://labate.io/clients/"
 			},
-      "keywords": [
-        "Labate Clients",
-        "Labate Group Clients",
-        "Labate Clientele",
-        "Labate Group Clientele"
+			"keywords": [
+				"Labate Clients",
+				"Labate Group Clients",
+				"Labate Clientele",
+				"Labate Group Clientele"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
