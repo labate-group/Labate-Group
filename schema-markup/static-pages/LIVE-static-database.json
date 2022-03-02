@@ -57,7 +57,7 @@
 				},
 				{
 					"@type": "ListItem",
-					"position": 1,
+					"position": 2,
 					"item": {
 						"@id": "https://labate.io/database/#breadcrumb",
 						"url": "https://labate.io/database"
