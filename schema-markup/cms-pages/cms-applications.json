@@ -15,6 +15,11 @@
                 "@id": "https://labate.io/team/jake-labate/#person",
                 "name": "Jake Labate"
         },
+        "brand": {
+                "@type": "Brand",
+                "@id": "https://labate.io/#brand",
+                "name": "Labate Group"
+        },
         "publisher": {
                 "@type": "ProfessionalService",
                 "@id": "https://labate.io/#professionalservice",
@@ -26,4 +31,12 @@
                 "target": ""
         },
         "downloadUrl": "",
+        "hasDigitalDocumentPermission": {
+                "@type": "DigitalDocumentPermission",
+                "permissionType": "https://schema.org/ReadPermission",
+                "grantee": {
+                        "@type": "BusinessAudience",
+                        "audienceType": "public"
+                }
+        }
 }
