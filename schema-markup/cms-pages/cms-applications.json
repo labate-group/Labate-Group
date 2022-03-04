@@ -1,0 +1,22 @@
+{
+        "@type": ["SoftwareApplication", "LearningResource", "DigitalDocument", "Article"],
+        "@id": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "url": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "mainEntityOfPage": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "name": "",
+        "about": "",
+        "abstract": "",
+        "isPartOf": [
+                {"@id": "https://labate.io/applications/#collection"}
+        ],
+        "educationalLevel": "Advanced",
+        "author": {
+                "@type": "Person",
+                "@id": "https://labate.io/team/jake-labate/#person",
+                "name": "Jake Labate"
+        },
+        "potentialAction": [
+                "@type": "ReadAction",
+                "target": ""
+        }
+}
