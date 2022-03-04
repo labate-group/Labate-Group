@@ -1,8 +1,9 @@
 Variables in this schema snippet:
 
 {{FULL-URL}}
+{{FULL-PAGE-NAME}}
 {{COLLECTION-SLUG}}
-{{FULL-PAGE-TITLE}}
+{{COLLECTION-NAME}}
 {{PAGE-IMAGE}}
 {{PAGE-IMAGE-ALT}}
 {{META-DESCRIPTION}}
@@ -27,6 +28,7 @@ Variables in this schema snippet:
 				"@id": "{{FULL-URL}}/#primaryimage",
 				"name": "{{PAGE-IMAGE-ALT}}",
 				"caption": "{{PAGE-IMAGE-ALT}}",
+				"url": "{{PAGE-IMAGE}},
 				"contentUrl": "{{PAGE-IMAGE}}",
 				"representativeOfPage": "true"
 			},
@@ -54,7 +56,8 @@ Variables in this schema snippet:
 					"position": 1,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}"
+						"url": "{{FULL-URL}}",
+						"name": "Labate Group Homepage"
 					}
 				},
 				{
@@ -62,16 +65,21 @@ Variables in this schema snippet:
 					"position": 2,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}"
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}} <OR> {{COLLECTION-NAME}}"
 					}
-				},
+				}
+				<!-- START: ONLY IF PAGE IS 3RD TIER DEEP -->
+				,
 				{
 					"@type": "ListItem",
 					"position": 3,
 					"item": {
 						"@id": "{{FULL-URL}}/#breadcrumb",
-						"url": "{{FULL-URL}}"
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
 					}
 				}
+				<!-- END: ONLY IF PAGE IS 3RD TIER DEEP -->
 			]
 		},
