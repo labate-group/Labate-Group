@@ -12,7 +12,7 @@ Variables in this schema snippet:
 			"@type": "WebPage",
 			"@id": "{{FULL-URL}}/#webpage",
 			"url": "{{FULL-URL}}",
-			"name": "{[FULL-PAGE-NAME}}",
+			"name": "{{FULL-PAGE-NAME}}",
 			"headline": "{{FULL-PAGE-NAME}}",
 			"description": "{{META-DESCRIPTION}}",
 			"hasPart": [
