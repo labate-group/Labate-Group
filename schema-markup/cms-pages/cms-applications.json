@@ -15,6 +15,12 @@
                 "@id": "https://labate.io/team/jake-labate/#person",
                 "name": "Jake Labate"
         },
+        "publisher": {
+                "@type": "ProfessionalService",
+                "@id": "https://labate.io/#professionalservice",
+                "url": "https://labate.io",
+                "name": "Labate Group"
+        },
         "potentialAction": [
                 "@type": "ReadAction",
                 "target": ""
