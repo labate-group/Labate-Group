@@ -27,9 +27,11 @@
                 "name": "Labate Group"
         },
         "potentialAction": [
-                "@type": "ReadAction",
-                "target": ""
-        },
+                {
+                        "@type": "ReadAction",
+                        "target": ""
+                }
+        ],
         "downloadUrl": "",
         "hasDigitalDocumentPermission": {
                 "@type": "DigitalDocumentPermission",
