@@ -30,7 +30,7 @@ Variables in this schema snippet:
 				"@id": "{{FULL-URL}}/#primaryimage",
 				"name": "{{PAGE-IMAGE-ALT}}",
 				"caption": "{{PAGE-IMAGE-ALT}}",
-				"url": "{{PAGE-IMAGE}},
+				"url": "{{PAGE-IMAGE}}",
 				"contentUrl": "{{PAGE-IMAGE}}",
 				"representativeOfPage": "true"
 			},
