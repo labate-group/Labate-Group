@@ -27,12 +27,7 @@ Variables in this schema snippet:
 			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "{{FULL-URL}}/#primaryimage",
-				"name": "{{PAGE-IMAGE-ALT}}",
-				"caption": "{{PAGE-IMAGE-ALT}}",
-				"url": "{{PAGE-IMAGE}}",
-				"contentUrl": "{{PAGE-IMAGE}}",
-				"representativeOfPage": "true"
+				"@id": "{{FULL-URL}}/#primaryimage"
 			},
 			"inLanguage": "en-US",
 			"potentialAction": {
