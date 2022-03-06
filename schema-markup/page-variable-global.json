@@ -49,6 +49,7 @@ Variables in this schema snippet:
 			"url": "{{PAGE-IMAGE}}",
 			"contentUrl": "{{PAGE-IMAGE}}",
 			"primaryImageOfPage": "{{FULL-URL}}",
+			"representativeOfPage": "true"
 			"brand": {
 				"@type": "Brand",
 				"@id": "https://labate.io/#brand"
