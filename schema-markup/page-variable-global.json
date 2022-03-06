@@ -47,12 +47,16 @@ Variables in this schema snippet:
 		},
 		{
 			"@type": "ImageObject",
-			"@id": "{{FULL-URL}}/#primaryimage,
+			"@id": "{{FULL-URL}}/#primaryimage",
 			"name": "{{FULL-PAGE-NAME}}",
-			"alt": "{{FULL-PAGE-NAME}},
+			"alt": "{{FULL-PAGE-NAME}}",
 			"url": "{{PAGE-IMAGE}}",
 			"contentUrl": "{{PAGE-IMAGE}}",
-			"primaryImageOfPage": "{{FULL-URL}}"
+			"primaryImageOfPage": "{{FULL-URL}}",
+			"brand": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand"
+			}
 		},
 		{
 			"@type": "BreadcrumbList",
