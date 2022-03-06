@@ -2,6 +2,7 @@
 
 ## References
 * **[Schema.org](https://schema.org)**
+* **[Google Search Central](https://search.google.com/search-console?lfhs=2)**
 
 ## Generators
 * **[Labate Group SEO Application](https://labate.io/applications/schema)**
