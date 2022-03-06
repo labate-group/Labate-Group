@@ -8,7 +8,7 @@ Variables in this schema snippet:
 {{PAGE-IMAGE-ALT}}
 {{META-DESCRIPTION}}
 
-	{
+		{
 			"@type": "WebPage",
 			"@id": "{{FULL-URL}}/#webpage",
 			"url": "{{FULL-URL}}",
@@ -25,10 +25,7 @@ Variables in this schema snippet:
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
 			],
-			"primaryImageOfPage": {
-				"@type": "ImageObject",
-				"@id": "{{FULL-URL}}/#primaryimage"
-			},
+			}
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
