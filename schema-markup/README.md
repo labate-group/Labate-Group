@@ -2,15 +2,19 @@
 
 ## References
 * **[Schema.org](https://schema.org)**
+* **[Full Schema Higherarchy](https://schema.org/docs/full.html)**
 * **[Google Search Central](https://search.google.com/search-console?lfhs=2)**
 
 ## Generators
 * **[Labate Group SEO Application](https://labate.io/applications/schema)**
 * **[SchemaApp Web Tool](https://www.schemaapp.com/tools/jsonld-schema-generator/)**
-* **[Schema Tool](https://schema.pythonanywhere.com)** ([About this tool](http://polak.es/en/generator.html))
+* **[Schema Tool](https://schema.pythonanywhere.com)** ([About this tool](http://polak.es/en/generator.html))**
+* **[Schema.org Chrome Extension](https://chrome.google.com/webstore/detail/schema-builder-tester-for)**
 
 ## Validators
 * **[Schema.org Validator](https://validator.schema.org)**
+* **[Google Rich Results Tester](https://search.google.com/test/rich-results)**
+* **[Schema.org Chrome Extension](https://chrome.google.com/webstore/detail/schema-builder-tester-for)**
 
 ## Articles
 * **[Content mismatch? Missing Schema on AMP pages](https://www.searchenginejournal.com/structured-data-amp/323523)**
@@ -21,15 +25,12 @@
 
 ## Quality Control
 ### Content
-- Provide only UP-TO-DATE content.
-- Provide only ACCURATE content.
-- Provide only VISIBLE (on the page) content.
-- Provide only RELEVANT content.
+- ACCURATE
+- VISIBLE (on the page)
+- RELEVANT (representitive of page)
 
 ### Specificity
 Always use the most specific item type for each schema.
-
-Examples:
 - Never use @LocalBusiness when @ProfessionalService can be used, as @ProfessionalService is a recognized sub-type of @LocalBusiness.
 - Never use @Event when @BusinessEvent can be used, as @BusinessEvent is a recognized sub-type of @Event.
 
@@ -42,21 +43,11 @@ When there is one main item, and additional items are grouped under the main ite
 #### Individual Items
 When each item is a separate block on the same page, using "@graph": [ ] to encapsulate each item. This feature may be used as a top-level feature (as a 2nd line under "@context": "https://schema.org/", or within nested items deeper inside the schema.
 
-### Validation
-All schemas must pass both of these validators in order to be used by the Labate Group.<br>
-https://jsonlint.com/<br>
-https://validator.schema.org/<br>
-https://search.google.com/test/rich-results<br>
 
-### Beautification
-To keep everything clean and easily editable, be sure all schemas are put through this beautifier with a "tab" spacer.<br>
-<br>
-JSON Beautifier<br>
-https://www.freeformatter.com/json-formatter.html<br>
 
 ### What is Schema Markup?<br>
 https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data<br>com/search/docs/advanced/structured-data/search-gallery<br>
 ### Schema Guidelines<br>
 https://developers.google.com/search/docs/advanced/structured-data/sd-policies<br>
-* **[Schema.org Chrome Extension](https://chrome.google.com/webstore/detail/schema-builder-tester-for/
-* **[Full Schema Higherarchy](https://schema.org/docs/full.html)*
+
+
