@@ -1,7 +1,10 @@
 # Schema Markup
 
-## Tools
-* **[Labate Group Schema Generator](https://labate.io/applications/schema)**
+## References
+* **[Schema.org](https://schema.org)**
+
+## Generators
+* **[Labate Group SEO Application](https://labate.io/applications/schema)**
 * **[SchemaApp Web Tool](https://www.schemaapp.com/tools/jsonld-schema-generator/)**
 * **[Schema Tool](https://schema.pythonanywhere.com)** ([About this tool](http://polak.es/en/generator.html))
 
@@ -14,7 +17,3 @@
 * **[Good instructions](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets)**
 * **[5 Common schema problems and what to do about them](https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/)**
 * **[Structured Data Actions in email](https://developers.google.com/gmail/markup/reference/go-to-action)**
-* **[Yoast's "Ultimate Guide"](https://yoast.com/structured-data-schema-ultimate-guide/)**
-
-## Examples
-* **[Labate Group Global Schema](https://labate.link/schema)**
