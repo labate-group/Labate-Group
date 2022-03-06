@@ -2,7 +2,7 @@
 
 ## References
 * **[Schema.org](https://schema.org)**
-* **[Full Schema Higherarchy](https://schema.org/docs/full.html)**
+* **[Schema.org Full Higherarchy](https://schema.org/docs/full.html)**
 * **[Google Search Central](https://search.google.com/search-console?lfhs=2)**
 
 ## Generators
