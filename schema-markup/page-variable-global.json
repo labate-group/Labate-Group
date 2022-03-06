@@ -46,6 +46,15 @@ Variables in this schema snippet:
 			}
 		},
 		{
+			"@type": "ImageObject",
+			"@id": "{{FULL-URL}}/#primaryimage,
+			"name": "{{FULL-PAGE-NAME}}",
+			"alt": "{{FULL-PAGE-NAME}},
+			"url": "{{PAGE-IMAGE}}",
+			"contentUrl": "{{PAGE-IMAGE}}",
+			"primaryImageOfPage": "{{FULL-URL}}"
+		},
+		{
 			"@type": "BreadcrumbList",
 			"itemListElement": [
 				{
@@ -65,9 +74,7 @@ Variables in this schema snippet:
 						"url": "{{FULL-URL}}",
 						"name": "{{FULL-PAGE-NAME}} <OR> {{COLLECTION-NAME}}"
 					}
-				}
-				<!-- START: ONLY IF PAGE IS 3RD TIER DEEP -->
-				,
+				},
 				{
 					"@type": "ListItem",
 					"position": 3,
@@ -77,6 +84,5 @@ Variables in this schema snippet:
 						"name": "{{FULL-PAGE-NAME}}"
 					}
 				}
-				<!-- END: ONLY IF PAGE IS 3RD TIER DEEP -->
 			]
 		},
