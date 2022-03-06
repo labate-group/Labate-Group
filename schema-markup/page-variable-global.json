@@ -25,7 +25,6 @@ Variables in this schema snippet:
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
 			],
-			}
 			"inLanguage": "en-US",
 			"potentialAction": {
 				"@type": "ReadAction",
