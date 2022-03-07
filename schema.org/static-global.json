@@ -1,3 +1,4 @@
+<script defer type="application/ld+json">
 {
    "@context": "https://schema.org",
    "@graph": [
@@ -5,11 +6,6 @@
          "@type": "WPHeader",
          "@id": "https://labate.io/#header",
          "name": "Header",
-         "associatedMedia": {
-            "@type": "ImageObject",
-            "@id": "https://labate.io/#logo"
-         },
-         "creativeWorkStatus": "published",
          "cssSelector": ".nav",
          "hasPart": [
             {
@@ -23,84 +19,72 @@
                "@type": "SiteNavigationElement",
                "name": "About",
                "text": "About",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/about"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Services",
                "text": "Services",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/services"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Marketing",
                "text": "Marketing",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/category/marketing"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Software",
                "text": "Software",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/category/software"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Fulfillment",
                "text": "Fulfillment",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/category/fulfillment"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Database",
                "text": "Database",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/database"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Events",
                "text": "Events",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/events"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Organizations",
                "text": "Organizations",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/organizations"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Public Figures",
                "text": "Public Figures",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/public-figures"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Blog",
                "text": "Blog",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/blog"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Search",
                "text": "Search",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/search"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Contact",
                "text": "Contact",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io/contact"
             }
          ],
@@ -147,8 +131,7 @@
          "url": "https://labate.io/",
          "about": {
             "@type": "AboutPage",
-            "@id": "https://labate.io/about/#aboutpage",
-            "url": "https://labate.io/about"
+            "@id": "https://labate.io/about/#aboutpage"
          },
          "priceRange": "$$$",
          "currenciesAccepted": "USD",
@@ -169,44 +152,34 @@
                "@id": "https://labate.io/#website"
             }
          ],
-         "subjectOf": [
-            {
-               "@type": "ContactPage",
-               "@id": "https://labate.io/contact/#contactpage"
-            },
-            {
-               "@type": "WebSite",
-               "@id": "https://labate.io/#website"
-            }
-         ],
          "mentions": [
             "Marketing Company",
             "Marketing Firm",
             "Marketing Agency",
-            "Social Media Marketing Serivces",
+            "Social Media Marketing Services",
             "Website Development Services",
             "Search Engine Optimization Services",
             "Email Marketing Services",
-            "Graphic Design Serivces",
-            "Copywriting Serivces",
+            "Graphic Design Services",
+            "Copywriting Services",
             "Marketing Automation Services",
-            "Marketing Software Serivces",
-            "Marketing Fulfillment Serivces",
+            "Marketing Software Services",
+            "Marketing Fulfillment Services",
             "Schema Markup Services"
          ],
          "keywords": [
             "Marketing Company",
             "Marketing Firm",
             "Marketing Agency",
-            "Social Media Marketing Serivces",
+            "Social Media Marketing Services",
             "Website Development Services",
             "Search Engine Optimization Services",
             "Email Marketing Services",
-            "Graphic Design Serivces",
-            "Copywriting Serivces",
+            "Graphic Design Services",
+            "Copywriting Services",
             "Marketing Automation Services",
-            "Marketing Software Serivces",
-            "Marketing Fulfillment Serivces",
+            "Marketing Software Services",
+            "Marketing Fulfillment Services",
             "Schema Markup Services"
          ],
          "knowsAbout": [
@@ -298,27 +271,16 @@
                   "@type": [
                      "Offer",
                      "OfferCatalog",
-                     "Product",
-                     "Service",
                      "ServiceCategory",
                      "Collection"
                   ],
                   "@id": "https://labate.io/category/marketing-services/",
                   "url": "https://labate.io/category/marketing-services",
                   "name": "Marketing Services",
-                  "audience": {
-                     "@type": "BusinessAudience",
-                     "@id": "https://labate.io.category/marketing-services/#businessaudience",
-                     "name": "Small + Medium Sized Businesses",
-                     "sameAs": [
-                        "https://www.gartner.com/en/information-technology/glossary/smbs-small-and-midsize-businesses"
-                     ]
-                  },
+                  "audience": "name": "Small + Medium Sized Businesses"
                   "brand": {
                      "@type": "Brand",
-                     "@id": "https://labate.io/#brand",
-                     "url": "https://labate.io/",
-                     "name": "Labate Group"
+                     "@id": "https://labate.io/#brand"
                   },
                   "description": "Ready to build your brand with a Grade-A marketing campaign?",
                   "availableChannel": [
@@ -338,8 +300,6 @@
                   "@type": [
                      "Offer",
                      "OfferCatalog",
-                     "Product",
-                     "Service",
                      "ServiceCategory",
                      "Collection"
                   ],
@@ -349,9 +309,7 @@
                   "audience": "Medium Sized Businesses + Tech Startups",
                   "brand": {
                      "@type": "Brand",
-                     "@id": "https://labate.io/#brand",
-                     "url": "https://labate.io/",
-                     "name": "Labate Group"
+                     "@id": "https://labate.io/#brand"
                   },
                   "description": "Ready to supercharge your business with industry-leading technology?",
                   "availableChannel": [
@@ -371,8 +329,6 @@
                   "@type": [
                      "Offer",
                      "OfferCatalog",
-                     "Product",
-                     "Service",
                      "ServiceCategory",
                      "Collection"
                   ],
@@ -382,9 +338,7 @@
                   "audience": "Marketing Agencies",
                   "brand": {
                      "@type": "Brand",
-                     "@id": "https://labate.io/#brand",
-                     "url": "https://labate.io/",
-                     "name": "Labate Group"
+                     "@id": "https://labate.io/#brand"
                   },
                   "description": "Leverage valuable time by outsourcing client work.",
                   "availableChannel": [
@@ -407,11 +361,10 @@
             "url": "https://labate.link/bbb",
             "name": "A+ Better Business Bureau Accreditation Rating",
             "description": "Labate is A+ accredited with the Better Business Bureau",
-            "image": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61db5cf9c462165a0229dc89_bbb_icon.png",
             "sourceOrganization": {
                "@type": "Organization",
                "@id": "https://bbb.com/#organization",
-               "name": "Better Busienss Bureau",
+               "name": "Better Business Bureau",
                "url": "https://bbb.com"
             },
             "credentialCategory": {
@@ -484,10 +437,6 @@
          "@id": "https://labate.io/#footer",
          "name": "Footer",
          "isPartOf": [
-            {
-               "@type": "WebSite",
-               "@id": "https://labate.io/#website"
-            }
          ],
          "cssSelector": ".footer",
          "potentialAction": [
@@ -495,7 +444,6 @@
                "@type": "SearchAction",
                "@id": "https://labate.io/#searchaction",
                "actionStatus": "potentialActionStatus",
-               "object": "Search",
                "name": "Search",
                "description": "Search anything on the Labate Group website",
                "mainEntityOfPage": "https://labate.io/search",
@@ -507,9 +455,7 @@
                "@type": "SubscribeAction",
                "@id": "https://labate.io/#subscribeaction",
                "actionStatus": "potentialActionStatus",
-               "object": "Newsletter",
                "name": "Subscribe to Labate Newsletter",
-               "alternateName": "Subscribe to Labate Group Newsletter",
                "description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
                "result": "Agent is now subscribed to the Labate Group newsletter"
             }
@@ -523,49 +469,42 @@
                "@type": "SiteNavigationElement",
                "name": "Home",
                "text": "Home",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "About",
                "text": "About",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io/about"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Services",
                "text": "Services",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io/services"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Database",
                "text": "Database",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io/database"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Blog",
                "text": "Blog",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io/blog"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Search",
                "text": "Search",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io/search"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Contact",
                "text": "Contact",
-               "isPartOf": "https://labate.io/#footer",
                "url": "https://labate.io/contact"
             },
             {
@@ -573,26 +512,17 @@
                "name": "Labate Group | Westport Office",
                "text": "8 Wright Street, 1st Fl. Westport, CT 06880",
                "url": "https://labate.link/google",
-               "isPartOf": {
-                  "@type": "WPFooter",
-                  "@id": "https://labate.io/#footer"
-               }
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Labate Group | Terms",
                "text": "Terms",
-               "url": "https://labate.io/utility/terms/",
-               "isPartOf": {
-                  "@type": "WPFooter",
-                  "@id": "https://labate.io/#footer"
-               }
+               "url": "https://labate.io/terms/",
             }
          ],
          "copyrightHolder": "Labate Group",
          "copyrightYear": "2022",
-         "copyrightNotice": "All Rights Reserved",
-         "creditText": "Copyright © 2022 | Labate Group | All Rights Reserved"
+         "copyrightNotice": "All Rights Reserved"
       },
       {
          "@type": "ImageObject",
@@ -605,6 +535,4 @@
          "thumbnail": {
             "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
          }
-      }
-   ]
-}
+      },
