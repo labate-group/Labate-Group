@@ -9,7 +9,7 @@
 * **[Schema.org](https://schema.org)**
 * **[Schema.org Full Higherarchy](https://schema.org/docs/full.html)**
 * **[Google Search Central](https://search.google.com/search-console?lfhs=2)**
-* **[Labate Group: Global + Page-Specific Schema Belend](https://labate.io/blog/global-and-page-specific-schema-markup-in-1-script-how)**
+* **[Global + Page-Specific Schema Blend](https://labate.io/blog/global-and-page-specific-schema-markup-in-1-script-how)**
 
 ## Generators
 * **[Labate Group SEO Application](https://labate.io/applications/schema)**
