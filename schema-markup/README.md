@@ -4,7 +4,7 @@
 * **[Google's Intro to Structued Data](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data)**
 * **[Labate Group: Schema Markup for Web Developer](https://labate.io/blog/schema-markup-for-website-developers)**
 * **[Labate Group: Schema Markup Basics](https://labate.io/blog/what-is-schema-markup-the-basics)**
-* 
+
 * ## References
 * **[Schema.org](https://schema.org)**
 * **[Schema.org Full Higherarchy](https://schema.org/docs/full.html)**
