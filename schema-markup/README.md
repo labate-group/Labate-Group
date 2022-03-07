@@ -5,7 +5,7 @@
 * **[Labate Group: Schema Markup for Web Developer](https://labate.io/blog/schema-markup-for-website-developers)**
 * **[Labate Group: Schema Markup Basics](https://labate.io/blog/what-is-schema-markup-the-basics)**
 
-* ## References
+## References
 * **[Schema.org](https://schema.org)**
 * **[Schema.org Full Higherarchy](https://schema.org/docs/full.html)**
 * **[Google Search Central](https://search.google.com/search-console?lfhs=2)**
