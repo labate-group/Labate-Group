@@ -1,5 +1,8 @@
 # Schema Markup
 
+## Foundcation
+* **[Google's Intro to Structued Data](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data)**
+
 ## References
 * **[Schema.org](https://schema.org)**
 * **[Schema.org Full Higherarchy](https://schema.org/docs/full.html)**
@@ -31,23 +34,20 @@
 
 ### Specificity
 Always use the most specific item type for each schema.
-- Never use @LocalBusiness when @ProfessionalService can be used, as @ProfessionalService is a recognized sub-type of @LocalBusiness.
-- Never use @Event when @BusinessEvent can be used, as @BusinessEvent is a recognized sub-type of @Event.
+* Never use **[@LocalBusiness](https://schema.org/LocalBusiness)** when **[@ProfessionalService](https://schema.org/ProfessionalSerivce)** can be used
+* Never use **[@Event](https://schema.org/Event)** when **[@BusinessEvent](https://schema.org/BusinessEvent)** can be used
 
 ### Multiple Items
 Google Search understands multiple items on a page, whether you nest the items or specify each item individually. If there are items that are more helpful when they are linked together (for example, a recipe and a video), use @id in both the recipe and the video items to specify that the video is about the recipe on the page. If you didn't link the items together, Google Search may not know that it can show the video as a Recipe rich result.
 
 #### Nesting Items
-When there is one main item, and additional items are grouped under the main item. This is particularly helpful when grouping related items (for example, a recipe with a video and reviews).
+* When there is one main item, and additional items are grouped under the main item. This is particularly helpful when grouping related items (for example, a recipe with a video and reviews).
 
 #### Individual Items
-When each item is a separate block on the same page, using "@graph": [ ] to encapsulate each item. This feature may be used as a top-level feature (as a 2nd line under "@context": "https://schema.org/", or within nested items deeper inside the schema.
+* When each item is a separate block on the same page, using "@graph": [ ] to encapsulate each item. This feature may be used as a top-level feature (as a 2nd line under "@context": "https://schema.org/", or within nested items deeper inside the schema.
 
 
 
-### What is Schema Markup?<br>
-https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data<br>com/search/docs/advanced/structured-data/search-gallery<br>
-### Schema Guidelines<br>
-https://developers.google.com/search/docs/advanced/structured-data/sd-policies<br>
+
 
 
