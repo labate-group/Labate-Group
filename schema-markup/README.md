@@ -2,8 +2,8 @@
 
 ## Foundation
 * **[Intro to Structued Data](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data)**
-* **[Schema Markup for Web Developer](https://labate.io/blog/schema-markup-for-website-developers)**
-* **[Schema Markup Basics](https://labate.io/blog/what-is-schema-markup-the-basics)**
+* **[Schema Markup 101 for Marketers](https://labate.io/blog/what-is-schema-markup-the-basics)**
+* **[Schema Markup 101 for Developers](https://labate.io/blog/schema-markup-for-website-developers)**
 
 ## References
 * **[Schema.org](https://schema.org)**
