@@ -239,23 +239,6 @@
             "telephone": "203-907-5536",
             "email": "contact@labate.io"
          },
-         "image": "https://labate.io/#logo",
-         "logo": {
-            "@type": "imageObject",
-            "@id": "https://labate.io/#logo",
-            "name": "Labate Group Logo",
-            "caption": "Labate Group Logo",
-            "description": "Labate Group Logo",
-            "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
-            "contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
-            "thumbnail": {
-               "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
-            },
-            "brand": {
-               "@type": "Brand",
-               "@id": "https://labate.io/#brand"
-            }
-         },
          "address": {
             "@type": "PostalAddress",
             "@id": "https://labate.io/#postaladdress",
@@ -531,15 +514,11 @@
                "result": "Agent is now subscribed to the Labate Group newsletter"
             }
          ],
-         "image": {
-            "@type": "ImageObject",
-            "@id": "https://labate.io/#logo",
-            "name": "Labate Group Logo",
-            "caption": "Labate Group Logo",
-            "description": "Labate Group Logo",
-            "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
-         },
          "hasPart": [
+            {
+               "@type": "ImageObject",
+               "@id": "https://labate.io/#logo",
+            },
             {
                "@type": "SiteNavigationElement",
                "name": "Home",
@@ -614,6 +593,16 @@
          "copyrightYear": "2022",
          "copyrightNotice": "All Rights Reserved",
          "creditText": "Copyright © 2022 | Labate Group | All Rights Reserved"
-      }
-   ]
-}
+      },
+      {
+         "@type": "ImageObject",
+         "@id": "https://labate.io/#logo",
+         "name": "Labate Group Logo",
+         "caption": "Labate Group Logo",
+         "description": "Labate Group Logo",
+         "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+         "contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+         "thumbnail": {
+            "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
+         }
+      },
