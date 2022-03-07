@@ -22,11 +22,6 @@
 * **[Google Rich Results Tester](https://search.google.com/test/rich-results)**
 * **[Schema.org Chrome Extension](https://chrome.google.com/webstore/detail/schema-builder-tester-for)**
 
-## Articles
-* **[Good instructions](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets)**
-* **[5 Common schema problems and what to do about them](https://www.distilled.net/resources/5-common-schema-problems-and-what-to-do-about-them/)**
-* **[Structured Data Actions in email](https://developers.google.com/gmail/markup/reference/go-to-action)**
-
 ## Quality Control
 ### Content
 - ACCURATE
