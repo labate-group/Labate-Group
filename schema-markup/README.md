@@ -28,12 +28,12 @@
 - VISIBLE (on the page)
 - RELEVANT (representitive of page)
 
-### Specificity
+#### Specificity
 Always use the most specific item type for each schema
 * Never use **[@LocalBusiness](https://schema.org/LocalBusiness)** when **[@ProfessionalService](https://schema.org/ProfessionalSerivce)** can be used
 * Never use **[@Event](https://schema.org/Event)** when **[@BusinessEvent](https://schema.org/BusinessEvent)** can be used
 
-### Multiple Items
+#### Structure
 * Google Search understands multiple items on a page, whether you nest the items or specify each item individually. If there are items that are more helpful when they are linked together (for example, a recipe and a video), use @id in both the recipe and the video items to specify that the video is about the recipe on the page. If you didn't link the items together, Google Search may not know that it can show the video as a Recipe rich result.
 
 #### Nesting Items
