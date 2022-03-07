@@ -1,6 +1,3 @@
-# Labate Group
-
-
 ## Contact
 * Phone - 203-907-5536
 * Email - contact@labate.io
