@@ -13,7 +13,6 @@
 
 ## Generators
 * **[Labate Group SEO Application](https://labate.io/applications/schema)**
-* **[SchemaApp Web Tool](https://www.schemaapp.com/tools/jsonld-schema-generator/)**
 * **[Schema Generator: Python Anywhere](https://schema.pythonanywhere.com)**
 * **[Schema.org Chrome Extension](https://chrome.google.com/webstore/detail/schema-builder-tester-for)**
 
