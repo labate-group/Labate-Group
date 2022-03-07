@@ -1,0 +1,86 @@
+Variables in this schema snippet:
+
+{{FULL-URL}}
+{{FULL-PAGE-NAME}}
+{{COLLECTION-SLUG}}
+{{COLLECTION-NAME}}
+{{PAGE-IMAGE}}
+{{PAGE-IMAGE-ALT}}
+{{META-DESCRIPTION}}
+
+		{
+			"@type": "WebPage",
+			"@id": "{{FULL-URL}}/#webpage",
+			"url": "{{FULL-URL}}",
+			"name": "{{FULL-PAGE-NAME}}",
+			"headline": "{{FULL-PAGE-NAME}}",
+			"description": "{{META-DESCRIPTION}}",
+			"hasPart": [
+				{"@id": "https://labate.io/#header"},
+				{"@id": "https://labate.io/#footer"},
+				{"@id": "{{FULL-URL}}/#primaryimage"},
+				{"@id": "{{FULL-URL}}/#breadcrumb"}
+			],
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/{{COLLECTION-SLUG}}/#collection"}	 
+			],
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"@id": "{{FULL-URL}}/#readaction",
+				"target": "{{FULL-URL}}"
+			},
+			"keywords": [
+				"{{FULL-PAGE-NAME}}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "{{FULL-URL}}/#primaryimage",
+			"name": "{{FULL-PAGE-NAME}}",
+			"alt": "{{FULL-PAGE-NAME}}",
+			"inLanguage": "en-US",
+			"url": "{{PAGE-IMAGE}}",
+			"contentUrl": "{{PAGE-IMAGE}}",
+			"primaryImageOfPage": "{{FULL-URL}}",
+			"representativeOfPage": "true"
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "Labate Group Homepage"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}} <OR> {{COLLECTION-NAME}}"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "{{FULL-URL}}/#breadcrumb",
+						"url": "{{FULL-URL}}",
+						"name": "{{FULL-PAGE-NAME}}"
+					}
+				}
+			]
+		},

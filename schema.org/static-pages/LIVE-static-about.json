@@ -1,0 +1,60 @@
+		{
+       			"@type": "AboutPage",
+       			"@id": "https://labate.io/about/#aboutpage",
+			"url": "https://labate.io/about/",
+			"name": "About",
+			"headline": "About Labate",
+			"description": "",
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/about/#primaryimage",
+				"name": "About Labate Group",
+				"caption": "About Labate Group",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/about/"
+			},
+			"keywords": [
+                                "About Labate Group",
+                                "About Labate",
+                                "Who is the Labate Group",
+                                "What is the Labate Group"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io/"
+          				}
+				},
+                                {
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/about/#breadcrumb",
+						"url": "https://labate.io/about/"
+           				}
+				}
+      			]
+		}
+  	]
+}    
+</script>

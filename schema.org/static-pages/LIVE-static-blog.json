@@ -1,0 +1,69 @@
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/blog/#webpage",
+			"url": "https://labate.io/blog/",
+			"name": "Labate Group Blog",
+			"headline": "Labate Group | Blog",
+			"description": "",
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/blog/#primaryimage",
+				"name": "Labate Group Blog",
+				"caption": "Labate Group Blog",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/blog/"
+			},
+			"keywords": [
+				"Labate Blog",
+                                "Labate Group Blog",
+                                "Labate Marketing Blog",
+                                "Labate Company Blog"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io",
+						"name": "Labate Group | Homepage"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/blog/#breadcrumb",
+						"url": "https://labate.io/blog",
+						"name": "Labate Group | Blog"
+					}
+				}
+			]
+		},
+                {
+                        "@type": "Blog",
+                        "@id": "https://labate.io/blog/#blog",
+			"name": "Labate Group Blog"
+                        "headline":"Labate Group Blog",
+                        "url":"https://labate.io/blog/"
+                }
+	]
+}
+</script>

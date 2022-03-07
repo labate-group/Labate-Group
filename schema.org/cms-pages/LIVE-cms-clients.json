@@ -1,0 +1,134 @@
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Clients | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/clients/#collection"}	 
+			],
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;client-photo&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			},
+			"keywords": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;client-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"{{wf {&quot;path&quot;:&quot;client-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+      			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/clients/#breadcrumb",
+						"url": "https://labate.io/clients",
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					}
+				}
+			]
+		},
+		{
+			"@type": "Person",
+			"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#person",
+			"name": "{{wf {&quot;path&quot;:&quot;client-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"url": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"image": {
+				"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}#primaryimage",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;client-photo&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
+			},
+			"description": "{{wf {&quot;path&quot;:&quot;client-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} is holds the title of {{wf {&quot;path&quot;:&quot;client-title&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} at {{wf {&quot;path&quot;:&quot;client-company&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} and is a client of the Labate Group",,
+			"sameAs": [
+				"{{wf {&quot;path&quot;:&quot;client-business-website&quot;,&quot;type&quot;:&quot;Link&quot;\} }}"
+			],
+			"memberOf": {
+				"@type": "LocalBusiness",
+				"@id": "https://labate.io/clients{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#localbusiness",
+				"name": "{{wf {&quot;path&quot;:&quot;client-company&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"url": "",
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#logo",
+					"url": "{{wf {&quot;path&quot;:&quot;client-business-logo&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
+				}
+			}
+		},
+		{
+			"@type": "LocalBusiness",
+			"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#localbusiness",
+		},
+		{
+			"@type": "UserReview",
+			"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#userreview",
+			"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} review of the Labate Group",
+			"reviewBody": "{{wf {&quot;path&quot;:&quot;client-testimonial-text&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"reviewAspect": "",
+			"itemReviewed": {
+				"@type": "ProfessionalService",
+        			"@id": "https://labate.io/#professionalservice"
+			},
+			"author": {
+				"@type": "Person",
+				"name": "{{wf {&quot;path&quot;:&quot;client-name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+				"role": {
+					"@type": ["EmployeeRole", "OrganizationRole", "JobTitle"],
+					"name": "{{wf {&quot;path&quot;:&quot;client-title&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					"organization": {
+						"@type": "LocalBusiness",
+						"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#localbusiness",
+						"logo": {
+							"@type": "ImageObject",
+							"contentUrl": "{{wf {&quot;path&quot;:&quot;client-business-logo&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}"
+						}
+					}
+				}
+			},
+			"reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "5 Stars",
+				"worstRating": "5 Stars",
+				"bestRating": "5 Stars"
+			},
+			"isPartOf": [
+				{"@id": "https://labate.io/clients/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage"},
+				{"@id": "https://labate.io/#aggregaterating"}
+			]
+		}
+	]
+}
+</script>

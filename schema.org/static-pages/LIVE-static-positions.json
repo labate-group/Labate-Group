@@ -1,0 +1,64 @@
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/positions/#webpage",
+			"url": "https://labate.io/positions/",
+			"name": "Labate Group | Positions",
+			"headline": "Labate Group Positions",
+			"description": "",
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/positions/#primaryimage",
+				"name": "Labate Group Positions",
+				"caption": "Labate Group Positions",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/positions/"
+			},
+			"keywords": [
+				"Labate Group Careers",
+        "Labate Group Positions",
+        "Marketing Careers",
+        "Marketing Positions",
+        "Tech Startup Careers",
+        "Tech Startup Positions"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io",
+						"name": "Labate Group | Homepage"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/positions/#breadcrumb",
+						"url": "https://labate.io/positions",
+						"name": "Labate Group | Positions"
+					}
+				}
+			]
+		}
+	]
+}
+</script>

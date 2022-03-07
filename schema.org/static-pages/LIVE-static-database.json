@@ -1,0 +1,70 @@
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/database/#webpage",
+			"url": "https://labate.io/database/",
+			"name": "Labate Group | Database",
+			"headline": "Database",
+			"description": "",
+                        "contactPoint": {
+                                "@type": "ContactPoint",
+                                "@id": "https://labate.io/database/#contactpoint"
+                        },
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"hasPart": [
+        {"@id": "https://labate.io/database/#collection"},
+        {"@id": "https://labate.io/events/#collection"},
+        {"@id": "https://labate.io/organizations/#collection"},
+        {"@id": "https://labate.io/public-figures/#collection"}
+      ],
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/database/#primaryimage",
+				"name": "Labate Group Database",
+				"caption": "Labate Group Database",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/database/"
+			},
+			"keywords": [
+				"Labate Database",
+				"Labate Group Database",
+				"Labate Database",
+				"Labate Group Database"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+                                        }
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/database/#breadcrumb",
+						"url": "https://labate.io/database"
+                                        }
+				}
+			]
+		}
+	]
+}
+</script>

@@ -1,0 +1,75 @@
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/contact/consultation/#webpage",
+			"url": "https://labate.io/contact/consultation",
+			"name": "Labate Group | Consultation",
+			"headline": "Consultation",
+			"description": "",
+                        "contactPoint": {
+                                "@type": "ContactPoint",
+                                "@id": "https://labate.io/contact/consultation/#contactpoint"
+                        },
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/contact/consultation/#primaryimage",
+				"name": "Labate Group Consultation",
+				"caption": "Labate Group Consultation",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/contact/consultation"
+			},
+			"keywords": [
+                                "Labate Group Consultation",
+                                "Schedule Marketing Consultation"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+                                        }
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/contact/#breadcrumb",
+						"url": "https://labate.io/contact"
+                                        }
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://labate.io/contact/consultation/#breadcrumb",
+						"url": "https://labate.io/contact/consultation"
+                                        }
+				}			]
+		},
+                {
+                        "@type": "ContactPoint",
+                        "@id": "https://labate.io/contact/consultation/#contactpoint",
+                        "telephone": "203-907-5536",
+                        "email": "contact@labate.io"
+                }
+	]
+}
+</script>

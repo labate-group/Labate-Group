@@ -1,0 +1,154 @@
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/services/#webpage",
+			"url": "https://labate.io/services",
+			"name": "Labate Group | Services",
+			"headline": "Services",
+			"description": "",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/services/#collection"}	 
+			],
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/services"
+			},
+			"keywords": [
+				"Labate Services",
+                                "Labate Group Services",
+                                "Marketing Services",
+                                "Digital Marketing Services"
+                                "Marketing Services Westport",
+                                "Marketing Services Fairfield County, CT",
+                                "Marketing Services Connecticut"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/services/#breadcrumb",
+						"url": "https://labate.io/services",
+					}
+				}
+			]
+		},
+		{
+              		"@type": "OfferCatalog",
+              		"@id": "https://labate.io/services/#offercatalog",
+              		"name": "Labate Services",
+              		"url": "https://labate.io/services",
+              		"itemListElement": [
+				{
+                  			"@type": [
+                    				"Offer",
+						"OfferCatalog",
+						"Product",
+						"Service",
+						"ServiceCategory",
+						"Collection"
+					],
+                  			"@id": "https://labate.io/category/marketing-services/",
+                  			"url": "https://labate.io/category/marketing-services",
+                  			"name": "Marketing Services",
+                  			"brand": {
+                    				"@type": "Brand",
+                    				"@id": "https://labate.io/#brand"
+					},
+                  			"description": "Ready to build your brand with a Grade-A marketing campaign?",
+                  			"availableChannel": [
+                    				"8 Wright Street, 1st Floor, Westport, CT 06880",
+                    				"203-907-5536",
+                    				"https://labate.io/"
+                  			],
+                  			"aggregateRating": {
+                    				"@type": "AggregateRating",
+                    				"ratingValue": "5 Stars",
+                    				"bestRating": "5 Stars",
+                    				"worstRating": "5 Stars",
+                    				"ratingCount": "31"
+                  			}
+                		},
+                		{
+                  			"@type": [
+                    				"Offer",
+                    				"OfferCatalog",
+                    				"Product",
+                    				"Service",
+                    				"ServiceCategory",
+                    				"Collection"
+                  			],
+                  			"@id": "https://labate.io/category/software-services",
+                  			"url": "https://labate.io/category/software-services",
+                  			"name": "Software Services",
+                  			"brand": {
+                    				"@type": "Brand",
+                    				"@id": "https://labate.io/#brand"
+                  			},
+                  			"description": "Ready to supercharge your business with industry-leading technology?",
+                  			"availableChannel": [
+                    				"8 Wright Street, 1st Floor, Westport, CT 06880",
+                    				"203-907-5536",
+                    				"https://labate.io/"
+                  			],
+                  			"aggregateRating": {
+                    				"@type": "AggregateRating",
+                    				"ratingValue": "5 Stars",
+                    				"bestRating": "5 Stars",
+                    				"worstRating": "5 Stars",
+                    				"ratingCount": "31"
+                  			}
+                		},
+                		{
+                  			"@type": [
+                    				"Offer",
+                    				"OfferCatalog",
+                    				"Product",
+                    				"Service",
+                    				"ServiceCategory",
+                    				"Collection"
+                  			],
+                  			"@id": "https://labate.io/category/fulfillment-services",
+                  			"url": "https://labate.io/category/fulfillment-services",
+                  			"name": "Fulfillment Services",
+                  			"brand": {
+                    				"@type": "Brand",
+                    				"@id": "https://labate.io/#brand"
+                  			},
+                  			"description": "Leverage valuable time by outsourcing client work.",
+                  			"availableChannel": [
+                    				"8 Wright Street, 1st Floor, Westport, CT 06880",
+                    				"203-907-5536",
+                    				"https://labate.io/"
+                  			],
+                  			"aggregateRating": {
+                    				"@type": "AggregateRating",
+                    				"ratingValue": "5 Stars",
+                    				"bestRating": "5 Stars",
+                    				"worstRating": "5 Stars",
+                    				"ratingCount": "31"
+                  			}
+                		}
+			]
+		}
+	]
+}
+</script>

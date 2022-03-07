@@ -1,0 +1,80 @@
+	        {
+			"@type": "WebPage",
+			"@id": "https://labate.io/our-site/#webpage",
+			"url": "https://labate.io/our-site/",
+			"name": "Labate Group | Our Site",
+			"headline": "Contact",
+			"description": "",
+                        "contactPoint": {
+                                "@type": "ContactPoint",
+                                "@id": "https://labate.io/our-site/#contactpoint"
+                        },
+			"isPartOf": {
+				"@id": "https://labate.io/#website"
+			},
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/our-site/#primaryimage",
+				"name": "Labate Group Webite",
+				"caption": "Labate Group Website",
+				"contentUrl": "",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/our-site/"
+      			},
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "Code",
+			"name":"Labate Group Source Code",
+			"url":"https://labate.link/source"
+			"about":"Labate Group Source Code",
+			"description":"Labate Group Source Code",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.link/source"
+      			},
+		},
+		{
+			"@type": "Code",
+			"name":"Labate Group Schema Markup",
+			"url":"https://labate.link/schema"
+			"about":"Labate Group Schema Markup",
+			"description":"Labate Group Schema Markup",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.link/schema"
+      			},
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+                                        }
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/our-site/#breadcrumb",
+						"url": "https://labate.io/our-site"
+                                        }
+				}
+			]
+		}
+	]
+}
+</script>

@@ -1,0 +1,44 @@
+{
+        "@type": ["SoftwareApplication", "LearningResource", "DigitalDocument"],
+        "@id": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "url": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "mainEntityOfPage": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        "name": "",
+        "about": "",
+        "abstract": "",
+        "isPartOf": [
+                {"@id": "https://labate.io/applications/#collection"}
+        ],
+        "educationalLevel": "Advanced",
+        "author": {
+                "@type": "Person",
+                "@id": "https://labate.io/team/jake-labate/#person",
+                "name": "Jake Labate"
+        },
+        "brand": {
+                "@type": "Brand",
+                "@id": "https://labate.io/#brand",
+                "name": "Labate Group"
+        },
+        "publisher": {
+                "@type": "ProfessionalService",
+                "@id": "https://labate.io/#professionalservice",
+                "url": "https://labate.io",
+                "name": "Labate Group"
+        },
+        "potentialAction": [
+                {
+                        "@type": "ReadAction",
+                        "target": ""
+                }
+        ],
+        "downloadUrl": "",
+        "hasDigitalDocumentPermission": {
+                "@type": "DigitalDocumentPermission",
+                "permissionType": "https://schema.org/ReadPermission",
+                "grantee": {
+                        "@type": "BusinessAudience",
+                        "audienceType": "public"
+                }
+        }
+}

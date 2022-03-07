@@ -1,0 +1,132 @@
+		{
+			"@type": "WebPage",
+			"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
+			"url": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"name": "Labate Group | Blog | {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;blog-post-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"isPartOf": [
+				{"@id": "https://labate.io/#website"},
+				{"@id": "https://labate.io/blog/#collection"}	 
+			],
+			"primaryImageOfPage": {
+				"@type": "ImageObject",
+				"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}}#primaryimage",
+				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;image-horizontal&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"representativeOfPage": "true"
+			},
+			"inLanguage": "en-US",
+			"potentialAction": {
+				"@type": "ReadAction",
+				"target": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			},
+			"keywords": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Blog, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+        			"Labate Group, {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			],
+			"author": {
+				"@id": "https://labate.io/#brand"
+			},
+			"publisher": {
+				"@id": "https://labate.io/#brand"
+			}
+		},
+		{
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://labate.io/#breadcrumb",
+						"url": "https://labate.io"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://labate.io/blog/#breadcrumb",
+						"url": "https://labate.io/blog",
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
+						"url": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					}
+				}
+			]
+		},
+		{
+       			"@type": "BlogPosting",
+			"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#blogposting",
+			"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"url": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"image": "{{wf {&quot;path&quot;:&quot;image-horizontal&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+			"sharedContent": "",
+			"articleBody": "",
+			"abstract": "{{wf {&quot;path&quot;:&quot;blog-post-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"description": "{{wf {&quot;path&quot;:&quot;blog-post-summary&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"assosiatedMedia": "{{wf {&quot;path&quot;:&quot;image-horizontal&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+			"inLanguage": "English",
+			"isFamilyFriendly": "true",
+			"mainEntityOfPage": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"isPartOf": [
+				{"@id": "https://labate.io/blog/#blog"},
+				{"@id": "https://labate.io/blog/#collection"}
+				{"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage"}
+			],
+			"audience": {
+				"@type": "BusinessAudience",
+				"@id": "https://labate.io/blog/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#businessaudience"
+			},
+			"author": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/{{wf {&quot;path&quot;:&quot;blog-post-author:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#person"
+			},
+			"contributor": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/jake-labate/#person"
+			},
+			"editor": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/jake-labate/#person"
+			},
+			"maintainer": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand"
+			},
+			"copyrightHolder": {
+				"@type": "Person",
+				"@id": "https://labate.io/team/jake-labate/#person"
+			},
+			"publisher": {
+				"@type": "Brand",
+				"@id": "https://labate.io/#brand"
+			},
+			"datePublished": "{{wf {&quot;path&quot;:&quot;published-on&quot;,&quot;transformers&quot;:[{&quot;name&quot;:&quot;date&quot;,&quot;arguments&quot;:[&quot;MMM DD, YYYY&quot;]\}],&quot;type&quot;:&quot;Date&quot;\} }}",
+			"dateModified": "{{wf {&quot;path&quot;:&quot;updated-on&quot;,&quot;transformers&quot;:[{&quot;name&quot;:&quot;date&quot;,&quot;arguments&quot;:[&quot;MMM DD, YYYY&quot;]\}],&quot;type&quot;:&quot;Date&quot;\} }}",
+			"subjectOf": ["{{wf {&quot;path&quot;:&quot;service-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}", "{{wf {&quot;path&quot;:&quot;service:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}],
+			"teacher": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;service:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			],
+			"mentions": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			],
+			"keywords": [
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;service:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+				"{{wf {&quot;path&quot;:&quot;service-category:name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+			]
+		}
+	]
+}
+</script>
