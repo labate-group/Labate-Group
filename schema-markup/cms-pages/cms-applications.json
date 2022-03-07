@@ -1,5 +1,5 @@
 {
-        "@type": ["SoftwareApplication", "LearningResource", "DigitalDocument", "Article"],
+        "@type": ["SoftwareApplication", "LearningResource", "DigitalDocument"],
         "@id": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
         "url": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
         "mainEntityOfPage": "https://labate.io/applications/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
