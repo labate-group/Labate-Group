@@ -46,6 +46,7 @@ Variables in this schema snippet:
 			"@id": "{{FULL-URL}}/#primaryimage",
 			"name": "{{FULL-PAGE-NAME}}",
 			"alt": "{{FULL-PAGE-NAME}}",
+			"inLanguage": "en-US",
 			"url": "{{PAGE-IMAGE}}",
 			"contentUrl": "{{PAGE-IMAGE}}",
 			"primaryImageOfPage": "{{FULL-URL}}",
