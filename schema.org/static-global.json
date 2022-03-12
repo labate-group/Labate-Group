@@ -274,8 +274,8 @@
                      "ServiceCategory",
                      "Collection"
                   ],
-                  "@id": "https://labate.io/category/marketing-services/",
-                  "url": "https://labate.io/category/marketing-services",
+                  "@id": "https://labate.io/category/marketing/",
+                  "url": "https://labate.io/category/marketing",
                   "name": "Marketing Services",
                   "audience": "name": "Small + Medium Sized Businesses"
                   "brand": {
@@ -283,17 +283,16 @@
                      "@id": "https://labate.io/#brand"
                   },
                   "description": "Ready to build your brand with a Grade-A marketing campaign?",
-                  "availableChannel": [
-                     "8 Wright Street, 1st Floor, Westport, CT 06880",
-                     "203-907-5536",
-                     "https://labate.io/"
-                  ],
                   "aggregateRating": {
                      "@type": "AggregateRating",
                      "ratingValue": "5 Stars",
                      "bestRating": "5 Stars",
                      "worstRating": "5 Stars",
-                     "ratingCount": "31"
+                     "ratingCount": "31",
+                     "itemReviewed": {
+                        "@type": "ServiceCategory",
+                        "@id": "https://labate.io/category/marketing/#servicecategory"
+                     }
                   }
                },
                {
@@ -303,8 +302,8 @@
                      "ServiceCategory",
                      "Collection"
                   ],
-                  "@id": "https://labate.io/category/software-services",
-                  "url": "https://labate.io/category/software-services",
+                  "@id": "https://labate.io/category/software",
+                  "url": "https://labate.io/category/software",
                   "name": "Software Services",
                   "audience": "Medium Sized Businesses + Tech Startups",
                   "brand": {
@@ -312,17 +311,16 @@
                      "@id": "https://labate.io/#brand"
                   },
                   "description": "Ready to supercharge your business with industry-leading technology?",
-                  "availableChannel": [
-                     "8 Wright Street, 1st Floor, Westport, CT 06880",
-                     "203-907-5536",
-                     "https://labate.io/"
-                  ],
                   "aggregateRating": {
                      "@type": "AggregateRating",
                      "ratingValue": "5 Stars",
                      "bestRating": "5 Stars",
                      "worstRating": "5 Stars",
-                     "ratingCount": "31"
+                     "ratingCount": "31",
+                     "itemReviewed": {
+                        "@type": "ServiceCategory",
+                        "@id": "https://labate.io/category/software/#servicecategory"
+                     }
                   }
                },
                {
@@ -332,8 +330,8 @@
                      "ServiceCategory",
                      "Collection"
                   ],
-                  "@id": "https://labate.io/category/fulfillment-services",
-                  "url": "https://labate.io/category/fulfillment-services",
+                  "@id": "https://labate.io/category/fulfillment",
+                  "url": "https://labate.io/category/fulfillment",
                   "name": "Fulfillment Services",
                   "audience": "Marketing Agencies",
                   "brand": {
@@ -341,17 +339,16 @@
                      "@id": "https://labate.io/#brand"
                   },
                   "description": "Leverage valuable time by outsourcing client work.",
-                  "availableChannel": [
-                     "8 Wright Street, 1st Floor, Westport, CT 06880",
-                     "203-907-5536",
-                     "https://labate.io/"
-                  ],
                   "aggregateRating": {
                      "@type": "AggregateRating",
                      "ratingValue": "5 Stars",
                      "bestRating": "5 Stars",
                      "worstRating": "5 Stars",
-                     "ratingCount": "31"
+                     "ratingCount": "31",
+                     "itemReviewed": {
+                        "@type": "ServiceCategory",
+                        "@id": "https://labate.io/category/fulfillment/#servicecategory"
+                     },
                   }
                }
             ]
@@ -429,7 +426,12 @@
             "ratingValue": "5 Stars",
             "bestRating": "5 Stars",
             "worstRating": "5 Stars",
-            "ratingCount": "31"
+            "ratingCount": "31",
+            "itemReviewed": {
+               "@type": "ProfessionalService",
+               "@id": "https://labate.io/#professionalservice",
+               "name": "Labate Group
+            }
          }
       },
       {
