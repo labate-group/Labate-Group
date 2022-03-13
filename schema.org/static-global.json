@@ -1,508 +1,499 @@
 <script defer type="application/ld+json">
-{
-   "@context": "https://schema.org",
-   "@graph": [
       {
-         "@type": "WPHeader",
-         "@id": "https://labate.io/#header",
-         "name": "Header",
-         "cssSelector": ".nav",
-         "hasPart": [
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Home",
-               "url": "https://labate.io"
+        "@context": "https://schema.org",
+        "@graph": [{
+            "@type": "WPHeader",
+            "@id": "https://labate.io/#header",
+            "name": "Header",
+            "cssSelector": ".nav",
+            "hasPart": [{
+                "@type": "SiteNavigationElement",
+                "name": "Home",
+                "url": "https://labate.io"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "About",
+                "url": "https://labate.io/about"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Services",
+                "url": "https://labate.io/services"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Marketing",
+                "url": "https://labate.io/category/marketing"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Software",
+                "url": "https://labate.io/category/software"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Fulfillment",
+                "url": "https://labate.io/category/fulfillment"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Database",
+                "url": "https://labate.io/database"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Events",
+                "url": "https://labate.io/events"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Organizations",
+                "url": "https://labate.io/organizations"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Public Figures",
+                "url": "https://labate.io/public-figures"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Blog",
+                "url": "https://labate.io/blog"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Search",
+                "url": "https://labate.io/search"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Contact",
+                "url": "https://labate.io/contact"
+              }
+            ],
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://labate.io/#logo"
             },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "About",
-               "url": "https://labate.io/about"
+            "inLanguage": "us-EN"
+          },
+          {
+            "@type": [
+              "ProfessionalService",
+              "Brand",
+              "WebSite"
+            ],
+            "name": "Labate Group",
+            "alternateName": [
+              "Labate",
+              "Labate.io",
+              "Labate Marketing",
+              "Labate Software",
+              "Labate Fulfillment"
+            ],
+            "slogan": "Marketing, Software, Fulfillment",
+            "description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
+            "url": "https://labate.io/",
+            "about": {
+              "@type": "AboutPage",
+              "@id": "https://labate.io/about/#aboutpage"
             },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Services",
-               "url": "https://labate.io/services"
+            "priceRange": "$$$",
+            "currenciesAccepted": "USD",
+            "paymentAccepted": "Cash, Credit Card, Bank Transfer, Check, Cryptocurrency",
+            "openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
+            "knowsLanguage": [
+              "English",
+              "Spanish"
+            ],
+            "inLanguage": "English",
+            "mainEntityOfPage": [{
+                "@type": "AboutPage",
+                "@id": "https://labate.io/about/#aboutpage"
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://labate.io/#website"
+              }
+            ],
+            "mentions": [
+              "Marketing Company",
+              "Marketing Firm",
+              "Marketing Agency",
+              "Social Media Marketing Services",
+              "Website Development Services",
+              "Search Engine Optimization Services",
+              "Email Marketing Services",
+              "Graphic Design Services",
+              "Copywriting Services",
+              "Marketing Automation Services",
+              "Marketing Software Services",
+              "Marketing Fulfillment Services",
+              "Schema Markup Services"
+            ],
+            "keywords": [
+              "Marketing Company",
+              "Marketing Firm",
+              "Marketing Agency",
+              "Social Media Marketing Services",
+              "Website Development Services",
+              "Search Engine Optimization Services",
+              "Email Marketing Services",
+              "Graphic Design Services",
+              "Copywriting Services",
+              "Marketing Automation Services",
+              "Marketing Software Services",
+              "Marketing Fulfillment Services",
+              "Schema Markup Services"
+            ],
+            "knowsAbout": [
+              "Marketing",
+              "Social Media Marketing",
+              "Website Development",
+              "Search Engine Optimization",
+              "Email Marketing",
+              "Graphic Design",
+              "Copywriting",
+              "Marketing Automation",
+              "Marketing Software",
+              "Marketing Fulfillment"
+            ],
+            "publisher": {
+              "@type": "Brand",
+              "@id": "https://labate.io/#brand",
+              "name": "Labate Group"
             },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Marketing",
-               "url": "https://labate.io/category/marketing"
+            "author": {
+              "@type": "Brand",
+              "@id": "https://labate.io/#brand",
+              "name": "Labate Group"
             },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Software",
-               "url": "https://labate.io/category/software"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Fulfillment",
-               "url": "https://labate.io/category/fulfillment"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Database",
-               "url": "https://labate.io/database"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Events",
-               "url": "https://labate.io/events"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Organizations",
-               "url": "https://labate.io/organizations"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Public Figures",
-               "url": "https://labate.io/public-figures"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Blog",
-               "url": "https://labate.io/blog"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Search",
-               "url": "https://labate.io/search"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Contact",
-               "url": "https://labate.io/contact"
-            }
-         ],
-         "image": {
-            "@type": "ImageObject",
-            "@id": "https://labate.io/#logo"
-         },
-         "inLanguage": "us-EN"
-      },
-      {
-         "@type": [
-            "ProfessionalService",
-            "Brand",
-            "WebSite"
-         ],
-         "name": "Labate Group",
-         "alternateName": [
-            "Labate",
-            "Labate.io",
-            "Labate Marketing",
-            "Labate Software",
-            "Labate Fulfillment"
-         ],
-         "slogan": "Marketing, Software, Fulfillment",
-         "description": "The Labate Group delivers tier-1 marketing services to SMBs, proprietary and custom software to tech start-ups, and white glove/white label fulfillment to agencies.",
-         "url": "https://labate.io/",
-         "about": {
-            "@type": "AboutPage",
-            "@id": "https://labate.io/about/#aboutpage"
-         },
-         "priceRange": "$$$",
-         "currenciesAccepted": "USD",
-         "paymentAccepted": "Cash, Credit Card, Bank Transfer, Check, Cryptocurrency",
-         "openingHours": "Mo, Tu, We, Th, Fr 10:00-4:00",
-         "knowsLanguage": [
-            "English",
-            "Spanish"
-         ],
-         "inLanguage": "English",
-         "mainEntityOfPage": [
-            {
-               "@type": "AboutPage",
-               "@id": "https://labate.io/about/#aboutpage"
-            },
-            {
-               "@type": "WebPage",
-               "@id": "https://labate.io/#website"
-            }
-         ],
-         "mentions": [
-            "Marketing Company",
-            "Marketing Firm",
-            "Marketing Agency",
-            "Social Media Marketing Services",
-            "Website Development Services",
-            "Search Engine Optimization Services",
-            "Email Marketing Services",
-            "Graphic Design Services",
-            "Copywriting Services",
-            "Marketing Automation Services",
-            "Marketing Software Services",
-            "Marketing Fulfillment Services",
-            "Schema Markup Services"
-         ],
-         "keywords": [
-            "Marketing Company",
-            "Marketing Firm",
-            "Marketing Agency",
-            "Social Media Marketing Services",
-            "Website Development Services",
-            "Search Engine Optimization Services",
-            "Email Marketing Services",
-            "Graphic Design Services",
-            "Copywriting Services",
-            "Marketing Automation Services",
-            "Marketing Software Services",
-            "Marketing Fulfillment Services",
-            "Schema Markup Services"
-         ],
-         "knowsAbout": [
-            "Marketing",
-            "Social Media Marketing",
-            "Website Development",
-            "Search Engine Optimization",
-            "Email Marketing",
-            "Graphic Design",
-            "Copywriting",
-            "Marketing Automation",
-            "Marketing Software",
-            "Marketing Fulfillment"
-         ],
-         "publisher": {
-            "@type": "Brand",
-            "@id": "https://labate.io/#brand",
-            "name": "Labate Group"
-         },
-         "author": {
-            "@type": "Brand",
-            "@id": "https://labate.io/#brand",
-            "name": "Labate Group"
-         },
-         "telephone": "203-907-5536",
-         "email": "contact@labate.io",
-         "contactPoint": {
-            "@type": "ContactPoint",
-            "@id": "https://labate.io/#contactpoint",
             "telephone": "203-907-5536",
-            "email": "contact@labate.io"
-         },
-         "address": {
-            "@type": "PostalAddress",
-            "@id": "https://labate.io/#postaladdress",
-            "streetAddress": "8 Wright Street, 1st Fl",
-            "addressLocality": "Westport",
-            "addressRegion": "CT",
-            "addressCountry": "United States",
-            "postalCode": "06880",
-            "telephone": "203-907-5536"
-         },
-         "geo": {
-            "@type": "GeoCoordinates",
-            "@id": "https://labate.io/#geocoordinates",
-            "latitude": "41.1404152",
-            "longitude": "-73.3651719"
-         },
-         "hasMap": "https://www.google.com/maps/place/Labate+Group/@41.1404152,-73.3673606,17z/data=!3m1!4b1!4m5!3m4!1s0x89e811e47f7e15bf:0xc175de0c92934f9e!8m2!3d41.1404152!4d-73.3651719",
-         "areaServed": [
-            {
-               "@type": "AdministrativeArea",
-               "name": "Fairfield, CT",
-               "sameAs": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut"
+            "email": "contact@labate.io",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "@id": "https://labate.io/#contactpoint",
+              "telephone": "203-907-5536",
+              "email": "contact@labate.io"
             },
-            {
-               "@type": "AdministrativeArea",
-               "name": "Norwalk, CT",
-               "sameAs": "https://en.wikipedia.org/wiki/Norwalk,_Connecticut"
+            "address": {
+              "@type": "PostalAddress",
+              "@id": "https://labate.io/#postaladdress",
+              "streetAddress": "8 Wright Street, 1st Fl",
+              "addressLocality": "Westport",
+              "addressRegion": "CT",
+              "addressCountry": "United States",
+              "postalCode": "06880",
+              "telephone": "203-907-5536"
             },
-            {
-               "@type": "AdministrativeArea",
-               "name": "Westport, CT",
-               "sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
+            "geo": {
+              "@type": "GeoCoordinates",
+              "@id": "https://labate.io/#geocoordinates",
+              "latitude": "41.1404152",
+              "longitude": "-73.3651719"
             },
-            {
-               "@type": "AdministrativeArea",
-               "name": "Fairfield County, Connecticut",
-               "sameAs": "https://en.wikipedia.org/wiki/Fairfield_County,_Connecticut"
-            },
-            {
-               "@type": "AdministrativeArea",
-               "name": "Connecticut, USA",
-               "sameAs": "https://en.wikipedia.org/wiki/Connecticut"
-            },
-            {
-               "@type": "AdministrativeArea",
-               "name": "United States",
-               "sameAs": "https://en.wikipedia.org/wiki/United_States"
-            }
-         ],
-         "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "@id": "https://labate.io/services/#offercatalog",
-            "name": "Labate Services",
-            "url": "https://labate.io/services",
-            "itemListElement": [
-               {
+            "hasMap": "https://www.google.com/maps/place/Labate+Group/@41.1404152,-73.3673606,17z/data=!3m1!4b1!4m5!3m4!1s0x89e811e47f7e15bf:0xc175de0c92934f9e!8m2!3d41.1404152!4d-73.3651719",
+            "areaServed": [{
+                "@type": "AdministrativeArea",
+                "name": "Fairfield, CT",
+                "sameAs": "https://en.wikipedia.org/wiki/Fairfield,_Connecticut"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Norwalk, CT",
+                "sameAs": "https://en.wikipedia.org/wiki/Norwalk,_Connecticut"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Westport, CT",
+                "sameAs": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Fairfield County, Connecticut",
+                "sameAs": "https://en.wikipedia.org/wiki/Fairfield_County,_Connecticut"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Connecticut, USA",
+                "sameAs": "https://en.wikipedia.org/wiki/Connecticut"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "United States",
+                "sameAs": "https://en.wikipedia.org/wiki/United_States"
+              }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "@id": "https://labate.io/services/#offercatalog",
+              "name": "Labate Services",
+              "url": "https://labate.io/services",
+              "itemListElement": [{
                   "@type": [
-                     "Offer",
-                     "OfferCatalog",
-                     "ServiceCategory",
-                     "Collection"
+                    "Offer",
+                    "OfferCatalog",
+                    "ServiceCategory",
+                    "Collection"
                   ],
                   "@id": "https://labate.io/category/marketing/",
                   "url": "https://labate.io/category/marketing",
                   "name": "Marketing Services",
-                  "audience": "name": "Small + Medium Sized Businesses"
+                  "audience": "Small + Medium Sized Businesses",
                   "brand": {
-                     "@type": "Brand",
-                     "@id": "https://labate.io/#brand"
+                    "@type": "Brand",
+                    "@id": "https://labate.io/#brand"
                   },
                   "description": "Ready to build your brand with a Grade-A marketing campaign?",
                   "aggregateRating": {
-                     "@type": "AggregateRating",
-                     "ratingValue": "5 Stars",
-                     "bestRating": "5 Stars",
-                     "worstRating": "5 Stars",
-                     "ratingCount": "31",
-                     "itemReviewed": {
-                        "@type": "ServiceCategory",
-                        "@id": "https://labate.io/category/marketing/#servicecategory"
-                     }
+                    "@type": "AggregateRating",
+                    "ratingValue": "5 Stars",
+                    "bestRating": "5 Stars",
+                    "worstRating": "5 Stars",
+                    "ratingCount": "31",
+                    "itemReviewed": {
+                      "@type": "ServiceCategory",
+                      "@id": "https://labate.io/category/marketing/#servicecategory"
+                    }
                   }
-               },
-               {
+                },
+                {
                   "@type": [
-                     "Offer",
-                     "OfferCatalog",
-                     "ServiceCategory",
-                     "Collection"
+                    "Offer",
+                    "OfferCatalog",
+                    "ServiceCategory",
+                    "Collection"
                   ],
                   "@id": "https://labate.io/category/software",
                   "url": "https://labate.io/category/software",
                   "name": "Software Services",
                   "audience": "Medium Sized Businesses + Tech Startups",
                   "brand": {
-                     "@type": "Brand",
-                     "@id": "https://labate.io/#brand"
+                    "@type": "Brand",
+                    "@id": "https://labate.io/#brand"
                   },
                   "description": "Ready to supercharge your business with industry-leading technology?",
                   "aggregateRating": {
-                     "@type": "AggregateRating",
-                     "ratingValue": "5 Stars",
-                     "bestRating": "5 Stars",
-                     "worstRating": "5 Stars",
-                     "ratingCount": "31",
-                     "itemReviewed": {
-                        "@type": "ServiceCategory",
-                        "@id": "https://labate.io/category/software/#servicecategory"
-                     }
+                    "@type": "AggregateRating",
+                    "ratingValue": "5 Stars",
+                    "bestRating": "5 Stars",
+                    "worstRating": "5 Stars",
+                    "ratingCount": "31",
+                    "itemReviewed": {
+                      "@type": "ServiceCategory",
+                      "@id": "https://labate.io/category/software/#servicecategory"
+                    }
                   }
-               },
-               {
+                },
+                {
                   "@type": [
-                     "Offer",
-                     "OfferCatalog",
-                     "ServiceCategory",
-                     "Collection"
+                    "Offer",
+                    "OfferCatalog",
+                    "ServiceCategory",
+                    "Collection"
                   ],
                   "@id": "https://labate.io/category/fulfillment",
                   "url": "https://labate.io/category/fulfillment",
                   "name": "Fulfillment Services",
                   "audience": "Marketing Agencies",
                   "brand": {
-                     "@type": "Brand",
-                     "@id": "https://labate.io/#brand"
+                    "@type": "Brand",
+                    "@id": "https://labate.io/#brand"
                   },
                   "description": "Leverage valuable time by outsourcing client work.",
                   "aggregateRating": {
-                     "@type": "AggregateRating",
-                     "ratingValue": "5 Stars",
-                     "bestRating": "5 Stars",
-                     "worstRating": "5 Stars",
-                     "ratingCount": "31",
-                     "itemReviewed": {
-                        "@type": "ServiceCategory",
-                        "@id": "https://labate.io/category/fulfillment/#servicecategory"
-                     },
+                    "@type": "AggregateRating",
+                    "ratingValue": "5 Stars",
+                    "bestRating": "5 Stars",
+                    "worstRating": "5 Stars",
+                    "ratingCount": "31",
+                    "itemReviewed": {
+                      "@type": "ServiceCategory",
+                      "@id": "https://labate.io/category/fulfillment/#servicecategory"
+                    }
                   }
-               }
-            ]
-         },
-         "hasCredential": {
-            "@type": "EducationalOccupationalCredential",
-            "url": "https://labate.link/bbb",
-            "name": "A+ Better Business Bureau Accreditation Rating",
-            "description": "Labate is A+ accredited with the Better Business Bureau",
-            "sourceOrganization": {
-               "@type": "Organization",
-               "@id": "https://bbb.com/#organization",
-               "name": "Better Business Bureau",
-               "url": "https://bbb.com"
+                }
+              ]
             },
-            "credentialCategory": {
-               "@type": "DefinedTerm",
-               "name": "Accredited"
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "url": "https://labate.link/bbb",
+              "name": "A+ Better Business Bureau Accreditation Rating",
+              "description": "Labate is A+ accredited with the Better Business Bureau",
+              "sourceOrganization": {
+                "@type": "Organization",
+                "@id": "https://bbb.com/#organization",
+                "name": "Better Business Bureau",
+                "url": "https://bbb.com"
+              },
+              "credentialCategory": {
+                "@type": "DefinedTerm",
+                "name": "Accredited"
+              },
+              "competencyRequired": {
+                "@type": "DefinedTerm",
+                "name": "BBB Accreditation Standards",
+                "url": "https://www.bbb.org/bbb-accreditation-standards"
+              }
             },
-            "competencyRequired": {
-               "@type": "DefinedTerm",
-               "name": "BBB Accreditation Standards",
-               "url": "https://www.bbb.org/bbb-accreditation-standards"
+            "sameAs": [
+              "https://labate.link/facebook",
+              "https://labate.link/instagram",
+              "https://labate.link/linkedin",
+              "https://labate.link/twitter",
+              "https://labate.link/github",
+              "https://labate.link/linktree",
+              "https://labate.link/youtube",
+              "https://labate.link/tiktok",
+              "https://labate.link/discord",
+              "https://labate.link/clubhouse",
+              "https://labate.link/bbb",
+              "https://labate.link/norwalk-chamber",
+              "https://labate.link/fairfield-chamber"
+            ],
+            "memberOf": [{
+                "@type": "Organization",
+                "@id": "https://fairfieldctchamber.com/#organization",
+                "url": "https://fairfieldctchamber.com",
+                "name": "Fairfield CT Chamber of Commerce"
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://greaternorwalkchamber.com/#organization",
+                "url": "https://greaternorwalkchamber.com/",
+                "name": "Greater Norwalk Chamber of Commerce"
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://fairfieldctchamber.com/felo/#organization",
+                "url": "https://fairfieldctchamber.com/felo",
+                "name": "Fairfield Emerging Leaders Organization"
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://fairfieldctchamber.com/about-us/leads-group//#organization",
+                "url": "https://fairfieldctchamber.com/about-us/leads-group/",
+                "name": "Fairfield Leads Group"
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://bbb.com/#organization",
+                "url": "https://bbb.com/",
+                "name": "Better Business Bureau"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5 Stars",
+              "bestRating": "5 Stars",
+              "worstRating": "5 Stars",
+              "ratingCount": "31",
+              "itemReviewed": {
+                "@type": "ProfessionalService",
+                "@id": "https://labate.io/#professionalservice",
+                "name": "Labate Group"
+              }
             }
-         },
-         "sameAs": [
-            "https://labate.link/facebook",
-            "https://labate.link/instagram",
-            "https://labate.link/linkedin",
-            "https://labate.link/twitter",
-            "https://labate.link/github",
-            "https://labate.link/linktree",
-            "https://labate.link/youtube",
-            "https://labate.link/tiktok",
-            "https://labate.link/discord",
-            "https://labate.link/clubhouse",
-            "https://labate.link/bbb",
-            "https://labate.link/norwalk-chamber",
-            "https://labate.link/fairfield-chamber"
-         ],
-         "memberOf": [
-            {
-               "@type": "Organization",
-               "@id": "https://fairfieldctchamber.com/#organization",
-               "url": "https://fairfieldctchamber.com",
-               "name": "Fairfield CT Chamber of Commerce"
-            },
-            {
-               "@type": "Organization",
-               "@id": "https://greaternorwalkchamber.com/#organization",
-               "url": "https://greaternorwalkchamber.com/",
-               "name": "Greater Norwalk Chamber of Commerce"
-            },
-            {
-               "@type": "Organization",
-               "@id": "https://fairfieldctchamber.com/felo/#organization",
-               "url": "https://fairfieldctchamber.com/felo",
-               "name": "Fairfield Emerging Leaders Organization"
-            },
-            {
-               "@type": "Organization",
-               "@id": "https://fairfieldctchamber.com/about-us/leads-group//#organization",
-               "url": "https://fairfieldctchamber.com/about-us/leads-group/",
-               "name": "Fairfield Leads Group"
-            },
-            {
-               "@type": "Organization",
-               "@id": "https://bbb.com/#organization",
-               "url": "https://bbb.com/",
-               "name": "Better Business Bureau"
+          },
+          {
+            "@type": "WPFooter",
+            "@id": "https://labate.io/#footer",
+            "name": "Footer",
+            "isPartOf": [],
+            "cssSelector": ".footer",
+            "potentialAction": [{
+                "@type": "SearchAction",
+                "@id": "https://labate.io/#searchaction",
+                "actionStatus": "potentialActionStatus",
+                "name": "Search",
+                "description": "Search anything on the Labate Group website",
+                "mainEntityOfPage": "https://labate.io/search",
+                "target": "https://labate.io/search?query={search_term_string}",
+                "query-input": "name=search_term_string",
+                "result": "Agent has searched the Labate Group website"
+              },
+              {
+                "@type": "SubscribeAction",
+                "@id": "https://labate.io/#subscribeaction",
+                "actionStatus": "potentialActionStatus",
+                "name": "Subscribe to Labate Newsletter",
+                "description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
+                "result": "Agent is now subscribed to the Labate Group newsletter"
+              }
+            ],
+            "hasPart": [{
+                "@type": "ImageObject",
+                "@id": "https://labate.io/#logo"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Home",
+                "text": "Home",
+                "url": "https://labate.io"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "About",
+                "text": "About",
+                "url": "https://labate.io/about"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Services",
+                "text": "Services",
+                "url": "https://labate.io/services"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Database",
+                "text": "Database",
+                "url": "https://labate.io/database"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Blog",
+                "text": "Blog",
+                "url": "https://labate.io/blog"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Search",
+                "text": "Search",
+                "url": "https://labate.io/search"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Contact",
+                "text": "Contact",
+                "url": "https://labate.io/contact"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Labate Group | Westport Office",
+                "text": "8 Wright Street, 1st Fl. Westport, CT 06880",
+                "url": "https://labate.link/google"
+              },
+              {
+                "@type": "SiteNavigationElement",
+                "name": "Labate Group | Terms",
+                "text": "Terms",
+                "url": "https://labate.io/terms/"
+              }
+            ],
+            "copyrightHolder": "Labate Group",
+            "copyrightYear": "2022",
+            "copyrightNotice": "All Rights Reserved"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://labate.io/#logo",
+            "name": "Labate Group Logo",
+            "caption": "Labate Group Logo",
+            "description": "Labate Group Logo",
+            "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+            "contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
+            "thumbnail": {
+              "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
             }
-         ],
-         "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5 Stars",
-            "bestRating": "5 Stars",
-            "worstRating": "5 Stars",
-            "ratingCount": "31",
-            "itemReviewed": {
-               "@type": "ProfessionalService",
-               "@id": "https://labate.io/#professionalservice",
-               "name": "Labate Group"
-            }
-         }
-      },
-      {
-         "@type": "WPFooter",
-         "@id": "https://labate.io/#footer",
-         "name": "Footer",
-         "isPartOf": [
-         ],
-         "cssSelector": ".footer",
-         "potentialAction": [
-            {
-               "@type": "SearchAction",
-               "@id": "https://labate.io/#searchaction",
-               "actionStatus": "potentialActionStatus",
-               "name": "Search",
-               "description": "Search anything on the Labate Group website",
-               "mainEntityOfPage": "https://labate.io/search",
-               "target": "https://labate.io/search?query={search_term_string}",
-               "query-input": "name=search_term_string",
-               "result": "Agent has searched the Labate Group website"
-            },
-            {
-               "@type": "SubscribeAction",
-               "@id": "https://labate.io/#subscribeaction",
-               "actionStatus": "potentialActionStatus",
-               "name": "Subscribe to Labate Newsletter",
-               "description": "Subscribe to Labate's email newsletter, discussing company updates and professional resources",
-               "result": "Agent is now subscribed to the Labate Group newsletter"
-            }
-         ],
-         "hasPart": [
-            {
-               "@type": "ImageObject",
-               "@id": "https://labate.io/#logo",
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Home",
-               "text": "Home",
-               "url": "https://labate.io"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "About",
-               "text": "About",
-               "url": "https://labate.io/about"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Services",
-               "text": "Services",
-               "url": "https://labate.io/services"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Database",
-               "text": "Database",
-               "url": "https://labate.io/database"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Blog",
-               "text": "Blog",
-               "url": "https://labate.io/blog"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Search",
-               "text": "Search",
-               "url": "https://labate.io/search"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Contact",
-               "text": "Contact",
-               "url": "https://labate.io/contact"
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Labate Group | Westport Office",
-               "text": "8 Wright Street, 1st Fl. Westport, CT 06880",
-               "url": "https://labate.link/google",
-            },
-            {
-               "@type": "SiteNavigationElement",
-               "name": "Labate Group | Terms",
-               "text": "Terms",
-               "url": "https://labate.io/terms/",
-            }
-         ],
-         "copyrightHolder": "Labate Group",
-         "copyrightYear": "2022",
-         "copyrightNotice": "All Rights Reserved"
-      },
-      {
-         "@type": "ImageObject",
-         "@id": "https://labate.io/#logo",
-         "name": "Labate Group Logo",
-         "caption": "Labate Group Logo",
-         "description": "Labate Group Logo",
-         "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
-         "contentURL": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg",
-         "thumbnail": {
-            "contentUrl": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec97f58c424afce46dcd1f_labate_icon.png"
-         }
-      },
+          },
