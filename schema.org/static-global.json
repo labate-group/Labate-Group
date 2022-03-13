@@ -11,80 +11,66 @@
             {
                "@type": "SiteNavigationElement",
                "name": "Home",
-               "text": "Home",
-               "isPartOf": "https://labate.io/#header",
                "url": "https://labate.io"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "About",
-               "text": "About",
                "url": "https://labate.io/about"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Services",
-               "text": "Services",
                "url": "https://labate.io/services"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Marketing",
-               "text": "Marketing",
                "url": "https://labate.io/category/marketing"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Software",
-               "text": "Software",
                "url": "https://labate.io/category/software"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Fulfillment",
-               "text": "Fulfillment",
                "url": "https://labate.io/category/fulfillment"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Database",
-               "text": "Database",
                "url": "https://labate.io/database"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Events",
-               "text": "Events",
                "url": "https://labate.io/events"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Organizations",
-               "text": "Organizations",
                "url": "https://labate.io/organizations"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Public Figures",
-               "text": "Public Figures",
                "url": "https://labate.io/public-figures"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Blog",
-               "text": "Blog",
                "url": "https://labate.io/blog"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Search",
-               "text": "Search",
                "url": "https://labate.io/search"
             },
             {
                "@type": "SiteNavigationElement",
                "name": "Contact",
-               "text": "Contact",
                "url": "https://labate.io/contact"
             }
          ],
@@ -92,25 +78,7 @@
             "@type": "ImageObject",
             "@id": "https://labate.io/#logo"
          },
-         "inLanguage": "us-EN",
-         "isFamilyFriendly": "true",
-         "isPartOf": "https://labate.io/#website",
-         "sourceOrganization": {
-            "@type": "ProfessionalService",
-            "@id": "https://labate.io/#professionalservice",
-            "name": "Labate Group",
-            "priceRange": "$$$",
-            "telephone": "203-907-5536",
-            "image": {
-               "@type": "ImageObject",
-               "@id": "https://labate.io/#logo",
-               "url": "https://uploads-ssl.webflow.com/617db0d9cb2380592804fbb6/61ec95e3839abe2885eec854_logo.svg"
-            },
-            "address": {
-               "@type": "PostalAddress",
-               "@id": "https://labate.io/#postaladdress"
-            }
-         }
+         "inLanguage": "us-EN"
       },
       {
          "@type": [
