@@ -1,0 +1,240 @@
+{
+	"@context": "http://schema.org",
+	"@type": [
+		"Article"
+	],
+	"headline": "Best Startup Business Loans",
+	"datePublished": "2021-02-19T11:13:42.151-05:00",
+	"dateModified": "2022-02-19T17:29:18.508-05:00",
+	"author": [
+		{
+			"@type": "Person",
+			"name": "Brian Carmody",
+			"description": "Brian Carmody is a writer and president of a manufacturing company who specializes in commercial lending, investing, and business loans. Brian is also an expert in home ownership, business essentials, and small businesses. He has a Political Science degree from the College of the Holy Cross and numerous quality improvement certificates from The Juran Institute.",
+			"jobTitle": "President of Manufacturing Company, Owner of a Commercial Real Estate Brokerage, Owner of a Consulting Firm, Contributing Writer",
+			"url": "https://www.investopedia.com/brian-carmody-4846989",
+			"sameAs": [
+				"https://twitter.com/BrianCarmody",
+				"https://www.linkedin.com/in/briancarmody/"
+			],
+			"knowsAbout": [
+				"Real Estate Finance, Loans, Lending for Investors, Real Estate Investing, Real Estate Investing Software and Apps, Business Loans, SBA Loans, Business Lines of Credit, Equipment Financing Strategies for Small Business"
+			],
+			"alumniOf": [
+				{
+					"@type": "Organization",
+					"Name": "College of the Holy Cross"
+				}
+			]
+		}
+	],
+	"description": "Payroll, inventory, and other expenses don&#39;t need to slow your growth. We researched the best startup business loans based on rates, terms, qualifications, and more.",
+	"image": [
+		{
+			"@type": "ImageObject",
+			"url": "https://www.investopedia.com/thmb/rVjLoQfHXDlmV8HSCgxx-MlBsBQ=/569x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
+			"height": 320,
+			"width": 569
+		},
+		{
+			"@type": "ImageObject",
+			"url": "https://www.investopedia.com/thmb/vC06Jgi3kAQS4XxHBpqsDJBfnvI=/427x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
+			"height": 320,
+			"width": 427
+		},
+		{
+			"@type": "ImageObject",
+			"url": "https://www.investopedia.com/thmb/0ldJjTZQg2vhOUMnB8yrLPNtAB8=/320x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
+			"height": 320,
+			"width": 320
+		}
+	],
+	"publisher": {
+		"@type": "Organization",
+		"name": "Investopedia",
+		"url": "https://www.investopedia.com",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://www.investopedia.com/thmb/QfBehpNM1l3_gNG-oJMQnjdaJ6c=/260x60/filters:no_upscale():max_bytes(150000):strip_icc()/investopedia-schema-logo-94b9fb2a18b04f4fa6eaad7bf95393e6.png",
+			"width": 260,
+			"height": 60
+		},
+		"brand": "Investopedia",
+		"publishingPrinciples": "https://www.investopedia.com/about-us",
+		"sameAs": [
+			"https://twitter.com/investopedia",
+			"https://www.facebook.com/Investopedia/",
+			"https://www.youtube.com/user/investopediacom",
+			"https://www.linkedin.com/company/investopedia-ulc",
+			"https://www.instagram.com/investopedia/"
+		]
+	},
+	"citation": [
+		"Finance Factory. &amp;#34;&lt;a href=&quot;https://financefactory.com/startup-funding/&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Startup Funding&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
+		"OnDeck. &amp;#34;&lt;a href=&quot;https://www.ondeck.com/short-term-loans&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Short Term Loans&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
+		"OnDeck. &amp;#34;&lt;a href=&quot;https://www.ondeck.com/business-line-of-credit&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Business Lines of Credit&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
+		"Upwise Capital. &amp;#34;&lt;a href=&quot;https://upwisecapital.com/invoice-financing/&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Invoice Financing&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022."
+	],
+	"mainEntityOfPage": {
+		"@type": [
+			"WebPage"
+		],
+		"@id": "https://www.investopedia.com/best-startup-business-loans-5112018",
+		"breadcrumb": {
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://www.investopedia.com/small-business-4427743",
+						"name": "Small Business"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "https://www.investopedia.com/how-to-start-a-business-4689813",
+						"name": "How To Start A Business"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"item": {
+						"@id": "https://www.investopedia.com/best-startup-business-loans-5112018",
+						"name": "The Best Startup Business Loans of 2022"
+					}
+				}
+			]
+		},
+		"reviewedBy": [
+			{
+				"@type": "Person",
+				"name": "Marisa Figat",
+				"description": "Marisa Figat is Investopedia&#39;s Content Integrity &amp; Compliance Manager covering credit cards, checking and saving accounts, loan products, insurance, and more.",
+				"jobTitle": "Content Integrity and Compliance Manager",
+				"url": "https://www.investopedia.com/marisa-figat-5087444",
+				"sameAs": [
+					"https://www.linkedin.com/in/marisafigat/"
+				],
+				"knowsAbout": [
+					"Compliance"
+				],
+				"alumniOf": [
+					{
+						"@type": "Organization",
+						"Name": "University of North Texas"
+					}
+				]
+			},
+			{
+				"@type": "Person",
+				"name": "Matthew M Klammer",
+				"description": "With practical experience running his own IT business and an education in the liberal arts, Matthew Klammer had become well-accustomed to the difficulties of research. From providing POS systems to small tourist shops to data security and account management Matthew has provided business solutions to many individuals.",
+				"jobTitle": "Fact Checker",
+				"url": "https://www.investopedia.com/matthew-klammer-5199575",
+				"knowsAbout": [
+					"Gaming, Technology, Finance, Document and data analysis, History, Contracting"
+				],
+				"alumniOf": [
+					{
+						"@type": "Organization",
+						"Name": "Central Michigan University"
+					},
+					{
+						"@type": "Organization",
+						"Name": "Saginaw Valley State University"
+					}
+				]
+			}
+		],
+		"lastReviewed": "2022-02-19T17:29:18.508-05:00"
+	},
+	"about": [
+		{
+			"@context": "http://schema.org",
+			"@type": "ItemList",
+			"name": "Best Startup Business Loans",
+			"description": "Payroll, inventory, and other expenses don&#39;t need to slow your growth. We researched the best startup business loans based on rates, terms, qualifications, and more.",
+			"itemListOrder": "http://schema.org/ItemListUnordered",
+			"numberOfItems": 6,
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Best Overall: Finance Factory",
+					"url": "https://www.investopedia.com/best-startup-business-loans-5112018#best-overall-finance-factory"
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"name": "Best for E-commerce: Become.co",
+					"url": "https://www.investopedia.com/best-startup-business-loans-5112018#best-for-e-commerce-becomeco"
+				},
+				{
+					"@type": "ListItem",
+					"position": 3,
+					"name": "Best for Retail: OnDeck",
+					"url": "https://www.investopedia.com/best-startup-business-loans-5112018#best-for-retail-ondeck"
+				},
+				{
+					"@type": "ListItem",
+					"position": 4,
+					"name": "Best for High-Growth Startups: Midwest Corporate Credit",
+					"url": "https://www.investopedia.com/best-startup-business-loans-5112018#best-for-high-growth-startups-midwest-corporate-credit"
+				},
+				{
+					"@type": "ListItem",
+					"position": 5,
+					"name": "Best for Long Repayment Terms: Seek Capital",
+					"url": "https://www.investopedia.com/best-startup-business-loans-5112018#best-for-long-repayment-terms-seek-capital"
+				},
+				{
+					"@type": "ListItem",
+					"position": 6,
+					"name": "Best for Unpaid Invoices: Upwise Capital",
+					"url": "https://www.investopedia.com/best-startup-business-loans-5112018#best-for-unpaid-invoices-upwise-capital"
+				}
+			]
+		},
+		{
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "How Do I Qualify for a Startup Business Loan?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "<p>To qualify for a startup business loan, most lender’s programs, including the SBA options, strongly prefer your startup to already earn revenue, have a base of customers, and provide annual financial reports covering six to 12 months.<\/p><p>There are some startup business loan types, like business credit cards, that can get some funding pre-revenue, if you have good personal credit. In short, to qualify for a startup business loan you must have good <a href=\"https://www.investopedia.com/terms/c/credit-history.asp\" data-component=\"link\" data-source=\"inlineLink\" data-type=\"internalLink\" data-ordinal=\"1\">credit history<\/a>, cash, or <a href=\"https://www.investopedia.com/articles/personal-finance/082616/4-steps-getting-small-business-loan-without-collateral.asp\" data-component=\"link\" data-source=\"inlineLink\" data-type=\"internalLink\" data-ordinal=\"2\">collateral<\/a>.<\/p>"
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Is It Hard to Get a Startup Business Loan?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "<p>In general, it is harder to qualify for a startup business loan because they require at least two to three years in business. If you choose the business credit card route, you’ll need a strong personal credit history to qualify. If you are two years into your startup phase and applying for a startup loan to fund your next level of growth, many lenders require your business to show annual revenue of at least $100,000. In the SBA loan category, you’ll also need to invest at least 20% of the loan amount as a down payment.<\/p>"
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Do Banks Give Loans to Startups?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "<p>Yes, banks give loans to startups. Whether your startup is in its first week and has not earned its first dollar yet, or your company is in its fifth year borrowing for a new location or additional equipment, banks have programs for you. Most bank programs will require heavy documentation during the application process, and they could range from a business bank credit card to a <a href=\"https://www.investopedia.com/ask/answers/110614/what-difference-between-loan-and-line-credit.asp\" data-component=\"link\" data-source=\"inlineLink\" data-type=\"internalLink\" data-ordinal=\"1\">business line of credit<\/a> to a short-term or long-term loan.<\/p>"
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Can I Get a Business Loan With No Money Down?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "<p>One way to get a business loan with no money down is through an <a href=\"https://www.investopedia.com/best-equipment-financing-companies-5083500\" data-component=\"link\" data-source=\"inlineLink\" data-type=\"internalLink\" data-ordinal=\"1\">equipment financing loan<\/a>. There are lenders that will use the equipment itself as collateral, thus reducing risk and eliminating the need for a down payment. Some other ways to get a business loan with no money down are business credit cards, short-term loans, and lines of credit. Working capital bridge loans and merchant cash advances may also be options for your business to get a loan with no money down.<\/p>"
+					}
+				}
+			]
+		}
+	]
+}
