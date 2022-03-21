@@ -67,3 +67,13 @@
               "https://labate.link/norwalk-chamber",
               "https://labate.link/fairfield-chamber"
 ]
+
+{
+        "@type": "PostalAddress",
+        "@id": "https://labate.io/#postaladdress",
+        "streetAddress": "8 Wright Street, 1st Fl",
+        "addressLocality": "Westport",
+        "addressRegion": "CT",
+        "addressCountry": "United States",
+        "postalCode": "06880"
+},
