@@ -1,0 +1,8 @@
+{
+        "@context": "https://schema.org,
+        "@type": "ImageObject",
+        "@id": "https://labate.io/uploads/google-page-speed-image/#primaryimage",
+        "contentUrl": "https://labate.io/uploads/google-page-speed-image",
+        "name": "Google's PageSpeed Test - Result 100%",
+        "representativeOfPage": "true"
+}
