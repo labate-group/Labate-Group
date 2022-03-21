@@ -51,3 +51,19 @@
                 "@id": "https://labate.io/#offercatalog"
         }
 }
+
+"sameAs": [
+              "https://labate.link/facebook",
+              "https://labate.link/instagram",
+              "https://labate.link/linkedin",
+              "https://labate.link/twitter",
+              "https://labate.link/github",
+              "https://labate.link/linktree",
+              "https://labate.link/youtube",
+              "https://labate.link/tiktok",
+              "https://labate.link/discord",
+              "https://labate.link/clubhouse",
+              "https://labate.link/bbb",
+              "https://labate.link/norwalk-chamber",
+              "https://labate.link/fairfield-chamber"
+]
