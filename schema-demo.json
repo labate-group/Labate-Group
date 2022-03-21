@@ -6,3 +6,48 @@
         "name": "Google's PageSpeed Test - Result 100%",
         "representativeOfPage": "true"
 }
+
+ {
+        "@type": "ServiceCategory",
+        "@id": "https://labate.io/category/marketing/#servicecategory",
+        "url": "https://labate.io/category/marketing/",
+        "name": "Marketing Services",
+        "brand": {
+                "@type": "Brand",
+                "@id": "https://labate.io/#brand"
+        },
+        "isPartOf": {
+                "@type": "OfferCatalog",
+                "@id": "https://labate.io/#offercatalog"
+        }
+}
+
+{
+        "@type": "ServiceCategory",
+        "@id": "https://labate.io/category/software/#servicecategory",
+        "url": "https://labate.io/category/software/",
+        "name": "Software Services",
+        "brand": {
+                "@type": "Brand",
+                "@id": "https://labate.io/#brand"
+        },
+        "isPartOf": {
+                "@type": "OfferCatalog",
+                "@id": "https://labate.io/#offercatalog"
+        }
+}
+
+{
+        "@type": "ServiceCategory",
+        "@id": "https://labate.io/category/fulfillment/#servicecategory",
+        "url": "https://labate.io/category/fulfillment/",
+        "name": "Fulfillment Services",
+        "brand": {
+                "@type": "Brand",
+                "@id": "https://labate.io/#brand"
+        },
+        "isPartOf": {
+                "@type": "OfferCatalog",
+                "@id": "https://labate.io/#offercatalog"
+        }
+}
