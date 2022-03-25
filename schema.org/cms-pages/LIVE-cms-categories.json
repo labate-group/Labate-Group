@@ -8,7 +8,7 @@
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/category/#collection"}
-      			],
+      ],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
 				"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
@@ -24,7 +24,7 @@
 			},
 			"keywords": [
 				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services"
+        "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
@@ -41,7 +41,8 @@
 					"position": 1,
 					"item": {
 						"@id": "https://labate.io/#breadcrumb",
-						"url": "https://labate.io"
+						"url": "https://labate.io",
+            "name": "Labate Group Homepage"
 					}
 				},
 				{
@@ -50,6 +51,7 @@
 					"item": {
 						"@id": "https://labate.io/category/#breadcrumb",
 						"url": "https://labate.io/category",
+            "name": "Labate Group Categories"
 					}
 				},
 				{
@@ -58,12 +60,14 @@
 					"item": {
 						"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
 						"url": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+            "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services"
 					}
 				}
 			]
 		},
                 {
-                  	"@type": ["Offer",  "Product", "Service"],
+                  	"@type": "ServiceCategory",
+                    "@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#servicecategory",
                   	"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
                   	"brand": {
                     		"@type": "Brand",
