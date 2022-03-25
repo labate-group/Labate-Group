@@ -1,4 +1,4 @@
-		{
+{
 			"@type": "WebPage",
 			"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#webpage",
 			"url": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
@@ -8,7 +8,7 @@
 			"isPartOf": [
 				{"@id": "https://labate.io/#website"},
 				{"@id": "https://labate.io/product/#collection"},
-        			{"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog"}
+        {"@id": "https://labate.io/category/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#offercatalog"}
 			],
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
@@ -16,6 +16,7 @@
 				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"contentUrl": "{{wf {&quot;path&quot;:&quot;default-sku:main-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+        "url": "{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"representativeOfPage": "true"
 			},
 			"inLanguage": "en-US",
@@ -43,7 +44,8 @@
 					"position": 1,
 					"item": {
 						"@id": "https://labate.io/#breadcrumb",
-						"url": "https://labate.io"
+						"url": "https://labate.io",
+            "name": "Homepage"
 					}
 				},
 				{
@@ -52,6 +54,7 @@
 					"item": {
 						"@id": "https://labate.io/product/#breadcrumb",
 						"url": "https://labate.io/product",
+            "name": "Products",
 					}
 				},
 				{
@@ -60,13 +63,20 @@
 					"item": {
 						"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
 						"url": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-					}
+            "name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+          }
 				}
 			]
 		},
                 {
-                  	"@type": ["Offer", "OfferCatalog", "Product", "Service", "ServiceCategory", "Collection"],
+                  	"@type": "Product",
+                    "@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#product",
                   	"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+                    "availability": "InStock",
+                    "isPartof": [
+                    	{@id": "https://labate.io/{{wf {&quot;path&quot;:&quot;product-category:slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#servicecategory"},
+                    	{@id": "https://labate.io/services/#offercatalog}
+                    ],
                   	"brand": {
                     		"@type": "Brand",
                       		"@id": "https://labate.io/#brand"
@@ -76,14 +86,18 @@
                   	"availableChannel": [
                     		"8 Wright Street, 1st Floor, Westport, CT 06880",
                     		"203-907-5536",
-                    		"https://labate.io/"
+                    		"https://labate.io"
                   	],
                   	"aggregateRating": {
                     		"@type": "AggregateRating",
                     		"ratingValue": "5 Stars",
                     		"bestRating": "5 Stars",
                     		"worstRating": "5 Stars",
-                    		"ratingCount": "31"
+                    		"ratingCount": "31",
+                        "itemReviewed": {
+                        	"@type": "Product",
+                          "@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#product"
+                        }
                   	}
                 }
         ]
