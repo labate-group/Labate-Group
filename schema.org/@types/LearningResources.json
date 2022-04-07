@@ -1,5 +1,4 @@
 {
-	"@context": "http://schema.org/",
 	"@type": "LearningResource",
 	"@id": "https://labate.io/resources/{{slug}}/#learningresource",
 	"url": "https://labate.io/resources/{{slug}}",
@@ -11,8 +10,8 @@
 	},
 	"creativeWorkStatus": "published",
 	"educationalAlignment": "123",
-	"headline": "{{title}}",
-	"image": "{{SEOImage}}",
+	"headline": "{{name}}",
+	"image": "",
 	"inLanguage": "English",
 	"isFamilyFriendly": "true",
 	"isPartOf": {
@@ -27,7 +26,7 @@
     	},
 	"keywords": [
 		"Labate Resources",
-		"{{title}}"
+		"{{name}}"
 	],
 	"mainEntityOfPage": "https://labate.io/resources/",
 	"mainEntity": {
@@ -40,7 +39,7 @@
 		{"@id": "{{videoSourceURL}}"},
 		{"@id": "https://labate.io/resources/{{slug}}/#webpage"}
 	],
-	"teaches": "{{title}}",
+	"teaches": "{{name}}",
 	"video": {
 		"@type": "VideoObject",
 		"@id": "https://labate.io/resources/{{slug}}/#videoobject",
