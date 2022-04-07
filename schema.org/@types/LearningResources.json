@@ -35,10 +35,7 @@
       		"url": "https://labate.io/resources/{{slug}}"
 	},
 	"potentialAction": "123",
-	"subjectOf": [
-		{"@id": "{{videoSourceURL}}"},
-		{"@id": "https://labate.io/resources/{{slug}}/#webpage"}
-	],
+	"subjectOf": "https://labate.io/resources/{{slug}}/#webpage",
 	"teaches": "{{name}}",
 	"video": {
 		"@type": "VideoObject",
