@@ -13,8 +13,8 @@
 	"educationalAlignment": "123",
 	"headline": "{{title}}",
 	"image": "{{SEOImage}}",
-	"inLanguage":"English",
-	"isFamilyFriendly":"true",
+	"inLanguage": "English",
+	"isFamilyFriendly": "true",
 	"isPartOf": {
       		"@type": "Collection",
       		"@id": "https://labate.io/resources/#collection",
@@ -29,13 +29,13 @@
 		"Labate Resources",
 		"{{title}}"
 	],
-	"mainEntityOfPage":"https://labate.io/resources/",
+	"mainEntityOfPage": "https://labate.io/resources/",
 	"mainEntity": {
 		"@type": "VideoObject",
       		"@id": "https://labate.io/resources/{{slug}}/#videoobject",
       		"url": "https://labate.io/resources/{{slug}}"
 	},
-	"potentialAction":"123",
+	"potentialAction": "123",
 	"subjectOf": [
 		{"@id": "{{videoSourceURL}}"},
 		{"@id": "https://labate.io/resources/{{slug}}/#webpage"}
