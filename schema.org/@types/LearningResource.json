@@ -41,5 +41,14 @@
 		"@type": "VideoObject",
 		"@id": "https://labate.io/resources/{{slug}}/#videoobject",
 		"url": "https://labate.io/resources/{{slug}}"
+	},
+	"hasPart": {
+                "@type": "Question",
+                "name": "What is {{name}}",
+                "text": "What is {{name}}",
+                "acceptedanswer": {
+			"@type": "Answer",
+			"name": "{{wf {&quot;path&quot;:&quot;about-resource&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+			"text": "{{wf {&quot;path&quot;:&quot;about-resource&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+              }
 	}
-}
