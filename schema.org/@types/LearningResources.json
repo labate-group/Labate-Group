@@ -1,0 +1,51 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "LearningResource",
+  "@id": "https://labate.io/resources/{{slug}}/#learningresource",
+  "url":"https://labate.io/resources/{{slug}}",
+		"about":"123",
+		"additionalType":"123",
+		"alternateName":"123",
+		"audience":"123",
+		"citation":"123",
+		"competencyRequired":"123",
+		"creativeWorkStatus":"published",
+		"description":"123",
+		"educationalAlignment":"123",
+		"educationalUse":"123",
+		"fileFormat":"123",
+		"headline":"123",
+    "image": ""
+		"inLanguage":"English",
+		"isBasedOnUrl":"123",
+		"isFamilyFriendly":"true",
+		"isPartOf": {
+      "@type": "Collection",
+      "@id": "https://labate.io/resources/#collection",
+      "url": "https://labate.io/resources",
+      "name": "Resources",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://labate.io/#website"
+      }
+    },
+		"keywords": [
+      "Labate Resources",
+      "{{title}}
+    ],
+		"learningResourceType":"123",
+		"mainEntityOfPage":"https://labate.io/resources/",
+		"mainEntity": {
+      "@type": "VideoObject",
+      "@id": "https://labate.io/resources/{{slug}}/#videoobject",
+      "url": "https://labate.io/resources/{{slug}}",
+		"name":"123",
+		"offers":"123",
+		"potentialAction":"123",
+		"subjectOf":"123",
+		"teaches":"123",
+		"video": {
+      "@type": "VideoObject",
+      "@id": "https://labate.io/resources/{{slug}}/#videoobject"
+    }
+   }
