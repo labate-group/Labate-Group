@@ -1,0 +1,255 @@
+{
+  "captchaResult": "CAPTCHA_NOT_NEEDED",
+  "kind": "pagespeedonline#result",
+  "id": "https://ventureonerealtyllc.com/",
+  "loadingExperience": {
+    "initial_url": "https://ventureonerealtyllc.com/"
+  },
+  "lighthouseResult": {
+    "requestedUrl": "https://ventureonerealtyllc.com/",
+    "finalUrl": "https://ventureonerealtyllc.com/",
+    "lighthouseVersion": "9.3.0",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/98.0.4758.102 Safari/537.36",
+    "fetchTime": "2022-04-08T20:57:30.705Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Safari/537.36 Chrome-Lighthouse",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/98.0.4758.102 Safari/537.36",
+      "benchmarkIndex": 1155
+    },
+    "runWarnings": [],
+    "configSettings": {
+      "emulatedFormFactor": "desktop",
+      "formFactor": "desktop",
+      "locale": "en-US",
+      "onlyCategories": [
+        "performance"
+      ],
+      "channel": "lr"
+    },
+    "audits": {
+      "mainthread-work-breakdown": {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimizes main-thread work",
+        "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/mainthread-work-breakdown/)",
+        "score": 1,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "0.8 s",
+        "details": {
+          "items": [
+            {
+              "group": "other",
+              "groupLabel": "Other",
+              "duration": 329.67800000000022
+            },
+            {
+              "duration": 288.31699999999989,
+              "group": "styleLayout",
+              "groupLabel": "Style & Layout"
+            },
+            {
+              "duration": 73.827000000000012,
+              "groupLabel": "Parse HTML & CSS",
+              "group": "parseHTML"
+            },
+            {
+              "group": "paintCompositeRender",
+              "groupLabel": "Rendering",
+              "duration": 68.001999999999967
+            },
+            {
+              "duration": 35.074000000000055,
+              "groupLabel": "Script Evaluation",
+              "group": "scriptEvaluation"
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "group": "scriptParseCompile",
+              "duration": 5.9229999999999992
+            }
+          ],
+          "type": "table",
+          "headings": [
+            {
+              "text": "Category",
+              "key": "groupLabel",
+              "itemType": "text"
+            },
+            {
+              "key": "duration",
+              "granularity": 1,
+              "text": "Time Spent",
+              "itemType": "ms"
+            }
+          ]
+        },
+        "numericValue": 800.82100000000014,
+        "numericUnit": "millisecond"
+      },
+      "metrics": {
+        "id": "metrics",
+        "title": "Metrics",
+        "description": "Collects all available metrics.",
+        "score": null,
+        "scoreDisplayMode": "informative",
+        "details": {
+          "type": "debugdata",
+          "items": [
+            {
+              "observedTimeOriginTs": 379797542476,
+              "observedFirstPaintTs": 379797907697,
+              "observedLastVisualChange": 1164,
+              "observedTimeOrigin": 0,
+              "observedFirstContentfulPaintTs": 379797907697,
+              "observedSpeedIndex": 1036,
+              "observedLoad": 1142,
+              "observedNavigationStart": 0,
+              "observedDomContentLoaded": 502,
+              "observedFirstContentfulPaintAllFramesTs": 379797907697,
+              "observedFirstVisualChange": 365,
+              "observedFirstContentfulPaintAllFrames": 365,
+              "observedTotalCumulativeLayoutShift": 0.0958711687808277,
+              "totalBlockingTime": 1,
+              "observedFirstVisualChangeTs": 379797907476,
+              "observedDomContentLoadedTs": 379798044494,
+              "firstMeaningfulPaint": 620,
+              "observedFirstMeaningfulPaint": 365,
+              "observedLargestContentfulPaint": 1164,
+              "observedTraceEnd": 3454,
+              "observedLoadTs": 379798684491,
+              "observedLargestContentfulPaintTs": 379798706180,
+              "observedNavigationStartTs": 379797542476,
+              "cumulativeLayoutShift": 0.0958711687808277,
+              "observedFirstPaint": 365,
+              "observedCumulativeLayoutShiftMainFrame": 0.0958711687808277,
+              "observedFirstMeaningfulPaintTs": 379797907697,
+              "cumulativeLayoutShiftMainFrame": 0.0958711687808277,
+              "observedLargestContentfulPaintAllFrames": 1164,
+              "observedCumulativeLayoutShift": 0.0958711687808277,
+              "largestContentfulPaint": 1350,
+              "interactive": 1062,
+              "totalCumulativeLayoutShift": 0.0958711687808277,
+              "observedFirstContentfulPaint": 365,
+              "maxPotentialFID": 52,
+              "observedLastVisualChangeTs": 379798706476,
+              "observedLargestContentfulPaintAllFramesTs": 379798706180,
+              "observedSpeedIndexTs": 379798578116,
+              "speedIndex": 892,
+              "observedTraceEndTs": 379800996050,
+              "firstContentfulPaint": 620
+            },
+            {
+              "lcpInvalidated": false
+            }
+          ]
+        },
+        "numericValue": 1062,
+        "numericUnit": "millisecond"
+      },
+      "uses-rel-preload": {
+        "id": "uses-rel-preload",
+        "title": "Preload key requests",
+        "description": "Consider using `\u003clink rel=preload\u003e` to prioritize fetching resources that are currently requested later in page load. [Learn more](https://web.dev/uses-rel-preload/).",
+        "score": null,
+        "scoreDisplayMode": "notApplicable",
+        "details": {
+          "overallSavingsMs": 0,
+          "type": "opportunity",
+          "headings": [],
+          "items": []
+        }
+      },
+      "bootup-time": {
+        "id": "bootup-time",
+        "title": "JavaScript execution time",
+        "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/bootup-time/).",
+        "score": 1,
+        "scoreDisplayMode": "numeric",
+        "displayValue": "0.0 s",
+        "details": {
+          "summary": {
+            "wastedMs": 29.502000000000006
+          },
+          "headings": [
+            {
+              "itemType": "url",
+              "text": "URL",
+              "key": "url"
+            },
+            {
+              "itemType": "ms",
+              "text": "Total CPU Time",
+              "granularity": 1,
+              "key": "total"
+            },
+            {
+              "text": "Script Evaluation",
+              "granularity": 1,
+              "itemType": "ms",
+              "key": "scripting"
+            },
+            {
+              "itemType": "ms",
+              "granularity": 1,
+              "text": "Script Parse",
+              "key": "scriptParseCompile"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://ventureonerealtyllc.com/",
+              "scriptParseCompile": 5.3939999999999984,
+              "scripting": 20.964000000000009,
+              "total": 703.23199999999974
+            },
+            {
+              "scriptParseCompile": 0.188,
+              "total": 83.388000000000275,
+              "url": "Unattributable",
+              "scripting": 2.9559999999999995
+            }
+          ],
+          "type": "table"
+        },
+        "numericValue": 29.502000000000006,
+        "numericUnit": "millisecond"
+      },
+      "diagnostics": {
+        "id": "diagnostics",
+        "title": "Diagnostics",
+        "description": "Collection of useful page vitals.",
+        "score": null,
+        "scoreDisplayMode": "informative",
+        "details": {
+          "items": [
+            {
+              "numRequests": 26,
+              "numTasksOver100ms": 1,
+              "mainDocumentTransferSize": 49385,
+              "numTasksOver25ms": 5,
+              "rtt": 0.00055175198162275244,
+              "numTasksOver10ms": 12,
+              "numStylesheets": 2,
+              "totalByteWeight": 877117,
+              "numTasksOver500ms": 0,
+              "numTasksOver50ms": 2,
+              "totalTaskTime": 800.82100000000048,
+              "numScripts": 2,
+              "maxServerLatency": null,
+              "numFonts": 9,
+              "numTasks": 760,
+              "maxRtt": 0.00055175198162275244,
+              "throughput": 68793358947.984268
+            }
+          ],
+          "type": "debugdata"
+        }
+      },
+      "full-page-screenshot": {
+        "id": "full-page-screenshot",
+        "title": "Full-page screenshot",
+        "description": "A full-height screenshot of the final rendered page",
+        "score": null,
+        "scoreDisplayMode": "informative",
+        "details": {
+          "screenshot": {
+            "data": 
