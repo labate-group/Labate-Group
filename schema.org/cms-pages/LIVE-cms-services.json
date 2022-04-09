@@ -35,35 +35,36 @@
 			"hasPart": [
 				{
 					"@type": "Question",
-					"name": "What is {{name}}",
-					"text": "What is {{name}}",
+					"name": "What is {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					"text": "What is {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 					"acceptedanswer": {
 						"@type": "Answer",
-						"name": "",
-						"text": ""
-              				}
+						"name": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"text": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+          				}
 				},
 				{
 					"@type": "Question",
-					"name": "Do You Need {{name}}",
-					"text": "Do You Need {{name}}",
+					"name": "Do You Need {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+					"text": "Do You Need {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 					"acceptedanswer": {
 						"@type": "Answer",
-						"name": "",
-						"text": ""
-              				}
+						"name": "{{wf {&quot;path&quot;:&quot;do-you-need&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"text": "{{wf {&quot;path&quot;:&quot;do-you-need&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+         				}
 				},
 				{
 					"@type": "Question",
-					"name": "How Much Does {{name}} Cost?",
-					"text": "How Much Does {{name}} Cost?",
+					"name": "How Much Does {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Cost?",
+					"text": "How Much Does {{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Cost?",
 					"acceptedanswer": {
 						"@type": "Answer",
-						"name": "",
-						"text": ""
-              				}
+						"name": "{{wf {&quot;path&quot;:&quot;how-much-does-cost&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
+						"text": "{{wf {&quot;path&quot;:&quot;how-much-does-cost&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+          				}
 				}
 			]
+    		},
 		{
 			"@type": "BreadcrumbList",
 			"itemListElement": [
