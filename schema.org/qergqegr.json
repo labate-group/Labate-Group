@@ -1,15 +1,15 @@
-          {
-            "@type": "Service",
-            "@id": "https://labate.io/services/schema-markup/#service",
-            "name": "Schema Markup",
-            "brand": {
-              "@type": "Brand",
-              "@id": "https://labate.io/#brand"
-            },
-            "description": "Schema markup is a code that resides within the header of each of your website pages (ideally), and it&#39;s sole purpose is to communicate the content of each webpage to search engines. Schema is the main factor for giving search engines the ability to display your website as dynamic elements in SERPs, in addition to the typical &quot;blue link&quot;. Dynamic SERP &quot;rich results&quot; include review snippets, Google My Business profile highlights, team member features, service categories and much more.",
-            "url": "https://labate.io/services/schema-markup",
-            "availableChannel": [
-              "8 Wright Street, 1st Floor, Westport, CT 06880",
-              "203-907-5536",
-              "https://labate.io"
-            ],
+{
+          "@type": "Service",
+          "@id": "https://labate.io/services/schema-markup/#service",
+          "url": "https://labate.io/services/schema-markup",
+          "name": "Schema Markup",
+          "brand": {
+                    "@type": "Brand",
+                    "@id": "https://labate.io/#brand"
+          },
+          "availableChannel": [
+                    "8 Wright Street, 1st Floor, Westport, CT 06880",
+                    "203-907-5536",
+                    "https://labate.io"
+          ]
+}
