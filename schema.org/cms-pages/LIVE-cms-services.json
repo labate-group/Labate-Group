@@ -5,13 +5,12 @@
 			"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"headline": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 			"description": "{{wf {&quot;path&quot;:&quot;description&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-			"isPartOf": "@id": "https://labate.io/services/#collection",
 			"primaryImageOfPage": {
 				"@type": "ImageObject",
-				"@id": "https://labate.io/product/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
+				"@id": "https://labate.io/services/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#primaryimage",
 				"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"caption": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-				"contentUrl": "{{wf {&quot;path&quot;:&quot;seo-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
+				"contentUrl": "{{wf {&quot;path&quot;:&quot;service-image&quot;,&quot;type&quot;:&quot;ImageRef&quot;\} }}",
 				"url": "{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
 				"representativeOfPage": "true"
 			},
@@ -22,18 +21,49 @@
 			},
 			"keywords": [
 				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services in Westport CT",
-        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services in Fairfield County, CT",
-        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services in Connecticut",
-        			"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services"
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services in Westport CT",
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services in Fairfield County, CT",
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services in Connecticut",
+				"{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }} Services"
 			],
 			"author": {
 				"@id": "https://labate.io/#brand"
 			},
 			"publisher": {
 				"@id": "https://labate.io/#brand"
-			}
-		},
+			},
+			"hasPart": [
+				{
+					"@type": "Question",
+					"name": "What is {{name}}",
+					"text": "What is {{name}}",
+					"acceptedanswer": {
+						"@type": "Answer",
+						"name": "",
+						"text": ""
+              				}
+				},
+				{
+					"@type": "Question",
+					"name": "Do You Need {{name}}",
+					"text": "Do You Need {{name}}",
+					"acceptedanswer": {
+						"@type": "Answer",
+						"name": "",
+						"text": ""
+              				}
+				},
+				{
+					"@type": "Question",
+					"name": "How Much Does {{name}} Cost?",
+					"text": "How Much Does {{name}} Cost?",
+					"acceptedanswer": {
+						"@type": "Answer",
+						"name": "",
+						"text": ""
+              				}
+				}
+			]
 		{
 			"@type": "BreadcrumbList",
 			"itemListElement": [
@@ -43,7 +73,7 @@
 					"item": {
 						"@id": "https://labate.io/#breadcrumb",
 						"url": "https://labate.io",
-            					"name": "Homepage"
+						"name": "Homepage"
 					}
 				},
 				{
@@ -52,7 +82,7 @@
 					"item": {
 						"@id": "https://labate.io/services/#breadcrumb",
 						"url": "https://labate.io/services",
-            					"name": "Services",
+						"name": "Services"
 					}
 				},
 				{
@@ -61,7 +91,7 @@
 					"item": {
 						"@id": "https://labate.io/services/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#breadcrumb",
 						"url": "https://labate.io/services/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-            					"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
+						"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}"
           				}
 				}
 			]
@@ -70,8 +100,6 @@
     			"@type": "Service",
       			"@id": "https://labate.io/services/{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}/#service",
       			"name": "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}",
-      			"availability": "InStock",
-      			"isPartof": "@id": "https://labate.io/services/#offercatalog"
       			"brand": {
       				"@type": "Brand",
         			"@id": "https://labate.io/#brand"
