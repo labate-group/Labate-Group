@@ -1,0 +1,6 @@
+<a href="https://mail.google.com/mail/u/0/?view=cm&to&su=Awesome+Blog!&body=https%3A%2F%2Fblog.shahednasser.com%0A&bcc&cc&fs=1&tf=1">Share by Gmail</a>
+
+to: the email you want the email to be sent to
+su: The subject of the email
+body: the content of the email
+bcc and cc: to set the bcc and cc of the email
