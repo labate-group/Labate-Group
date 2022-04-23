@@ -1,8 +1,10 @@
-mailto:jake@labate.io?
+mailto:?
 
 Start param: ?
 
 &cc=
 &bcc=
-&subject=
-&body=
+&subject={{name}}
+&body={{name}} - {{slug}}
+
+<a title="Share Via Email" href="mailto:?subject={{name}}&body={{name}} - {{slug}}"
