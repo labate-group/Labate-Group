@@ -1,8 +1,4 @@
-{
-	"@context": "http://schema.org",
-	"@type": [
-		"Article"
-	],
+
 	"headline": "Best Startup Business Loans",
 	"datePublished": "2021-02-19T11:13:42.151-05:00",
 	"dateModified": "2022-02-19T17:29:18.508-05:00",
@@ -33,42 +29,25 @@
 		{
 			"@type": "ImageObject",
 			"url": "https://www.investopedia.com/thmb/rVjLoQfHXDlmV8HSCgxx-MlBsBQ=/569x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
-			"height": 320,
-			"width": 569
+			"height": 630,
+			"width": 1200
 		},
 		{
 			"@type": "ImageObject",
 			"url": "https://www.investopedia.com/thmb/vC06Jgi3kAQS4XxHBpqsDJBfnvI=/427x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
-			"height": 320,
-			"width": 427
+			"height": 1000,
+			"width": 1000
 		},
 		{
 			"@type": "ImageObject",
 			"url": "https://www.investopedia.com/thmb/0ldJjTZQg2vhOUMnB8yrLPNtAB8=/320x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
-			"height": 320,
-			"width": 320
+			"height": 1200,
+			"width": 1000
 		}
 	],
 	"publisher": {
 		"@type": "Organization",
-		"name": "Investopedia",
-		"url": "https://www.investopedia.com",
-		"logo": {
-			"@type": "ImageObject",
-			"url": "https://www.investopedia.com/thmb/QfBehpNM1l3_gNG-oJMQnjdaJ6c=/260x60/filters:no_upscale():max_bytes(150000):strip_icc()/investopedia-schema-logo-94b9fb2a18b04f4fa6eaad7bf95393e6.png",
-			"width": 260,
-			"height": 60
-		},
-		"brand": "Investopedia",
-		"publishingPrinciples": "https://www.investopedia.com/about-us",
-		"sameAs": [
-			"https://twitter.com/investopedia",
-			"https://www.facebook.com/Investopedia/",
-			"https://www.youtube.com/user/investopediacom",
-			"https://www.linkedin.com/company/investopedia-ulc",
-			"https://www.instagram.com/investopedia/"
-		]
-	},
+		
 	"citation": [
 		"Finance Factory. &amp;#34;&lt;a href=&quot;https://financefactory.com/startup-funding/&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Startup Funding&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
 		"OnDeck. &amp;#34;&lt;a href=&quot;https://www.ondeck.com/short-term-loans&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Short Term Loans&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
@@ -110,25 +89,7 @@
 			]
 		},
 		"reviewedBy": [
-			{
-				"@type": "Person",
-				"name": "Marisa Figat",
-				"description": "Marisa Figat is Investopedia&#39;s Content Integrity &amp; Compliance Manager covering credit cards, checking and saving accounts, loan products, insurance, and more.",
-				"jobTitle": "Content Integrity and Compliance Manager",
-				"url": "https://www.investopedia.com/marisa-figat-5087444",
-				"sameAs": [
-					"https://www.linkedin.com/in/marisafigat/"
-				],
-				"knowsAbout": [
-					"Compliance"
-				],
-				"alumniOf": [
-					{
-						"@type": "Organization",
-						"Name": "University of North Texas"
-					}
-				]
-			},
+		"alumniOf": [
 			{
 				"@type": "Person",
 				"name": "Matthew M Klammer",
