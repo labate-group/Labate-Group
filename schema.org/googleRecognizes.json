@@ -1,0 +1,113 @@
+Article
+- Blog Posts
+
+Breadcrumb
+- All Pages
+
+Course
+
+Dataset
+- Events (fix)
+- People?
+- Entities?
+- Other potential types?
+
+EmployerAggregateRating
+- Job Posts
+
+Event
+- Events Pages
+
+Fact Check
+
+FAQ
+
+Home Activities
+
+How-to
+
+JobPosting
+- Job Posts
+
+Local Business
+- ProfessionalService in global
+- On entities pages
+- on events pages (featuring entities)
+- on people pages (featuring primary entities)
+
+Logo
+- labate logo global
+- events pages for organizers
+- people pages for primary entities
+- entities pages
+
+Estimated salary
+- Job Posts
+
+Podcast
+
+Product
+- Service Pages
+
+Q&A
+    {
+      "@context": "https://schema.org",
+      "@type": "QAPage",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "How many ounces are there in a pound?",
+        "text": "I have taken up a new interest in baking and keep running across directions in ounces and pounds. I have to translate between them and was wondering how many ounces are in a pound?",
+        "answerCount": 3,
+        "upvoteCount": 26,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "1 pound (lb) is equal to 16 ounces (oz).",
+          "upvoteCount": 1337,
+          "url": "https://example.com/question1#acceptedAnswer"
+          },
+        "suggestedAnswer": [
+          {
+            "@type": "Answer",
+            "text": "Are you looking for ounces or fluid ounces? If you are looking for fluid ounces there are 15.34 fluid ounces in a pound of water.",
+            "upvoteCount": 42,
+            "url": "https://example.com/question1#suggestedAnswer1"
+          }, {
+            "@type": "Answer",
+            "text": " I can't remember exactly, but I think 18 ounces in a lb. You might want to double check that.",
+            "upvoteCount": 0,
+            "url": "https://example.com/question1#suggestedAnswer2"
+          }
+        ]
+      }
+    }
+
+Review snippet
+- is in global now
+- Service Pages
+
+Sitelinks Search box
+- Is in global now
+
+Software App (beta)
+
+Speakable
+- All Pages?
+
+Video
+- All Pages with videos
+  - Resources
+  - Servies (soon)
+
+<!-- Pass for now
+
+Pass - Book
+Pass - Carousel
+Pass - Image License
+Pass - Job Training (beta)
+Pass - Math solvers
+Pass - Movie
+Pass - Practice problems
+Pass - Recipe
+Pass - Subscription and paywalled content
+
+-->
