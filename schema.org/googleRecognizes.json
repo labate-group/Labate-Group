@@ -355,3 +355,28 @@ Pass - Recipe
 Pass - Subscription and paywalled content
 
 -->
+Others to add
+"review": [{
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "John Doe"
+        },
+        "reviewBody": "I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jane Doe"
+        },
+        "reviewBody": "I really didn't care for this book."
+      }],
