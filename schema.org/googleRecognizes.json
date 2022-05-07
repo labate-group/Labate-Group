@@ -93,6 +93,29 @@ Software App (beta)
 Speakable
 - All Pages?
 
+Note: Must be Under "Article" or "WebPage":
+
+"speakable":
+  {
+  "@type": "SpeakableSpecification",
+  "cssSelector": [
+    ".headline",
+    ".summary"
+  ]
+}
+======
+or
+======
+"speakable":
+  {
+  "@type": "SpeakableSpecification",
+  "xPath": [
+    "/html/head/title",
+    "/html/head/meta[@name='description']/@content"
+  ]
+}
+
+
 Video
 - All Pages with videos
   - Resources
