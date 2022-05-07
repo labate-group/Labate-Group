@@ -12,6 +12,20 @@ Dataset
 
 EmployerAggregateRating
 - Job Posts
+ {
+      "@context" : "https://schema.org/",
+      "@type": "EmployerAggregateRating",
+      "itemReviewed": {
+        "@type": "Organization",
+        "@id": "https://labate.io/#organization",
+        "name" : "Labate Group",
+        "url" : "http://labate.io"
+      },
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "5",
+      "ratingCount" : "32"
+   }
 
 Event
 - Events Pages
