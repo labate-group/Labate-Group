@@ -5,7 +5,7 @@ const options = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Host': 'hashtagy-generate-hashtags.p.rapidapi.com',
-		'X-RapidAPI-Key': '0759e0a5f5msh13ea66780939408p189da2jsne987576d688f'
+		'X-RapidAPI-Key': '{{Your Own Personal API Key}}'
 	}
 };
 
