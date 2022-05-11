@@ -2,28 +2,6 @@
 	"headline": "Best Startup Business Loans",
 	"datePublished": "2021-02-19T11:13:42.151-05:00",
 	"dateModified": "2022-02-19T17:29:18.508-05:00",
-	"author": [
-		{
-			"@type": "Person",
-			"name": "Brian Carmody",
-			"description": "Brian Carmody is a writer and president of a manufacturing company who specializes in commercial lending, investing, and business loans. Brian is also an expert in home ownership, business essentials, and small businesses. He has a Political Science degree from the College of the Holy Cross and numerous quality improvement certificates from The Juran Institute.",
-			"jobTitle": "President of Manufacturing Company, Owner of a Commercial Real Estate Brokerage, Owner of a Consulting Firm, Contributing Writer",
-			"url": "https://www.investopedia.com/brian-carmody-4846989",
-			"sameAs": [
-				"https://twitter.com/BrianCarmody",
-				"https://www.linkedin.com/in/briancarmody/"
-			],
-			"knowsAbout": [
-				"Real Estate Finance, Loans, Lending for Investors, Real Estate Investing, Real Estate Investing Software and Apps, Business Loans, SBA Loans, Business Lines of Credit, Equipment Financing Strategies for Small Business"
-			],
-			"alumniOf": [
-				{
-					"@type": "Organization",
-					"Name": "College of the Holy Cross"
-				}
-			]
-		}
-	],
 	"description": "Payroll, inventory, and other expenses don&#39;t need to slow your growth. We researched the best startup business loans based on rates, terms, qualifications, and more.",
 	"image": [
 		{
@@ -38,21 +16,13 @@
 			"height": 1000,
 			"width": 1000
 		},
-		{
-			"@type": "ImageObject",
-			"url": "https://www.investopedia.com/thmb/0ldJjTZQg2vhOUMnB8yrLPNtAB8=/320x320/smart/filters:no_upscale()/Finance_Factory-495a4f202195417390a8102f4eb3c38c.jpg",
-			"height": 1200,
-			"width": 1000
-		}
 	],
 	"publisher": {
 		"@type": "Organization",
 		
 	"citation": [
 		"Finance Factory. &amp;#34;&lt;a href=&quot;https://financefactory.com/startup-funding/&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Startup Funding&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
-		"OnDeck. &amp;#34;&lt;a href=&quot;https://www.ondeck.com/short-term-loans&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Short Term Loans&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
-		"OnDeck. &amp;#34;&lt;a href=&quot;https://www.ondeck.com/business-line-of-credit&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Business Lines of Credit&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022.",
-		"Upwise Capital. &amp;#34;&lt;a href=&quot;https://upwisecapital.com/invoice-financing/&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Invoice Financing&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022."
+		"OnDeck. &amp;#34;&lt;a href=&quot;https://www.ondeck.com/short-term-loans&quot; data-component=&quot;link&quot; data-source=&quot;inlineLink&quot; data-type=&quot;externalLink&quot; data-ordinal=&quot;1&quot;&gt;Short Term Loans&lt;/a&gt;.&amp;#34; Accessed Feb. 19, 2022."
 	],
 	"mainEntityOfPage": {
 		"@type": [
