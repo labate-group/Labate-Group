@@ -1,0 +1,239 @@
+{
+   "@context": "http://schema.org",
+   "@type": "QAPage",
+   "mainEntity": {
+      "@type": "Question",
+      "about": [
+         {
+            "@type": "Thing",
+            "image": "https://qph.fs.quoracdn.net/main-thumb-t-1927-100-iEWpODaiQYkBlU78Klnz6Otb4WExBU2F.jpeg",
+            "name": "Etymology"
+         },
+         {
+            "@type": "Thing",
+            "image": "https://qph.fs.quoracdn.net/main-thumb-t-2372-100-dEZgOqF00KFmzU42gVLDHeBnCU8lc18e.jpeg",
+            "name": "Phrase Origins"
+         },
+         {
+            "@type": "Thing",
+            "image": "https://qph.fs.quoracdn.net/main-thumb-t-11808-100-wiBlJeFldYMiMvO3l2GQV6wkUSfWFUhB.jpeg",
+            "name": "Phrases"
+         },
+         {
+            "@type": "Thing",
+            "image": "https://qph.fs.quoracdn.net/main-thumb-t-225549-100-brlhoqbmvwtapipkoamegykpntunpvhf.jpeg",
+            "name": "Origins"
+         },
+         {
+            "@type": "Thing",
+            "image": "https://qph.fs.quoracdn.net/main-thumb-t-433864-100-jioushceiuvtulkkonxirakmlfmcntlv.jpeg",
+            "name": "Boondocks"
+         },
+         {
+            "@type": "Thing",
+            "image": "https://qph.fs.quoracdn.net/main-thumb-t-2224307-100-oigcnrhpubwnuiulrprwbmqfcizhgulo.jpeg",
+            "name": "Etymology of English Phrases (Origin or History of English Phrases)"
+         },
+         {
+            "@type": "Thing",
+            "image": "",
+            "name": "Negative Phrase"
+         }
+      ],
+      "acceptedAnswer": [
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 1172,
+               "description": "former Student",
+               "followerCount": 187,
+               "hasOccupation": {
+                  "@type": "Role",
+                  "roleName": "Student"
+               },
+               "image": "https://qph.fs.quoracdn.net/main-thumb-336771109-100-ivomnkkvksmeztuodlokjxtoeazfqszq.jpeg",
+               "name": "Aish Chaurasia",
+               "url": "https://www.quora.com/profile/Aish-Chaurasia"
+            },
+            "text": "It is Tagalog, and WWII dated and used by marines first in the Pacific. ... It was apparently brought back from the Philippines by U.S. soldiers in World War II, where \"bundok\" means mountain in Tagalog.\n\nIf you find this answer helpful. Do UPVOTE & SHARE it.",
+            "upvoteCount": 2,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=300843581"
+         }
+      ],
+      "answerCount": 37,
+      "hasPart": {
+         "@type": "WebPageElement",
+         "cssSelector": ".content-monetization-wall",
+         "isAccessibleForFree": "False"
+      },
+      "isAccessibleForFree": "False",
+      "name": "What is the origin of “down in the boondocks” as a negative phrase?",
+      "suggestedAnswer": [
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 300,
+               "description": "knows English",
+               "followerCount": 508,
+               "image": "https://qph.fs.quoracdn.net/main-thumb-1536493343-100-ideyjresfohzzhxuiatnvetjbxncyyjs.jpeg",
+               "knowsLanguage": "English",
+               "name": "Harini J",
+               "url": "https://www.quora.com/profile/Harini-J-29"
+            },
+            "text": "Hi,\n\nIt is Tagalog,and WWII dated and used by marines first in the Pacific. ... It was apparently brought back from the Philippines by U.S. soldiers in World War II, where \"bundok\" means mountain in Tagalog.",
+            "upvoteCount": 3,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=301001665"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Georgian College, Owen Sound"
+               },
+               "answerCount": 260,
+               "description": "marine technology Glasgow High School, Scotland, UK & Viewforth Secondary, Georgian College, Owen Sound",
+               "followerCount": 3,
+               "hasCredential": {
+                  "@type": "EducationalOccupationalCredential",
+                  "credentialCategory": "degree",
+                  "educationLevel": "marine technology"
+               },
+               "image": "https://qph.fs.quoracdn.net/main-thumb-1332957156-100-cidizcvhilzltiqhxswwypdrhpbzjeph.jpeg",
+               "knowsAbout": [
+                  "Glasgow High School, Scotland, UK",
+                  "Viewforth Secondary"
+               ],
+               "name": "Keith Bolton",
+               "url": "https://www.quora.com/profile/Keith-Bolton-29"
+            },
+            "text": "“boondock” %3E%3E%3E used to refer to parts of harbour ports where tha area were kinda dark and dingy…..where those considered ‘low-lifes’ and homeless would congregate during the evening ..out of sight and sound. of “regular “ people ..giving to the expression ‘out in the boonies;…meaning an area where there were few amenities …as opposed to those in bigger towns…",
+            "upvoteCount": 1,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=291183696"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 267,
+               "followerCount": 16,
+               "image": "https://qph.fs.quoracdn.net/main-thumb-1337076781-100-xhkhbhvikxjniexmxfctuiqkwxhwwfmi.jpeg",
+               "name": "Stephen Waldman",
+               "url": "https://www.quora.com/profile/Stephen-Waldman-2"
+            },
+            "text": "Mr. OED sez . . .\n\nEtymology: %3C Tagalog bundok mountain.\n\nU.S. slang.\n\nRough country; jungle; an isolated or wild region. Usually in plural. Also attributive.\n\n1944 C. Wynn in C. Metcalf Marine Corps Reader iii. 139 The sand and boondocks of Paris Island.\n\n1950 H. L. Miller in Word Study Oct. 7/1 Today Marines use boondock clothes and boondock shoes for hikes and maneuvers.\n\nI guess someone who considers rural people to be less intelligent or otherwise inferior would use the word with negative intent.",
+            "upvoteCount": 2,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=289942816"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "alumniOf": {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Cabrillo College, Aptos, CA"
+               },
+               "answerCount": 446,
+               "description": "studied at Cabrillo College, Aptos, CA (1977)",
+               "followerCount": 37,
+               "image": "https://qph.fs.quoracdn.net/main-thumb-349915849-100-llagesiqypexisdhbhrsdjcdiscxuqvp.jpeg",
+               "name": "Marilyn Brown LeVeque",
+               "url": "https://www.quora.com/profile/Marilyn-Brown-LeVeque"
+            },
+            "text": "The Boondocks refers to a poor rural area. There is a song from 1960s. \"Down in the Boondocks\" about a poor boy in love with a rich girl in United States.\n\nThe boondocks is an American expression from the Tagalog word bundók (\"mountain\"). It originally referred to a remote rural area, but now, is often applied to an out-of-the-way area considered backward and unsophisticated by city-folk.\n\nIt can also refer to a mountain.\n\nA road in the boondocks of Pennsylvania State Game Lands Number 13, Sullivan County, Pennsylvania\n\nThe expression was introduced to English by U.S. military personnel fighting in the Philippine–American War (1899-1902). It derives from the Tagalog word \"bundók\", which means \"mountain\". According to military historian Paul A. Kramer, the term originally had \"connotations of bewilderment and confusion\", due to the guerrilla warfare in which the soldiers were engaged.\n\nIn the Philippines, the word bundók is also a colloquialism referring to rural inland areas, which are usually mountainous and difficult to access, as most major cities and settlements in the Philippines are located in lowlands or near the coastline.\n\nEquivalent terms include the Spanish-derived probinsiya (\"province\") and the Cebuano term bukid (\"mountain\"). When used generally, the term refers to a rustic or uncivilized area. When referring to people (taga-bundok or probinsiyano in Tagalog; taga-bukid in Cebuano; English: \"someone who comes from the mountains/provinces\"), it acquires a derogatory connotation of a stereotype of unsophisticated, ignorant, and illiterate country people.\n\nThe term evolved into American slang to refer to the countryside or isolated rural/wilderness area, regardless of topography or vegetation. Similar slang or colloquial words are \"the sticks\", \"the wops\", \"the backblocks\", or \"Woop Woop\" in Australia, \"the wop-wops\" in New Zealand, \"bundu\" in South Africa (etymologically unrelated to \"boondocks\" or \"bundok\"), \"out in the weeds\" in New Brunswick and \"out in the tules\" in California. The diminutive \"boonies\" can be heard in films about the Vietnam War such as Brian De Palma's Casualties of War (1989) used by American soldiers to designate rural areas of Vietnam.\n\nBoondocking refers to camping with a recreational vehicle (RV) in a remote location without the water, power, or sewer infrastructure that is available at campgrounds or RV parks.\n\nThe song \"Down in the Boondocks\" where the poor boy lived and he loved the Rich girl. By Billy Joe Royal.\n\nhttps://youtu.be/v4CeR9Mkjs4\n",
+            "upvoteCount": 16,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=289834233"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 4433,
+               "description": "former Disabled Veteran ",
+               "followerCount": 156,
+               "hasOccupation": {
+                  "@type": "Role",
+                  "roleName": "Disabled Veteran "
+               },
+               "image": "https://qph.fs.quoracdn.net/main-thumb-975677943-100-tennpkrctvdeqdkqrgpmqtoucltwqolq.jpeg",
+               "name": "William Tippetts",
+               "url": "https://www.quora.com/profile/William-Tippetts-1"
+            },
+            "text": "“Bundok” is the tagalog word for mountain. U.S. soldiers in WWII World War two brought the word from the Philippines. They pronounced it “boondocks” and used it when referring to small rural areas that they didn't like. These soldiers saw combat in those mountains and jungles with heavy intense fighting and thousands were killed on both sides. Down in the boondocks became a much used word when referring in a negative way to a small town or rural area.",
+            "upvoteCount": 2,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=290283618"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 11007,
+               "description": "My second hobby - I've a lot of dictionaries",
+               "followerCount": 928,
+               "image": "https://qph.fs.quoracdn.net/main-thumb-455709435-100-mrylyoffdiblvyldijsadjyvggurjlcm.jpeg",
+               "knowsAbout": "Etymology",
+               "name": "Roger Still",
+               "url": "https://www.quora.com/profile/Roger-Still-1"
+            },
+            "text": "IIRC, it has something to do with tiddely winks. Players who send their opponents’ pieces way off the board are ‘boondocking’. I don’t know where they got that word from, though. Anyhow, ‘boondocks’ means way out or way down on the social scale. cf Billy Joe Royal’s song, “Down In The Boondocks” which is just about that latter situation.",
+            "upvoteCount": 0,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=294970070"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 3715,
+               "description": "Writes the odd short story and novel.",
+               "followerCount": 426,
+               "image": "https://qph.fs.quoracdn.net/main-thumb-93554998-100-gwdxzppojmzgfegncmpgiwtfkikbscmk.jpeg",
+               "knowsAbout": "English (language)",
+               "name": "John Platts",
+               "url": "https://www.quora.com/profile/John-Platts"
+            },
+            "text": "Rather unexpectedly (to me, at any rate), the origins of the word ‘boondocks’ are the Tagalog language spoken in the Philippines. American troops - especially those from the US Marine Corps - were stationed in the Philippines during World War II. If they weren’t in a firebase, or a basecamp, or an urban area, they were out in the wild - they adopted the word ‘boondocks’ from a Tagalog word bundock, meaning ‘’a mountain’, to refer to such a wild place. Back home in the USA, ‘the boondocks’ came to mean the same as ‘the sticks’ or ‘the back of beyond’ - a rural or wild place which is unattractive because it’s so isolated, so remote from the excitement of urban life. “out in the boondocks’ and ‘down in the boondocks’ express this idea.",
+            "upvoteCount": 2,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=289887512"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 881,
+               "description": "Retired bus driver, now guitar player and singer.",
+               "followerCount": 42,
+               "image": "https://qph.fs.quoracdn.net/main-thumb-1056478519-100-gsdqqthtdbqfjdvdeejmqxeazuroikci.jpeg",
+               "name": "Ken Doerfler",
+               "url": "https://www.quora.com/profile/Ken-Doerfler-1"
+            },
+            "text": "Traditionally ‘boondocks’ has been a reference for a downtrodden or isolated rural area. Which explains the expressions ‘down in the boondocks’ or ‘out in the boondocks’.",
+            "upvoteCount": 0,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=294997584"
+         },
+         {
+            "@type": "Answer",
+            "author": {
+               "@type": "Person",
+               "answerCount": 709,
+               "description": "former Retired",
+               "followerCount": 58,
+               "hasOccupation": {
+                  "@type": "Role",
+                  "roleName": "Retired"
+               },
+               "image": "",
+               "name": "Simon Gates",
+               "url": "https://www.quora.com/profile/Simon-Gates-11"
+            },
+            "text": "It stemmed from a Tagalog word “bundok” – which in this language means “mountain.” The people who lived and are born in the boondocks are considered to be of a lower class than those in the city.\n\nUS soldiers based in the Philippines picked up on the word and entered use in the US to describe a place that was far flung and isolated",
+            "upvoteCount": 0,
+            "url": "https://www.quora.com/What-is-the-origin-of-down-in-the-boondocks-as-a-negative-phrase?top_ans=291646918"
+         }
+      ],
+      "text": "What is the origin of “down in the boondocks” as a negative phrase?",
+      "upvoteCount": 2
+   }
+}
