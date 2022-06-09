@@ -1,0 +1,12 @@
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5 Stars",
+        "bestRating": "5 Stars",
+        "worstRating": "5 Stars",
+        "ratingCount": "34",
+        "itemReviewed": {
+          "@type": "LocalBusiness",
+          "@id": "https://labate.io/#localbusiness",
+          "name": "Labate Group"
+        }
+      }
