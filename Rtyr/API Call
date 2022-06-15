@@ -1,0 +1,18 @@
+{
+  "languageId": "607adac76f8fe5000c1e636d",
+  "toneId": "60ff8d3afc873e000c08e8b2",
+  "useCaseId": "60a40cf5da9d76000ccc2828",
+  "inputContexts": {
+    "label"	:	"Primary keyword",
+    "placeholder	:	AI writing assistant",
+    "keyLabel	:	PRIMARY_KEYWORD_LABEL",
+    "inputType	:	text",
+    "inputMaximumCharacters	:	100",
+    "isRequired	:	true",
+    "_id	:	60a40cf5da9d76000ccc2829"
+  },
+  "variations": 3,
+  "userId": "<UNIQUE USER ID>",
+  "format": "html",
+  "creativityLevel": "medium"
+}
